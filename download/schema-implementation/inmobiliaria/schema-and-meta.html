@@ -1,0 +1,348 @@
+<!--
+  ╔══════════════════════════════════════════════════════════════╗
+  ║  SCHEMA MARKUP — ANA EPITIE INMOBILIARIA                   ║
+  ║  Pegar estos scripts ANTES del </head> en tu HTML          ║
+  ║                                                             ║
+  ║  IMPORTANTE:                                                ║
+  ║  - Actualizar SITE_URL cuando migres a dominio propio      ║
+  ║  - Crear og-image.png (1200x630px) para redes sociales     ║
+  ║  - Crear logo.png para schema logo                          ║
+  ║  - Crear ana-epitie.jpg (foto profesional) para Person     ║
+  ╚══════════════════════════════════════════════════════════════╝
+-->
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- META TAGS: Open Graph + Twitter Cards + Canonical         -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+
+<!-- Canonical URL -->
+<link rel="canonical" href="https://ana-epitie-inmobiliaria-z.vercel.app/" />
+
+<!-- Meta description (¡ACTUALMENTE AUSENTE!) -->
+<meta name="description" content="Ana Epitie, Asesora Inmobiliaria de Lujo en Manresa, Barcelona. API colegiada y Perito Judicial Urbanístico. Más de 5 años conectando propietarios con masías, urbanizaciones y activos de alto valor en el Bages y Cataluña." />
+
+<!-- Keywords -->
+<meta name="keywords" content="inmobiliaria lujo Manresa, masías Bages, urbanizaciones Cataluña, asesora inmobiliaria Barcelona, perito judicial urbanístico, API colegiada, propiedades lujo interior Cataluña, masía con terreno, venta masías Bages" />
+
+<!-- Robots -->
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+
+<!-- Author -->
+<meta name="author" content="Ana Epitie" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="es_ES" />
+<meta property="og:locale:alternate" content="ca_ES" />
+<meta property="og:url" content="https://ana-epitie-inmobiliaria-z.vercel.app/" />
+<meta property="og:site_name" content="Ana Epitie | Asesora Inmobiliaria de Lujo" />
+<meta property="og:title" content="Ana Epitie | Asesora Inmobiliaria de Lujo — Manresa, Barcelona" />
+<meta property="og:description" content="Asesora Inmobiliaria de Lujo especializada en masías, urbanizaciones y activos de alto valor en Manresa, el Bages y Cataluña. API colegiada y Perito Judicial Urbanístico." />
+<meta property="og:image" content="https://ana-epitie-inmobiliaria-z.vercel.app/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Ana Epitie - Asesora Inmobiliaria de Lujo en Manresa, Barcelona" />
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Ana Epitie | Asesora Inmobiliaria de Lujo — Manresa, Barcelona" />
+<meta name="twitter:description" content="Asesora Inmobiliaria de Lujo especializada en masías, urbanizaciones y activos de alto valor en el Bages. API y Perito Judicial Urbanístico." />
+<meta name="twitter:image" content="https://ana-epitie-inmobiliaria-z.vercel.app/og-image.png" />
+
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- JSON-LD: Schema.org Structured Data                       -->
+<!-- Todo combinado en un solo @graph para máxima eficiencia   -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://ana-epitie-inmobiliaria-z.vercel.app/#website",
+      "name": "Ana Epitie | Asesora Inmobiliaria de Lujo",
+      "url": "https://ana-epitie-inmobiliaria-z.vercel.app/",
+      "description": "Asesora Inmobiliaria de Lujo especializada en masías, urbanizaciones y activos de alto valor en Manresa, el Bages y Cataluña.",
+      "inLanguage": ["es-ES", "ca-ES"],
+      "publisher": {
+        "@id": "https://ana-epitie-inmobiliaria-z.vercel.app/#realestate-agent"
+      }
+    },
+
+    {
+      "@type": "WebPage",
+      "@id": "https://ana-epitie-inmobiliaria-z.vercel.app/#webpage",
+      "url": "https://ana-epitie-inmobiliaria-z.vercel.app/",
+      "name": "Ana Epitie | Asesora Inmobiliaria de Lujo — Manresa, Barcelona",
+      "description": "Asesora Inmobiliaria de Lujo especializada en masías, urbanizaciones y activos de alto valor en Manresa, el Bages y Cataluña. API colegiada y Perito Judicial Urbanístico.",
+      "isPartOf": {
+        "@id": "https://ana-epitie-inmobiliaria-z.vercel.app/#website"
+      },
+      "about": {
+        "@id": "https://ana-epitie-inmobiliaria-z.vercel.app/#realestate-agent"
+      },
+      "datePublished": "2024-01-01T00:00:00+01:00",
+      "dateModified": "2026-05-26T00:00:00+02:00",
+      "inLanguage": "es-ES"
+    },
+
+    {
+      "@type": ["RealEstateAgent", "LocalBusiness"],
+      "@id": "https://ana-epitie-inmobiliaria-z.vercel.app/#realestate-agent",
+      "name": "Ana Epitie - Asesora Inmobiliaria de Lujo",
+      "description": "Asesora Inmobiliaria de Lujo especializada en masías, urbanizaciones y activos inmobiliarios de alto valor en Manresa, la comarca del Bages y el interior de Cataluña. API colegiada y Perito Judicial Urbanístico.",
+      "url": "https://ana-epitie-inmobiliaria-z.vercel.app/",
+      "telephone": "+34632831009",
+      "email": "contacto@anaepitie.com",
+      "image": "https://ana-epitie-inmobiliaria-z.vercel.app/og-image.png",
+      "logo": "https://ana-epitie-inmobiliaria-z.vercel.app/logo.png",
+      "priceRange": "€€€€",
+      "currenciesAccepted": "EUR",
+
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2A Winter St",
+        "addressLocality": "Manresa",
+        "addressRegion": "Barcelona",
+        "postalCode": "08050",
+        "addressCountry": "ES"
+      },
+
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "41.7288",
+        "longitude": "1.8238"
+      },
+
+      "areaServed": [
+        { "@type": "City", "name": "Manresa" },
+        { "@type": "City", "name": "Sant Fruitós de Bages" },
+        { "@type": "City", "name": "Artés" },
+        { "@type": "City", "name": "Sallent" },
+        { "@type": "City", "name": "Navarcles" },
+        { "@type": "City", "name": "Santpedor" },
+        { "@type": "City", "name": "Callús" },
+        { "@type": "City", "name": "Balsareny" },
+        { "@type": "City", "name": "Súria" },
+        { "@type": "City", "name": "Cardona" },
+        { "@type": "City", "name": "Navàs" },
+        { "@type": "City", "name": "Sant Joan de Vilatorrada" },
+        { "@type": "City", "name": "Castellbell i el Vilar" },
+        { "@type": "City", "name": "Castellgalí" },
+        { "@type": "City", "name": "Sant Vicenç de Castellet" },
+        { "@type": "AdministrativeArea", "name": "Comarca del Bages" },
+        { "@type": "City", "name": "Barcelona" }
+      ],
+
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "10:00",
+          "closes": "14:00"
+        }
+      ],
+
+      "employee": {
+        "@id": "https://ana-epitie-inmobiliaria-z.vercel.app/#person"
+      },
+
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Servicios Inmobiliarios de Lujo",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Venta de Activos Inmobiliarios",
+              "description": "Comercialización estratégica de propiedades de alto valor. Posicionamiento premium, marketing exclusivo y acceso a una red cualificada de compradores."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Masías y Grandes Extensiones",
+              "description": "Especialista en fincas rústicas, masías con terreno y propiedades singulares del interior de Cataluña."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Urbanizaciones y Suelo",
+              "description": "Asesoramiento en desarrollos residenciales, parcelaciones y recalificaciones. Visión urbanística complementada con formación como Perito Judicial."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Peritación Judicial Urbanística",
+              "description": "Informes periciales para procedimientos judiciales en materia urbanística. Dictámenes técnicos con rigor legal."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Búsqueda a Medida",
+              "description": "Servicio personalizado de localización de propiedades off-market y oportunidades discretas."
+            }
+          }
+        ]
+      },
+
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "35",
+        "bestRating": "5"
+      }
+    },
+
+    {
+      "@type": "Person",
+      "@id": "https://ana-epitie-inmobiliaria-z.vercel.app/#person",
+      "name": "Ana Epitie",
+      "jobTitle": "Asesora Inmobiliaria de Lujo",
+      "description": "Asesora Inmobiliaria de Lujo, API colegiada y Perito Judicial Urbanístico. Más de 5 años conectando propietarios con las oportunidades más exclusivas del mercado en Manresa, el Bages y Cataluña.",
+      "telephone": "+34632831009",
+      "email": "contacto@anaepitie.com",
+      "url": "https://ana-epitie-inmobiliaria-z.vercel.app/",
+      "image": "https://ana-epitie-inmobiliaria-z.vercel.app/ana-epitie.jpg",
+
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Agente de la Propiedad Inmobiliaria (API)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Colegio de Agentes de la Propiedad Inmobiliaria"
+          }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Perito Judicial Urbanístico",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "ASPEJURE",
+            "description": "Asociación de Peritos Judiciales de España"
+          },
+          "identifier": "02659"
+        }
+      ],
+
+      "worksFor": [
+        {
+          "@type": "Organization",
+          "name": "Encerta Serveis Immobiliaris",
+          "description": "Colaboración en Manresa y la comarca del Bages: urbanizaciones, masías y activos únicos del interior de Cataluña"
+        },
+        {
+          "@type": "Organization",
+          "name": "Nest Seekers International",
+          "description": "Red global de contactos, inversores internacionales y operaciones cross-border"
+        },
+        {
+          "@type": "Organization",
+          "name": "Colibree",
+          "description": "Colectivo global con concepto inmobiliario ético centrado en las personas"
+        }
+      ],
+
+      "sameAs": [
+        "https://www.linkedin.com/in/anaepitie",
+        "https://www.instagram.com/anaepitieinmobiliaria"
+      ],
+
+      "knowsAbout": [
+        "Inmobiliaria de lujo",
+        "Masías y fincas rústicas",
+        "Urbanizaciones residenciales",
+        "Peritaje judicial urbanístico",
+        "Mercado inmobiliario Cataluña",
+        "Inversión inmobiliaria",
+        "Suelo y recalificaciones"
+      ]
+    },
+
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Qué tipo de propiedades gestiona Ana Epitie?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ana Epitie se especializa en propiedades de alto valor: masías con grandes extensiones de terreno, urbanizaciones exclusivas, activos inmobiliarios únicos del interior de Cataluña y propiedades de lujo en las mejores zonas de Barcelona."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuál es la diferencia entre Ana Epitie y otra inmobiliaria?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ana Epitie combina la asesoría inmobiliaria de lujo con el peritaje judicial urbanístico, algo que ninguna otra agente del Bages ofrece. Esto significa que puede detectar problemas urbanísticos antes de la venta, resolverlos y vender al precio real de mercado. Además, cuenta con red internacional (Nest Seekers International, Colibree) y es creadora de las plataformas SaaS SmartValora y ValoraFiscal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo vender una masía con obras sin licencia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, pero perderás entre un 30% y un 40% del valor de mercado. Los compradores exigen un descuento medio del 40% en portales como Idealista. A través del Consultorio Urbanístico asociado, puedes legalizar la situación o obtener un informe pericial que dé seguridad jurídica al comprador, recuperando el valor real de la propiedad antes de vender."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué zona cubre Ana Epitie?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ana Epitie opera principalmente en Manresa, la comarca del Bages y el interior de Cataluña para masías, urbanizaciones y suelo. A través de Nest Seekers International y Colibree, también ofrece servicios inmobiliarios en Barcelona y operaciones cross-border con alcance global."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta una consulta con Ana Epitie?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La consulta inicial es gratuita y sin compromiso. Puedes llamar al +34 632 831 009 o rellenar el formulario de contacto. Para servicios específicos como peritación judicial urbanística, consulta las tarifas en el Consultorio Urbanístico."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué es SmartValora y ValoraFiscal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SmartValora y ValoraFiscal son plataformas SaaS creadas por Ana Epitie diseñadas para propietarios y agencias inmobiliarias. SmartValora ofrece valoración y gestión inteligente de propiedades. ValoraFiscal se especializa en valoración fiscal y tributaria. Son herramientas que demuestran la innovación tecnológica aplicada al sector inmobiliario."
+          }
+        }
+      ]
+    },
+
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://ana-epitie-inmobiliaria-z.vercel.app/"
+        }
+      ]
+    }
+  ]
+}
+</script>
