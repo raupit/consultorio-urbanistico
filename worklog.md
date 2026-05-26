@@ -46,3 +46,28 @@ Stage Summary:
 - New: 10 municipality landing pages for local SEO (same visual design as blog pages)
 - Fixed: Blog section on homepage now links to actual blog posts
 - NO visual changes made - same dark luxury design preserved
+---
+Task ID: 4
+Agent: Main Agent
+Task: Continue SEO improvements - add remaining municipalities, blog articles, hreflang, metadata
+
+Work Log:
+- Added 19 remaining municipalities to /municipio/[slug]/page.tsx (Navàs, Sant Joan de Vilatorrada, Castellbell i el Vilar, Castellgalí, Sant Vicenç de Castellet, El Pont de Vilomara, Marganell, Monistrol de Montserrat, Rajadell, Sant Salvador de Guardiola, Sant Mateu de Bages, Fonollosa, Avinyó, Calders, Santa Maria d'Oló, Castellfollit del Boix, Gaià, Mura, Talamanca)
+- Total municipalities: 29 (complete Bages comarca coverage)
+- Added 6 new blog articles to blog-data.ts: Cambio de uso suelo rústico, Certificación energética y obras ilegales, Orden de demolición y derechos, Catastro/registro discrepancia, IBI y obras ilegales, Modificación POUM
+- Total blog articles: 14
+- Added hreflang es/ca/x-default to layout.tsx alternates
+- Added OG image and alternateLocale ["ca_ES"] to openGraph metadata
+- Fixed robots.txt: Disallow /api/ now applies to all user agents correctly
+- Enhanced blog category page metadata: canonical, OG, twitter, keywords
+- Build verified successfully - 58 pages generated
+- All changes committed locally (push/deploy pending user action)
+
+Stage Summary:
+- 29 municipality pages (was 10) - full Bages comarca local SEO
+- 14 blog articles (was 8) - more lead generation content
+- hreflang es/ca implemented
+- OG image and locale improvements
+- robots.txt fixed
+- Category metadata enhanced
+- NO visual changes - same dark luxury design preserved
