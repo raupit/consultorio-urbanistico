@@ -55,15 +55,29 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "https://consultorio-urbanistico.vercel.app/",
+    languages: {
+      "es": "https://consultorio-urbanistico.vercel.app/",
+      "ca": "https://consultorio-urbanistico.vercel.app/?lang=ca",
+      "x-default": "https://consultorio-urbanistico.vercel.app/",
+    },
   },
   openGraph: {
     type: "website",
     locale: "es_ES",
+    alternateLocale: ["ca_ES"],
     url: "https://consultorio-urbanistico.vercel.app",
     siteName: "Consultorio Urbanístico - Ana Epitie",
     title: "Perito Judicial Urbanístico · Ana Epitie · Manresa · Bages",
     description:
       "Legalización de obras, informes periciales judiciales y disciplina urbanística en Manresa y el Bages.",
+    images: [
+      {
+        url: "https://consultorio-urbanistico.vercel.app/logo.svg",
+        width: 1200,
+        height: 630,
+        alt: "Consultorio Urbanístico - Ana Epitie - Perito Judicial Urbanístico",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",

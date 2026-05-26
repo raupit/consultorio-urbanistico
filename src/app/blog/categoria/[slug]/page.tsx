@@ -16,8 +16,24 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
   const cat = blogCategories.find(c => c.slug === slug);
   if (!cat) return { title: "Categoría no encontrada" };
   return {
-    title: `${cat.name} | Blog Consultorio Urbanístico`,
-    description: `Artículos sobre ${cat.name} en Manresa y el Bages. Consultorio Urbanístico Ana Epitie.`,
+    title: `${cat.name} | Blog Consultorio Urbanístico - Ana Epitie`,
+    description: `Artículos sobre ${cat.name} en Manresa y el Bages. Consultorio Urbanístico Ana Epitie. Perito Judicial Urbanístico ASPEJURE N.º 02659.`,
+    keywords: [cat.name.toLowerCase(), "urbanismo", "Bages", "Manresa", "perito urbanístico", "Ana Epitie"],
+    alternates: {
+      canonical: `https://consultorio-urbanistico.vercel.app/blog/categoria/${cat.slug}`,
+    },
+    openGraph: {
+      title: `${cat.name} | Blog Consultorio Urbanístico`,
+      description: `Artículos sobre ${cat.name} en Manresa y el Bages. Perito Judicial Urbanístico Ana Epitie.`,
+      url: `https://consultorio-urbanistico.vercel.app/blog/categoria/${cat.slug}`,
+      type: "website",
+      locale: "es_ES",
+    },
+    twitter: {
+      card: "summary_large_image" as const,
+      title: `${cat.name} | Consultorio Urbanístico`,
+      description: `Artículos sobre ${cat.name} en Manresa y el Bages.`,
+    },
   };
 }
 

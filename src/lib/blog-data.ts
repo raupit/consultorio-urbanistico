@@ -432,6 +432,209 @@ export const blogPosts: BlogPost[] = [
       <h2>¿Podría necesitar un perito judicial urbanístico?</h2>
       <p>Si está involucrado en cualquier situación que afecte a la situación urbanística de su propiedad en el Bages — una herencia, una compra-venta, una sanción, una duda sobre la legalidad de una construcción — un perito judicial urbanístico puede proporcionar la información técnica que necesita para tomar decisiones con seguridad. Una Consulta Exprés le permitirá determinar si su caso requiere un informe pericial y cuál sería su alcance y coste.</p>
     `
+  },
+  {
+    slug: "cambio-uso-suelo-rustico-bages",
+    title: "Cambio de Uso en Suelo Rústico del Bages: Lo que Necesita Saber Antes de Solicitarlo",
+    description: "Transformar una masía agrícola en vivienda o una nave en local comercial requiere un cambio de uso que no siempre es viable. Conozca los requisitos y los riesgos antes de iniciar el proceso.",
+    category: "Urbanismo",
+    categorySlug: "urbanismo",
+    date: "2026-03-15",
+    readTime: "8 min",
+    keywords: ["cambio de uso", "suelo rústico", "masía vivienda", "Bages", "POUM", "uso agrícola a residencial"],
+    content: `
+      <p>Una de las consultas más frecuentes que recibimos en el Consultorio Urbanístico es la de propietarios que quieren cambiar el uso de su propiedad en suelo rústico: convertir una masía agrícola en vivienda, transformar una nave ganadera en almacén, o utilizar una construcción auxiliar como segunda residencia. La intención es comprensible, pero la viabilidad es otra cuestión completamente distinta.</p>
+
+      <h2>¿Qué es exactamente un cambio de uso urbanístico?</h2>
+      <p>Un cambio de uso es la modificación del destino urbanístico de una edificación o terreno. Cada suelo tiene asignado un uso principal — residencial, industrial, agrícola, ganadero, forestal — y el POUM establece qué usos son compatibles en cada categoría. Un cambio de uso no autorizado es una infracción urbanística con las mismas consecuencias que una construcción sin licencia: sanciones, órdenes de restitución, y pérdida de valor de la propiedad.</p>
+      <p>Es importante entender que el uso real de una edificación prevalece sobre el uso para el que fue concebida. Si una masía agrícola se utiliza como vivienda sin el correspondiente cambio de uso, la administración puede considerar que existe un uso ilegal, independientemente de que la construcción sea legal en origen.</p>
+
+      <h2>¿Cuándo es viable un cambio de uso en suelo rústico?</h2>
+      <p>La viabilidad de un cambio de uso en suelo rústico depende de múltiples factores que varían según el municipio y el POUM vigente. En el Bages, las posibilidades son muy distintas según el municipio: lo que el POUM de Manresa permite puede estar expresamente prohibido en el de Rajadell o Calders. Y dentro de un mismo municipio, las condiciones pueden variar según la zona.</p>
+      <p>Los factores que determinan la viabilidad incluyen la calificación del suelo, las normas urbanísticas del POUM, las condiciones de accesibilidad, la disponibilidad de servicios, y la compatibilidad con el entorno. En suelo rústico, las restricciones son generalmente mayores, y los cambios de uso hacia usos más intensivos suelen ser los más difíciles de obtener.</p>
+
+      <h2>Los riesgos de un cambio de uso no autorizado</h2>
+      <p>Utilizar una edificación para un uso distinto al autorizado tiene consecuencias que muchos propietarios desconocen:</p>
+      <ul>
+        <li><strong>Sanción por uso ilegal</strong>: la administración puede sancionar el uso no autorizado con multas que oscilan según la gravedad de la infracción.</li>
+        <li><strong>Orden de cese de actividad</strong>: se le puede ordenar la suspensión inmediata del uso no autorizado.</li>
+        <li><strong>Restitución al uso original</strong>: en casos graves, se puede exigir la devolución de la edificación a su uso originario.</li>
+        <li><strong>Incompatibilidad con seguros</strong>: un seguro de hogar no cubre una vivienda que legalmente es una masía agrícola.</li>
+        <li><strong>Problemas en la transmisión</strong>: la discrepancia entre uso real y uso autorizado complica cualquier operación de compraventa.</li>
+      </ul>
+
+      <h2>La estrategia correcta para un cambio de uso</h2>
+      <p>Si está considerando un cambio de uso en su propiedad del Bages, el primer paso no es acudir al ayuntamiento: es realizar un estudio de viabilidad que determine si el cambio es posible, cuáles son los requisitos, y cuál es la probabilidad de éxito. Un estudio previo evita gastos innecesarios y, lo que es más importante, evita alertar a la administración sobre un uso no autorizado si el cambio no es viable.</p>
+      <p>En muchos casos, el cambio de uso formal no es la única opción: existen figuras alternativas que pueden permitir el uso deseado sin necesidad de una modificación del planeamiento. Pero identificar estas alternativas requiere conocimiento profesional del POUM y de la práctica administrativa del municipio.</p>
+
+      <h2>¿Está utilizando su propiedad para un uso distinto al autorizado?</h2>
+      <p>Si su masía, nave o construcción en suelo rústico del Bages tiene un uso que no coincide con su calificación urbanística, no espere a que la administración actúe de oficio. Una Consulta Exprés le permitirá conocer la viabilidad del cambio de uso y las opciones disponibles para regularizar su situación.</p>
+    `
+  },
+  {
+    slug: "certificacion-energetica-obras-ilegales-bages",
+    title: "Certificación Energética y Obras Ilegales: El Problema que Nadie le Explica en el Bages",
+    description: "No puede obtener el certificado energético de una construcción irregular. Y sin certificado, no puede vender. Descubra cómo desbloquear esta situación.",
+    category: "Compra-venta",
+    categorySlug: "compra-venta",
+    date: "2026-03-10",
+    readTime: "6 min",
+    keywords: ["certificado energético", "obra ilegal", "venta inmueble", "Bages", "irregularidad urbanística", "certificación energética"],
+    content: `
+      <p>Hay un problema que muchos propietarios del Bages descubren cuando ya es demasiado tarde: para vender un inmueble, la ley exige un certificado de eficiencia energética. Y para obtener ese certificado, la edificación debe ser legal. Si tiene construcciones irregulares, el certificado no se puede emitir, y sin certificado, la operación de compraventa es imposible. Es un círculo vicioso que deja al propietario bloqueado, sin poder vender y sin saber cómo salir de la situación.</p>
+
+      <h2>¿Por qué el certificado energético bloquea la venta?</h2>
+      <p>Desde 2013, todo inmueble que se venda o alquile en España debe disponer de un certificado de eficiencia energética. Este documento debe ser elaborado por un técnico competente y registrado ante el organismo correspondiente. El problema surge cuando el técnico inspecciona el inmueble y descubre construcciones que no figuran en la documentación registral o que carecen de licencia.</p>
+      <p>En estos casos, el técnico se enfrenta a un dilema profesional: certificar una edificación que no es legal supone un riesgo para su responsabilidad profesional. Y aunque en algunos casos es posible certificar solo la parte legal del inmueble, esto genera una discrepancia entre lo certificado y lo existente que el comprador y su banco no aceptarán.</p>
+
+      <h2>La situación en el Bages</h2>
+      <p>En la comarca del Bages, donde una proporción muy elevada de masías y fincas rústicas tiene construcciones irregulares, este problema es endémico. Muchos propietarios se enteran de la imposibilidad de obtener el certificado cuando ya tienen comprador, lo que genera frustración y pérdidas económicas significativas.</p>
+      <p>Lo que muchos no saben es que existen vías para resolver esta situación antes de poner el inmueble en el mercado. El orden de las actuaciones es clave: primero resolver la irregularidad urbanística, luego obtener el certificado, y finalmente vender. Intentar saltarse este orden es la causa más frecuente de operaciones fallidas.</p>
+
+      <h2>Las opciones disponibles</h2>
+      <p>Si su propiedad tiene construcciones irregulares que impiden la obtención del certificado energético, las opciones dependen del tipo de irregularidad y su viabilidad de legalización. En algunos casos, la legalización de la obra permite obtener el certificado para la totalidad del inmueble. En otros, la asimilación a fuera de ordenación permite certificar la parte regular y documentar la situación de la parte irregular.</p>
+      <p>Existen también estrategias intermedias que pueden desbloquear la venta mientras se resuelve la situación urbanística, pero requieren asesoramiento profesional para no comprometer la posición del vendedor.</p>
+
+      <h2>¿No puede obtener el certificado energético de su propiedad?</h2>
+      <p>Si está intentando vender su propiedad en el Bages y se ha encontrado con la imposibilidad de obtener el certificado energético por obras irregulares, no es el único ni el primer caso. La solución existe, pero requiere el enfoque correcto. Una Consulta Exprés le permitirá evaluar las opciones para desbloquear la situación y poder vender al precio que su propiedad merece.</p>
+    `
+  },
+  {
+    slug: "demolicion-obra-ilegal-derechos-propietario-bages",
+    title: "Orden de Demolición por Obra Ilegal en el Bages: Sus Derechos y Cómo Defenderse",
+    description: "Recibir una orden de demolición no significa que todo esté perdido. Existen mecanismos de defensa que muchos propietarios desconocen y que pueden salvar su propiedad.",
+    category: "Disciplina",
+    categorySlug: "disciplina",
+    date: "2026-03-05",
+    readTime: "9 min",
+    keywords: ["orden demolición", "obra ilegal", "derechos propietario", "Bages", "defensa urbanística", "recurso demolición"],
+    content: `
+      <p>La orden de demolición es la sanción más dura que puede imponer la administración urbanística: le obliga a derribar una construcción a su costa, con los costes económicos y emocionales que ello implica. Pero una orden de demolición no es una sentencia irreversible. Existen vías de defensa, alternativas y recursos que, si se plantean correctamente y a tiempo, pueden modificar el resultado del procedimiento.</p>
+
+      <h2>¿Qué hacer al recibir una orden de demolición?</h2>
+      <p>Lo primero es no entrar en pánico, aunque es comprensible. Lo segundo es no firmar nada ni aceptar nada sin asesoramiento profesional. Y lo tercero es actuar con urgencia: los plazos para presentar recursos son muy breves, y cada día que pasa es un día menos para preparar la defensa.</p>
+      <p>Los pasos inmediatos son: recoger toda la documentación del expediente, analizar los fundamentos de la orden, identificar las vías de defensa disponibles, y presentar las alegaciones o recursos dentro del plazo establecido. Un error en cualquiera de estos pasos puede cerrar definitivamente una vía de defensa.</p>
+
+      <h2>Las vías de defensa frente a una demolición</h2>
+      <p>Existen múltiples estrategias de defensa que un profesional con experiencia puede articular, dependiendo de las circunstancias del caso:</p>
+      <ul>
+        <li><strong>Alegaciones técnicas</strong>: demostrar que la construcción no infringe la normativa, o que la infracción no es tan grave como la administra- ción sostiene.</li>
+        <li><strong>Prescripción de la infracción</strong>: argumentar que el plazo para actuar ha caducado, si concurren los requisitos.</li>
+        <li><strong>Viabilidad de legalización</strong>: proponer la legalización como alternativa a la demolición, si la construcción cumple los parámetros del plan.</li>
+        <li><strong>Asimilación a fuera de ordenación</strong>: solicitar esta figura como alternativa que permite la conservación de la edificación.</li>
+        <li><strong>Recurso de reposición</strong>: impugnar la decisión ante el propio órgano que la dictó.</li>
+        <li><strong>Vía contencioso-administrativa</strong>: acudir a los juzgados si las vías administrativas se agotan.</li>
+      </ul>
+      <p>La elección de la vía correcta depende del caso concreto, y en muchos procedimientos se combinan varias estrategias de forma secuencial o simultánea.</p>
+
+      <h2>El factor tiempo es crítico</h2>
+      <p>En los procedimientos de demolición, los plazos son el factor más crítico. Las alegaciones a la propuesta de resolución suelen tener un plazo de 15 días hábiles. El recurso de reposición, un mes. La demanda contencioso-administrativa, dos meses desde la notificación de la resolución. Si pierde alguno de estos plazos, la vía correspondiente se cierra definitivamente.</p>
+      <p>Es fundamental contactar con un profesional inmediatamente después de recibir la notificación. Cuanto más tiempo pase, menos opciones de defensa estarán disponibles y más difícil será articular una estrategia efectiva.</p>
+
+      <h2>Alternativas a la demolición que debe conocer</h2>
+      <p>En muchos casos, la administración contempla la demolición como última ratio, pero existe un margen de negociación que un profesional experimentado puede explotar. La legalización de la obra, la asimilación a fuera de ordenación, o la adopción de medidas correctoras son alternativas que pueden evitar el derribo si se plantean correctamente y en el momento procesal adecuado.</p>
+      <p>La clave está en demostrar que existe una solución menos gravosa que la demolición y que satisface los intereses urbanísticos que la administración protege. Esto requiere un informe técnico bien fundamentado que el ayuntamiento pueda aceptar.</p>
+
+      <h2>¿Ha recibido una orden de demolición?</h2>
+      <p>Si ha recibido una notificación de orden de demolición en Manresa o cualquier municipio del Bages, no espere. Los plazos son cortos y las consecuencias, gravísimas. Una Consulta Exprés le permitirá conocer sus opciones de defensa y actuar antes de que sea tarde. En estos casos, cada día cuenta.</p>
+    `
+  },
+  {
+    slug: "catastro-registro-propiedad-discrepancia-bages",
+    title: "Cuando el Catastro y el Registro no Coinciden: Cómo Resolver la Discrepancia en el Bages",
+    description: "La discrepancia entre catastro y registro es una de las causas más frecuentes de bloqueo en compraventas y herencias. Descubra cómo resolverla antes de que sea un problema.",
+    category: "Herencias",
+    categorySlug: "herencias",
+    date: "2026-02-28",
+    readTime: "7 min",
+    keywords: ["catastro registro discrepancia", "descripción inmueble", "Bages", "herencia bloqueada", "coordinación catastro registro"],
+    content: `
+      <p>Una de las situaciones más habituales y frustrantes que encuentran los propietarios en el Bages es la discrepancia entre la descripción catastral y la registral de su inmueble. El catastro dice una cosa, el registro otra, y la realidad física del terreno es una tercera. EstaTriple discrepancia bloquea operaciones de compraventa, impide la inscripción de herencias, y genera inseguridad jurídica sobre la propiedad.</p>
+
+      <h2>¿Por qué es tan frecuente en el Bages?</h2>
+      <p>El Bages es una comarca con una tradición agrícola y rural donde las modificaciones sobre el terreno — ampliaciones, segregaciones, agregaciones, cambios de uso — se han realizado durante décadas sin la correspondiente actualización documental. El catastro, que refleja la realidad física, suele estar más actualizado que el registro, que refleja la realidad jurídica. Pero en muchos casos, ninguna de las dos descripciones coincide con lo que realmente hay en el terreno.</p>
+      <p>Esta situación se agrava en las masías, donde la construcción original ha sido modificada sucesivamente sin reflejar los cambios en ninguna institución. El resultado es una propiedad cuya descripción oficial no se parece en nada a la realidad, y que por tanto no puede ser transmitida de forma segura.</p>
+
+      <h2>Las consecuencias de la discrepancia</h2>
+      <p>Cuando el catastro y el registro no coinciden, las consecuencias prácticas son múltiples y graves:</p>
+      <ul>
+        <li><strong>Bloqueo de compraventas</strong>: el notario no puede autorizar la escritura si la descripción registral no coincide con la realidad.</li>
+        <li><strong>Imposibilidad de herencia</strong>: los herederos no pueden inscribir su derecho si la descripción del inmueble no es coherente.</li>
+        <li><strong>Falta de financiación</strong>: los bancos no conceden hipotecas sobre inmuebles con descripciones contradictorias.</li>
+        <li><strong>IBI incorrecto</strong>: la cuota del Impuesto sobre Bienes Inmuebles puede estar mal calculada por una descripción errónea.</li>
+        <li><strong>Inseguridad jurídica</strong>: no saber exactamente qué es suyo y qué no lo es genera un estado de incertidumbre permanente.</li>
+      </ul>
+
+      <h2>Cómo se resuelve la discrepancia</h2>
+      <p>La resolución de la discrepancia entre catastro y registro requiere un procedimiento de coordinación que puede ser más o menos complejo según el caso. En los supuestos más sencillos, basta con una actualización de la descripción catastral. En los más complicados, es necesario iniciar un expediente de conciliación o incluso un procedimiento judicial.</p>
+      <p>La complejidad aumenta cuando la discrepancia incluye construcciones que no figuran en ninguna de las dos instituciones — obras sin licencia que nunca se declararon. En estos casos, la coordinación entre catastro y registro debe realizarse de forma simultánea con la regularización urbanística, un proceso que requiere conocimiento técnico especializado.</p>
+
+      <h2>¿Tiene una discrepancia entre catastro y registro?</h2>
+      <p>Si ha descubierto que la descripción de su propiedad en el catastro no coincide con la del registro, o que ninguna de las dos coincide con la realidad, no intente resolverlo por su cuenta. Un error en el procedimiento puede empeorar la situación. Una Consulta Exprés le permitirá conocer el alcance de la discrepancia y el camino más eficiente para resolverla.</p>
+    `
+  },
+  {
+    slug: "ibp-impuesto-bienes-inmuebles-obra-ilegal-bages",
+    title: "IBI y Obras Ilegales: Por Qué está Pagando de Más o de Menos en el Bages",
+    description: "La relación entre el IBI y las construcciones irregulares es más compleja de lo que parece. Y en ambos casos — pagar de más o de menos — hay consecuencias.",
+    category: "Urbanismo",
+    categorySlug: "urbanismo",
+    date: "2026-02-20",
+    readTime: "6 min",
+    keywords: ["IBI obra ilegal", "impuesto bienes inmuebles", "valor catastral", "Bages", "construcción irregular IBI"],
+    content: `
+      <p>El Impuesto sobre Bienes Inmuebles (IBI) es el tributo que todo propietario paga anualmente sobre sus inmuebles. Pero cuando la propiedad tiene construcciones irregulares, la relación con el IBI se complica de formas que muchos desconocen. Y lo que es peor: tanto pagar de menos como pagar de más tiene consecuencias que pueden afectar gravemente sus intereses.</p>
+
+      <h2>Cuándo está pagando de menos</h2>
+      <p>Si su propiedad tiene construcciones que no figuran en el catastro — ampliaciones sin declarar, naves no registradas, segundas viviendas invisibles — su valor catastral es inferior al real, y por tanto paga menos IBI del que correspondería. Esto puede parecer una ventaja, pero tiene riesgos importantes que muchos propietarios desconocen.</p>
+      <p>El primero es que la administración puede realizar una revisión catastral de oficio en cualquier momento, y cuando descubre construcciones no declaradas, actualiza el valor catastral retroactivamente. El segundo es que la discrepancia entre la realidad y el catastro es un indicador de irregularidad que la administración puede utilizar como prueba en un expediente sancionador. El tercero es que al vender, la diferencia entre lo que figura y lo que existe genera problemas registrales y notariales.</p>
+
+      <h2>Cuándo está pagando de más</h2>
+      <p>En el lado opuesto, hay propietarios que están pagando IBI sobre construcciones que ya no existen o sobre superficies que no se corresponden con la realidad. Esto es frecuente en masías donde se han realizado demoliciones parciales, o donde el catastro incluye construcciones que en realidad nunca se ejecutaron según lo proyectado.</p>
+      <p>Pagar de más puede parecer inofensivo, pero no lo es: el valor catastral influido por construcciones inexistentes infla la base imponible de otros tributos como la plusvalía municipal, el impuesto de sucesiones, o el IRPF en caso de venta. Y a la hora de vender, un valor catastral inflado genera expectativas de precio que no se corresponden con la realidad urbanística del inmueble.</p>
+
+      <h2>La regularización catastral como primer paso</h2>
+      <p>En muchos casos, la regularización de la situación catastral es el primer paso necesario antes de abordar cualquier operación sobre la propiedad. Y esta regularización debe hacerse de forma coordinada con la situación urbanística: no tiene sentido actualizar el catastro para reflejar una construcción que es irregular, porque esto equivale a una autodenuncia.</p>
+      <p>La secuencia correcta suele ser: primero estudiar la viabilidad de legalización, segundo iniciar el procedimiento de legalización, y tercero actualizar la descripción catastral una vez resuelta la situación urbanística. Alterar este orden puede generar problemas adicionales.</p>
+
+      <h2>¿Sabe cuánto debería pagar realmente de IBI?</h2>
+      <p>Si su propiedad en el Bages tiene construcciones que no figuran en el catastro, o si cree que está pagando de más por descripciones incorrectas, una Consulta Exprés le permitirá evaluar la situación y planificar la regularización de forma segura. No espere a que la administración actúe de oficio: la regularización voluntaria siempre tiene mejores condiciones que la impuesta.</p>
+    `
+  },
+  {
+    slug: "modificacion-poum-afecta-propiedad-bages",
+    title: "Modificación del POUM: Cómo los Cambios en el Planeamiento Urbanístico Afectan a su Propiedad en el Bages",
+    description: "Una modificación del POUM puede multiplicar el valor de su terreno o destruirlo. Conozca cómo enterarse a tiempo y qué puede hacer para proteger sus intereses.",
+    category: "Urbanismo",
+    categorySlug: "urbanismo",
+    date: "2026-02-10",
+    readTime: "8 min",
+    keywords: ["modificación POUM", "cambio planeamiento", "Bages", "revisión POUM", "alegaciones POUM", "calificación suelo"],
+    content: `
+      <p>El POUM de su municipio no es un documento estático. Se modifica, se revisa, se actualiza. Y cada modificación puede tener un impacto directo sobre su propiedad: puede recalar su suelo de rústico a urbanizable — multiplicando su valor — o a la inversa — destruyendo sus expectativas de desarrollo. El problema es que la mayoría de los propietarios no se enteran de estas modificaciones hasta que ya son definitivas y ya no pueden hacer nada.</p>
+
+      <h2>Tipos de modificaciones del POUM</h2>
+      <p>Los planes urbanísticos se pueden modificar de distintas formas, cada una con sus propias reglas y plazos:</p>
+      <ul>
+        <li><strong>Modificaciones puntuales</strong>: cambios específicos que afectan a una zona o parcela concreta. Son las más frecuentes y pueden ser promovidas tanto por la administración como por los particulares.</li>
+        <li><strong>Revisiones del plan</strong>: actualizaciones generales del POUM que afectan a todo el municipio. Son menos frecuentes pero tienen un impacto mucho más amplio.</li>
+        <li><strong>Estudios de detalle</strong>: documentos que desarrollan o completan las determinaciones del POUM para zonas específicas.</li>
+        <li><strong>Planes especiales</strong>: instrumentos que regulan aspectos concretos como protección del paisaje, prevención de riesgos, o infraestructuras.</li>
+      </ul>
+      <p>Cada tipo de modificación tiene un procedimiento público con períodos de información y alegaciones que son la única oportunidad de los propietarios para influir en el resultado.</p>
+
+      <h2>El período de alegaciones: su ventana de oportunidad</h2>
+      <p>Cuando se propone una modificación del POUM, se abre un período de información pública durante el cual cualquier persona puede presentar alegaciones. Este es el momento en que los propietarios pueden oponerse a un cambio que les perjudique o solicitar uno que les beneficie. Pero si no se enteran, no pueden actuar.</p>
+      <p>En el Bages, las modificaciones del POUM se publican en el boletín oficial de la provincia y en los tablones de anuncios de los ayuntamientos, pero pocos propietarios revisan estos medios de forma habitual. El resultado es que muchas modificaciones que afectan directamente a propiedades privadas se aprueban sin que los afectados lo sepan.</p>
+
+      <h2>Cómo una modificación puede cambiar el valor de su propiedad</h2>
+      <p>El impacto de una modificación del POUM sobre el valor de una propiedad puede ser dramático en ambos sentidos. Un suelo rústico que es recalificado como urbanizable puede multiplicar su valor por cinco o por diez. Pero un suelo urbanizable que revierte a rústico puede perder el 80% de su valor de un día para otro.</p>
+      <p>Estos cambios no son infrecuentes. En el Bages, las revisiones periódicas de los POUM han producido recalificaciones significativas en municipios como Manresa, Sant Fruitós de Bages y Sallent, con ganadores y perdedores que, en muchos casos, no eran conscientes del proceso hasta que era demasiado tarde.</p>
+
+      <h2>¿Puede influir en una modificación del POUM?</h2>
+      <p>Sí, pero solo si actúa a tiempo. Las alegaciones presentadas durante el período de información pública son el mecanismo principal para influir en el contenido de las modificaciones. Y en algunos casos, los propios propietarios pueden promover modificaciones puntuales del POUM que beneficien a sus propiedades, aunque este es un proceso técnico y administrativo complejo que requiere asesoramiento profesional.</p>
+      <p>Si tiene una propiedad en el Bages y quiere saber si hay modificaciones del POUM en trámite que le afecten, o si cree que su suelo debería tener una calificación distinta, una Consulta Exprés le dará la información que necesita para actuar antes de que las decisiones se tomen sin usted.</p>
+    `
   }
 ];
 
