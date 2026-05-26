@@ -147,25 +147,25 @@ const MUNICIPALITIES = [
 
 const BLOG_POSTS = [
   {
-    slug: "obra-sin-licencia-consecuencias",
-    title: "Obra sin licencia: las consecuencias que nadie te explica",
-    excerpt: "Descubre los riesgos reales de tener una obra sin licencia en tu propiedad. Las multas, la pérdida de valor y las limitaciones que te afectan.",
+    slug: "legalizacion-obras-sin-licencia-manresa",
+    title: "Legalización de Obras sin Licencia en Manresa: Lo que Nadie le Cuenta",
+    excerpt: "Si tiene una construcción sin licencia en Manresa o el Bages, el reloj está corriendo. Descubra por qué actuar ahora puede salvar su propiedad.",
     category: "Legalización",
-    date: "15 Ene 2025",
+    date: "20 May 2026",
   },
   {
-    slug: "herencia-con-obra-ilegal",
-    title: "Herencia con obra ilegal: por qué no puedes vender",
-    excerpt: "Cuando heredas una propiedad con obras sin legalizar, te encuentras con un problema que bloquea la venta. Aquí te explico por qué.",
+    slug: "herencia-con-conflicto-urbanistico-bages",
+    title: "Herencias con Conflicto Urbanístico en el Bages",
+    excerpt: "El 73% de las herencias con inmuebles en el Bages presentan conflictos urbanísticos. Descubra cómo desbloquear su herencia antes de que sea demasiado tarde.",
     category: "Herencias",
-    date: "8 Ene 2025",
+    date: "10 May 2026",
   },
   {
-    slug: "fuera-de-ordenacion-bages",
-    title: "Fuera de ordenación: tu masía puede valer mucho más",
-    excerpt: "La asimilación a fuera de ordenación puede ser la solución para tu masía del Bages. Descubre si tu propiedad es candidata.",
-    category: "Asimilación",
-    date: "2 Ene 2025",
+    slug: "asimilacion-fuera-de-ordenacion-bages",
+    title: "Asimilación a Fuera de Ordenación en el Bages: La Última Opción para Salvar su Propiedad",
+    excerpt: "Cuando la legalización no es posible, la asimilación a fuera de ordenación puede ser la diferencia entre conservar y perder su propiedad.",
+    category: "Legalización",
+    date: "15 May 2026",
   },
 ];
 
