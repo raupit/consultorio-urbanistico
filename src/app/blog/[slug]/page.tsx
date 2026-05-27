@@ -138,6 +138,26 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             </div>
           </div>
 
+          {/* Inmobiliaria CTA Banner */}
+          <div className="mt-16 bg-white/[0.02] border border-white/[0.06] rounded-2xl p-6 md:p-8 flex flex-col sm:flex-row items-center gap-5">
+            <div className="w-12 h-12 rounded-xl bg-[#D4A574]/10 flex items-center justify-center flex-shrink-0">
+              <svg className="w-6 h-6 text-[#D4A574]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" /></svg>
+            </div>
+            <div className="flex-1 text-center sm:text-left">
+              <p className="text-white font-medium mb-1">Ana Epitie también es Asesora Inmobiliaria de Lujo</p>
+              <p className="text-sm text-slate-400">Masías, urbanizaciones y propiedades de alto valor en el Bages y Cataluña.</p>
+            </div>
+            <a
+              href="https://ana-epitie-inmobiliaria-z.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-shrink-0 inline-flex items-center gap-2 bg-gradient-to-r from-[#D4A574] to-[#C9956B] text-[#030305] font-semibold text-xs px-6 py-3 rounded-full hover:scale-105 transition-transform"
+            >
+              Descubra sus servicios
+              <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
+            </a>
+          </div>
+
           {relatedPosts.length > 0 && (
             <div className="mt-16">
               <h3 className="text-lg font-medium mb-6">Artículos relacionados</h3>

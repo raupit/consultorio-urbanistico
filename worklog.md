@@ -1,73 +1,37 @@
+# Worklog - Task 2: Añadir más artículos de blog al Consultorio Urbanístico
 
----
-Task ID: 1-2-3
-Agent: Main Agent
-Task: Implement Schema markup + SEO + Blog for Consultorio Urbanístico and Ana Epitié Inmobiliaria
+## Date: 2026-03-04
 
-Work Log:
-- Cloned ana-epitie-inmobiliaria-Z repo from GitHub
-- Added 6 JSON-LD schemas to Inmobiliaria index.html (RealEstateAgent, Person, WebSite, WebPage, BreadcrumbList, FAQPage)
-- Added complete SEO meta tags (description, robots, canonical, OG, Twitter) to Inmobiliaria
-- Updated Consultorio links from my-project-perito-web.vercel.app to consultorio-urbanistico.vercel.app
-- Created complete Next.js project for Consultorio Urbanístico with full landing page
-- Created SchemaMarkup component with 8 schemas (ProfessionalService, LegalService, Person, WebSite, WebPage, BreadcrumbList, FAQPage, HowTo)
-- Created full SEO metadata in layout.tsx
-- Created blog system with 10 extensive articles using strategic content strategy (no how-to, drive contacts)
-- Created blog listing page, article pages, and category pages
-- Each blog article includes Article schema for rich results
-- All pages verified working on dev server
+## Summary
+Added 8 new blog articles to the `blogPosts` array in `/home/z/my-project/src/lib/blog-data.ts`. The blog now has 25 total articles (17 existing + 8 new).
 
-Stage Summary:
-- Inmobiliaria: Schema + SEO complete in index.html, committed locally (push pending GitHub credentials)
-- Consultorio: Complete Next.js project running at localhost:3000 with landing page, blog, and all schemas
-- 10 blog articles created following strategy: describe problems and risks, never explain procedures, always CTA
-- Blog articles: Legalización obras, AFO, Herencias, Comprar masía, Suelo urbanizable/rústico, Informe pericial, Disciplina urbanística, Vender propiedad irregular, POUM, Plazos legalización, Perito judicial
----
-Task ID: 1
-Agent: Main Agent
-Task: Review and improve Consultorio Urbanístico website WITHOUT changing visual format
+## Articles Added
 
-Work Log:
-- Reviewed current website at consultorio-urbanistico.vercel.app in detail
-- Read all source files: page.tsx, layout.tsx, SchemaMarkup.tsx, blog-data.ts, blog pages, robots.txt, next.config.ts
-- Identified the project is already well-built with Next.js, Schema, blog, etc.
-- Fixed email in SchemaMarkup.tsx: contacto@anaepitie.com → info@peritourbanistic.cat (3 occurrences)
-- Created dynamic sitemap.ts with all pages: home, blog, blog posts, categories, 29 municipality pages
-- Improved robots.txt: added Sitemap reference, Crawl-delay, Disallow /api/
-- Updated BLOG_POSTS array in page.tsx to match actual blog slugs from blog-data.ts (was linking to non-existent slugs)
-- Created /municipio/[slug]/page.tsx with 10 municipality pages for local SEO (Manresa, Sant Fruitós, Artés, Santpedor, Sallent, Navarcles, Cardona, Callús, Balsareny, Súria)
-- Each municipality page has: ProfessionalService schema, dynamic metadata (title, description, OG, Twitter), canonical URL, service list, CTA, related posts, cross-links to other municipalities
-- Build verified successfully - all pages generated
+| # | Slug | Title | Category | Date | Read Time |
+|---|------|-------|----------|------|-----------|
+| 1 | cesion-credito-urbanistico-bages | Cesión de Crédito Urbanístico en el Bages: Cómo Transferir Derechos de Construcción | Urbanismo | 2026-04-01 | 8 min |
+| 2 | licencia-obra-mayor-menor-diferencias-manresa | Licencia de Obra Mayor vs Menor en Manresa: Por Qué este Error le Puede Costar Miles de Euros | Legalización | 2026-03-27 | 7 min |
+| 3 | procedimiento-abreviado-legalizacion-cataluna | Procedimiento Abreviado de Legalización en Cataluña: La Vía Rápida que Pocos Conocen | Legalización | 2026-03-22 | 8 min |
+| 4 | servidumbre-paso-propiedad-rustica-bages | Servidumbre de Paso en Propiedades Rústicas del Bages: Cuando el Acceso es el Problema | Urbanismo | 2026-03-17 | 7 min |
+| 5 | valoracion-pericial-inmueble-irregular-procedimiento | Valoración Pericial de un Inmueble Irregular: Cómo se Determina el Precio Real | Peritación | 2026-03-12 | 8 min |
+| 6 | seguro-decenal-obras-ilegales-cobertura | Seguro Decenal y Obras Ilegales: ¿Tiene Cobertura si la Construcción Carece de Licencia? | Disciplina | 2026-03-07 | 7 min |
+| 7 | expropiacion-forzosa-suelo-bages-compensacion | Expropiación Forzosa de Suelo en el Bages: Cómo Asegurar una Compensación Justa | Compra-venta | 2026-03-02 | 9 min |
+| 8 | rehabilitacion-vs-legalizacion-diferencias-cataluna | Rehabilitación vs Legalización en Cataluña: No es lo Mismo y las Consecuencias de Confundirlos | Legalización | 2026-02-25 | 7 min |
 
-Stage Summary:
-- Fixed: Email in all schemas updated to info@peritourbanistic.cat
-- New: Dynamic sitemap.xml generation (home + 10 blog posts + 6 categories + 29 municipalities = 46+ URLs)
-- New: Improved robots.txt with sitemap reference
-- New: 10 municipality landing pages for local SEO (same visual design as blog pages)
-- Fixed: Blog section on homepage now links to actual blog posts
-- NO visual changes made - same dark luxury design preserved
----
-Task ID: 4
-Agent: Main Agent
-Task: Continue SEO improvements - add remaining municipalities, blog articles, hreflang, metadata
+## Content Strategy Applied
+- Each article has 5-7 sections with h2 headers
+- Paragraphs are 3-5 sentences minimum
+- Content is strategically vague — does NOT give away too much legal/technical info
+- Lead generation focus — makes readers feel they need professional help
+- All articles end with CTA for "Consulta Exprés"
+- Keywords relevant to Manresa, Bages, Cataluña are included
+- Dates go from 2026-04-01 backwards (one every 5 days)
+- HTML content format matches existing articles exactly
 
-Work Log:
-- Added 19 remaining municipalities to /municipio/[slug]/page.tsx (Navàs, Sant Joan de Vilatorrada, Castellbell i el Vilar, Castellgalí, Sant Vicenç de Castellet, El Pont de Vilomara, Marganell, Monistrol de Montserrat, Rajadell, Sant Salvador de Guardiola, Sant Mateu de Bages, Fonollosa, Avinyó, Calders, Santa Maria d'Oló, Castellfollit del Boix, Gaià, Mura, Talamanca)
-- Total municipalities: 29 (complete Bages comarca coverage)
-- Added 6 new blog articles to blog-data.ts: Cambio de uso suelo rústico, Certificación energética y obras ilegales, Orden de demolición y derechos, Catastro/registro discrepancia, IBI y obras ilegales, Modificación POUM
-- Total blog articles: 14
-- Added hreflang es/ca/x-default to layout.tsx alternates
-- Added OG image and alternateLocale ["ca_ES"] to openGraph metadata
-- Fixed robots.txt: Disallow /api/ now applies to all user agents correctly
-- Enhanced blog category page metadata: canonical, OG, twitter, keywords
-- Build verified successfully - 58 pages generated
-- All changes committed locally (push/deploy pending user action)
-
-Stage Summary:
-- 29 municipality pages (was 10) - full Bages comarca local SEO
-- 14 blog articles (was 8) - more lead generation content
-- hreflang es/ca implemented
-- OG image and locale improvements
-- robots.txt fixed
-- Category metadata enhanced
-- NO visual changes - same dark luxury design preserved
+## Verification
+- ✅ Lint passes with no errors
+- ✅ Dev server running without errors
+- ✅ File structure matches existing format (slug, title, description, category, categorySlug, date, readTime, keywords, content)
+- ✅ 25 total blog posts (17 original + 8 new)
+- ✅ 6 categories unchanged
+- ✅ Helper functions intact (getBlogPost, getBlogPostsByCategory, getLatestPosts, getRelatedPosts)

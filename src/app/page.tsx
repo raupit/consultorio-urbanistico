@@ -936,6 +936,45 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ═══════════════ INMOBILIARIA CTA ═══════════════ */}
+      <section className="py-20 md:py-28 bg-[#050508]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: "-100px" }}
+            variants={fadeUp}
+            className="max-w-3xl mx-auto"
+          >
+            <div className="rounded-2xl border border-[#D4A574]/20 bg-gradient-to-br from-[#D4A574]/5 to-transparent p-8 md:p-10 text-center relative overflow-hidden">
+              <div className="absolute -top-20 -right-20 w-40 h-40 bg-[#D4A574]/5 rounded-full blur-[60px]" />
+              <div className="relative">
+                <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-[#D4A574]/10 mb-5">
+                  <Building2 className="w-7 h-7 text-[#D4A574]" />
+                </div>
+                <h3 className="text-2xl md:text-3xl font-bold text-[#f0ebe3] mb-3">
+                  ¿Necesita vender o comprar una propiedad?
+                </h3>
+                <p className="text-[#8a8a9a] max-w-lg mx-auto mb-6 leading-relaxed">
+                  Ana Epitie también es <span className="text-[#D4A574] font-medium">Asesora Inmobiliaria de Lujo</span>.
+                  Descubra su servicio de asesoría inmobiliaria para masías, urbanizaciones y
+                  propiedades de alto valor en el Bages y Cataluña.
+                </p>
+                <a
+                  href="https://ana-epitie-inmobiliaria-z.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-gradient-to-r from-[#D4A574] to-[#C9956B] text-[#030305] font-bold text-sm px-8 py-3.5 rounded-full hover:scale-105 transition-transform shadow-lg shadow-[#D4A574]/20"
+                >
+                  Visitar Ana Epitie Inmobiliaria
+                  <ExternalLink className="w-4 h-4" />
+                </a>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
       {/* ═══════════════ FOOTER ═══════════════ */}
       <footer className="bg-[#020204] border-t border-[#D4A574]/10 pt-16 pb-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

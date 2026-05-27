@@ -24,7 +24,7 @@ export const blogPosts: BlogPost[] = [
       <p>Manresa y toda la comarca del Bages esconden un problema silencioso que afecta a miles de propietarios: construcciones realizadas sin la licencia pertinente. Ampliaciones de masías, naves agrícolas convertidas en viviendas, porches cerrados sin permiso, piscinas instaladas de forma irregular... La lista es larga y las consecuencias, devastadoras.</p>
 
       <h2>¿Por qué es tan peligroso tener una obra sin licencia?</h2>
-      <p>Una construcción sin licencia no es simplemente un "trámite pendiente". Es una vulneración de la normativa urbanística que puede derivar en sanciones económicas de hasta el 6% del valor de la obra, órdenes de demolición, o la imposibilidad de transmitir la propiedad. Y lo que muchos no saben es que el tiempo no cura este problema: en muchos casos, la administración puede actuar incluso décadas después de la construcción.</p>
+      <p>Una construcción sin licencia no es simplemente un "trámite pendiente". Es una vulneración de la normativa urbanística que puede derivar en sanciones económicas de hasta el 6% del valor de la obra, órdenes de demolición, o la imposibilidad de transmitir la propiedad. Y lo que muchos no saben es que el tiempo no cura este problema: en muchos casos, la administración puede actuar incluso décadas después de la construcción. Cuando la legalización no es posible, la <a href="/blog/asimilacion-fuera-de-ordenacion-bages" class="text-[#D4A574] underline hover:text-[#F2D4B0] transition-colors">asimilación a fuera de ordenación</a> puede ser la última opción para conservar la propiedad.</p>
       <p>Cuando un propietario intenta vender una finca con construcciones irregulares, el comprador se encuentra con una sorpresa: el registro de la propiedad no refleja esa realidad, el banco no financia, y la operación se cae. O peor aún, se cierra a un precio de derribo que puede suponer una pérdida del 40% del valor real del inmueble.</p>
 
       <h2>La realidad del Bages: un territorio especialmente vulnerable</h2>
@@ -49,7 +49,7 @@ export const blogPosts: BlogPost[] = [
       <p>Los plazos administrativos en urbanística son estrictos y no perdonan. Un error en la documentación, un formulario mal presentado, o una alegación fuera de plazo pueden arruinar meses de trabajo y miles de euros invertidos. Además, la normativa urbanística cambia, y un caso que hoy es viable puede no serlo mañana si se aprueba una modificación del plan.</p>
 
       <h2>¿Qué debe hacer ahora?</h2>
-      <p>Si tiene una construcción sin licencia en Manresa o cualquier municipio del Bages, la mejor decisión que puede tomar es solicitar una consulta profesional antes de que la administración actúe de oficio. Una Consulta Exprés le permitirá conocer la situación real de su propiedad y las opciones disponibles, sin compromiso.</p>
+      <p>Si tiene una construcción sin licencia en <a href="/municipio/manresa" class="text-[#D4A574] underline hover:text-[#F2D4B0] transition-colors">Manresa</a> o cualquier municipio del Bages, la mejor decisión que puede tomar es solicitar una consulta profesional antes de que la administración actúe de oficio. Una Consulta Exprés le permitirá conocer la situación real de su propiedad y las opciones disponibles, sin compromiso.</p>
       <p>No espere a que le notifiquen una sanción. Para entonces, las opciones se habrán reducido drásticamente y los costes se habrán multiplicado.</p>
     `
   },
@@ -83,8 +83,8 @@ export const blogPosts: BlogPost[] = [
       </ul>
 
       <h2>La importancia del orden de las actuaciones</h2>
-      <p>El orden en que se plantean las soluciones urbanísticas es determinante. En muchos casos, la AFO no debe ser la primera opción sino la última, después de haber agotado las vías de legalización. Y en otros casos, es exactamente al revés. Solo un análisis profundo de la situación particular puede determinar la secuencia correcta de actuaciones.</p>
-      <p>La experiencia en el Bages demuestra que los ayuntamientos de la comarca tienen criterios muy distintos entre sí. Lo que en Manresa es una práctica habitual, en Sallent o Navàs puede ser una vía muerta. Conocer la posición de cada administración es clave para elegir la estrategia correcta.</p>
+      <p>El orden en que se plantean las soluciones urbanísticas es determinante. En muchos casos, la AFO no debe ser la primera opción sino la última, después de haber agotado las vías de <a href="/blog/legalizacion-obras-sin-licencia-manresa" class="text-[#D4A574] underline hover:text-[#F2D4B0] transition-colors">legalización de obras</a>. Y en otros casos, es exactamente al revés. Solo un análisis profundo de la situación particular puede determinar la secuencia correcta de actuaciones.</p>
+      <p>La experiencia en el Bages demuestra que los ayuntamientos de la comarca tienen criterios muy distintos entre sí. Lo que en <a href="/municipio/manresa" class="text-[#D4A574] underline hover:text-[#F2D4B0] transition-colors">Manresa</a> es una práctica habitual, en Sallent o Navàs puede ser una vía muerta. Conocer la posición de cada administración es clave para elegir la estrategia correcta.</p>
 
       <h2>¿Le afecta este problema?</h2>
       <p>Si tiene una construcción en el Bages que sabe o sospecha que es irregular, no asuma que la asimilación a fuera de ordenación es la solución — ni que no lo es. Cada caso requiere un estudio individualizado que determine las opciones reales disponibles y la secuencia de actuaciones más favorable para sus intereses.</p>
@@ -105,7 +105,7 @@ export const blogPosts: BlogPost[] = [
 
       <h2>La realidad de las herencias en el Bages</h2>
       <p>Las masías, fincas rústicas y urbanizaciones del Bages son herencias que arrastran décadas, y en muchos casos siglos, de modificaciones realizadas sin la licencia pertinente. Ampliaciones, cambios de uso, naves adaptadas, segundas viviendas... Lo que en su día fue una mejora se convierte, al transmitir la propiedad, en un obstáculo insalvable para los herederos.</p>
-      <p>El problema se manifiesta cuando los herederos intentan formalizar la transmisión: el notario requiere certificaciones urbanísticas, el registro de la propiedad exige que la descripción catastral coincida con la realidad, y los bancos condicionan la financiación a la regularidad urbanística completa. Si algo no cuadra, todo se para.</p>
+      <p>El problema se manifiesta cuando los herederos intentan formalizar la transmisión: el notario requiere certificaciones urbanísticas, el registro de la propiedad exige que la descripción catastral coincida con la realidad, y los bancos condicionan la financiación a la regularidad urbanística completa. Si algo no cuadra, todo se para. La <a href="/blog/catastro-registro-propiedad-discrepancia-bages" class="text-[#D4A574] underline hover:text-[#F2D4B0] transition-colors">discrepancia entre catastro y registro</a> es una de las causas más frecuentes de bloqueo.</p>
 
       <h2>Tipos de conflictos urbanísticos en herencias</h2>
       <p>Los escenarios más frecuentes que encontramos en el Bages incluyen:</p>
@@ -129,7 +129,7 @@ export const blogPosts: BlogPost[] = [
       </ul>
 
       <h2>Por qué necesita un perito judicial urbanístico</h2>
-      <p>En procedimientos de herencia con conflicto urbanístico, el juzgado requiere un informe pericial emitido por un profesional homologado. Un perito judicial urbanístico no solo valora la situación: determina las opciones reales de regularización, cuantifica el impacto de las irregularidades en el valor del inmueble, y proporciona al juez los elementos técnicos necesarios para resolver la partición.</p>
+      <p>En procedimientos de herencia con conflicto urbanístico, el juzgado requiere un <a href="/blog/informe-pericial-judicial-cuando-necesitas-uno" class="text-[#D4A574] underline hover:text-[#F2D4B0] transition-colors">informe pericial</a> emitido por un profesional homologado. Un perito judicial urbanístico no solo valora la situación: determina las opciones reales de regularización, cuantifica el impacto de las irregularidades en el valor del inmueble, y proporciona al juez los elementos técnicos necesarios para resolver la partición.</p>
       <p>Sin un informe pericial, el juez carece de la información técnica para tomar decisiones, el procedimiento se alarga indefinidamente, y los herederos soportan los costes de un litigio que podría resolverse en meses con el asesoramiento adecuado.</p>
 
       <h2>¿Tiene una herencia bloqueada?</h2>
@@ -172,11 +172,11 @@ export const blogPosts: BlogPost[] = [
       </ul>
 
       <h2>La peritación previa: la mejor inversión antes de comprar</h2>
-      <p>Antes de firmar cualquier arras sobre una masía en el Bages, una peritación urbanística previa puede salvarle de una decisión desastrosa. Un informe pericial determinará la situación real de la propiedad: qué construcciones son regulares, cuáles no, cuáles son legalizables, y cuáles representan un riesgo insalvable.</p>
+      <p>Antes de firmar cualquier arras sobre una masía en el Bages, una <a href="/blog/informe-pericial-judicial-cuando-necesitas-uno" class="text-[#D4A574] underline hover:text-[#F2D4B0] transition-colors">peritación urbanística previa</a> puede salvarle de una decisión desastrosa. Un informe pericial determinará la situación real de la propiedad: qué construcciones son regulares, cuáles no, cuáles son legalizables, y cuáles representan un riesgo insalvable.</p>
       <p>Este informe le dará la posición de negociación necesaria para ajustar el precio a la realidad urbanística de la finca, o para retirarse de la operación si los riesgos son demasiado grandes. En cualquier caso, la inversión en una peritación previa es una fracción de lo que perdería si comprara a ciegas.</p>
 
       <h2>¿Está pensando en comprar una masía?</h2>
-      <p>Si está considerando la compra de una masía o finca rústica en Manresa o cualquier municipio del Bages, no firme nada sin antes conocer la situación urbanística real de la propiedad. Una Consulta Exprés le dará la información que necesita para tomar una decisión con seguridad. No arriesgue su inversión: la información profesional es su mejor herramienta de negociación.</p>
+      <p>Si está considerando la compra de una masía o finca rústica en <a href="/municipio/manresa" class="text-[#D4A574] underline hover:text-[#F2D4B0] transition-colors">Manresa</a> o cualquier municipio del Bages, no firme nada sin antes conocer la situación urbanística real de la propiedad. Una Consulta Exprés le dará la información que necesita para tomar una decisión con seguridad. No arriesgue su inversión: la información profesional es su mejor herramienta de negociación.</p>
     `
   },
   {
@@ -206,7 +206,7 @@ export const blogPosts: BlogPost[] = [
       </ul>
 
       <h2>El POUM: el documento que todo propietario debe conocer (pero no interpretar solo)</h2>
-      <p>El Plan de Ordenación Urbanística Municipal (POUM) es el documento que establece la calificación del suelo y las normas que lo regulan en cada municipio. Cada municipio del Bages tiene su propio POUM, y las diferencias entre ellos son significativas. Lo que el POUM de Manresa permite puede estar prohibido en el de Sant Fruitós de Bages, y viceversa.</p>
+      <p>El Plan de Ordenación Urbanística Municipal (POUM) es el documento que establece la calificación del suelo y las normas que lo regulan en cada municipio. Cada municipio del Bages tiene su propio POUM, y las diferencias entre ellos son significativas. Lo que el POUM de <a href="/municipio/manresa" class="text-[#D4A574] underline hover:text-[#F2D4B0] transition-colors">Manresa</a> permite puede estar prohibido en el de Sant Fruitós de Bages, y viceversa.</p>
       <p>El POUM es un documento técnico complejo que incluye normas urbanísticas, catálogos de protección, estudios de detalle, y normativa sectorial. Su interpretación requiere formación específica y experiencia práctica. Un propietario que intente interpretar el POUM por su cuenta puede llegar a conclusiones erróneas con consecuencias gravísimas.</p>
 
       <h2>Los cambios de calificación: una oportunidad o una trampa</h2>
@@ -267,7 +267,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "9 min",
     keywords: ["disciplina urbanística", "sanción urbanística", "Manresa", "Bages", "infracción urbanística", "orden demolición"],
     content: `
-      <p>Recibir una notificación del ayuntamiento por una supuesta infracción urbanística es una de las experiencias más estresantes que puede vivir un propietario. Y la razón es sencilla: las sanciones urbanísticas están entre las más severas del ordenamiento jurídico administrativo, y los plazos para defenderse son breves e improrrogables.</p>
+      <p>Recibir una notificación del ayuntamiento por una supuesta infracción urbanística es una de las experiencias más estresantes que puede vivir un propietario. Y la razón es sencilla: las sanciones urbanísticas están entre las más severas del ordenamiento jurídico administrativo, y los plazos para defenderse son breves e improrrogables. Si enfrenta una orden de demolición, consulte nuestro artículo sobre <a href="/blog/demolicion-obra-ilegal-derechos-propietario-bages" class="text-[#D4A574] underline hover:text-[#F2D4B0] transition-colors">derechos del propietario ante una orden de derribo</a>.</p>
 
       <h2>¿Qué puede hacer la administración?</h2>
       <p>Los poderes de la administración en materia de disciplina urbanística son amplios y contundentes:</p>
@@ -289,11 +289,11 @@ export const blogPosts: BlogPost[] = [
       <p>Es fundamental comprender que cada fase requiere un tipo de respuesta distinta: alegaciones técnicas en la propuesta de resolución, argumentos jurídicos en el recurso de reposición, pruebas periciales en la vía contencioso-administrativa. Presentar la respuesta equivocada en la fase equivocada es como tomar el medicamento incorrecto: no solo no cura, puede empeorar el problema.</p>
 
       <h2>¿Tiene más opciones de las que cree?</h2>
-      <p>Aunque una notificación de infracción urbanística parece una sentencia, en la práctica existen múltiples vías de defensa que un profesional con experiencia puede articular. Desde la discrepancia en la calificación de la infracción hasta la prescripción del procedimiento, desde la viabilidad de legalización alternativa hasta la negociación con la administración para una solución consensuada.</p>
+      <p>Aunque una notificación de infracción urbanística parece una sentencia, en la práctica existen múltiples vías de defensa que un profesional con experiencia puede articular. Desde la discrepancia en la calificación de la infracción hasta la prescripción del procedimiento, desde la viabilidad de <a href="/blog/legalizacion-obras-sin-licencia-manresa" class="text-[#D4A574] underline hover:text-[#F2D4B0] transition-colors">legalización alternativa</a> hasta la negociación con la administración para una solución consensuada.</p>
       <p>Pero estas opciones solo están disponibles si se actúa con rapidez y con el asesoramiento adecuado. Cada día que pasa sin actuar es un día menos para preparar la defensa, y una opción más que se cierra.</p>
 
       <h2>¿Ha recibido una notificación urbanística?</h2>
-      <p>Si ha recibido cualquier tipo de notificación del ayuntamiento de Manresa o cualquier municipio del Bages relacionada con una infracción urbanística, no espere. Los plazos son cortos y las consecuencias, graves. Una Consulta Exprés le permitirá conocer sus opciones de defensa y actuar antes de que sea tarde. Recuerde: en disciplina urbanística, el que llama primero, tiene más opciones.</p>
+      <p>Si ha recibido cualquier tipo de notificación del ayuntamiento de <a href="/municipio/manresa" class="text-[#D4A574] underline hover:text-[#F2D4B0] transition-colors">Manresa</a> o cualquier municipio del Bages relacionada con una infracción urbanística, no espere. Los plazos son cortos y las consecuencias, graves. Una Consulta Exprés le permitirá conocer sus opciones de defensa y actuar antes de que sea tarde. Recuerde: en disciplina urbanística, el que llama primero, tiene más opciones.</p>
     `
   },
   {
@@ -313,7 +313,7 @@ export const blogPosts: BlogPost[] = [
       <p>El problema es que muchos vendedores aceptan este descuento sin cuestionarlo, creyendo que no tienen alternativas. Y en algunos casos, efectivamente, el descuento está justificado porque la irregularidad no tiene solución. Pero en muchos otros casos, la irregularidad es legalizable, y el descuento es completamente innecesario.</p>
 
       <h2>La estrategia que marca la diferencia</h2>
-      <p>La diferencia entre vender con un 40% de descuento y vender a precio de mercado puede estar en el orden de las actuaciones. En muchos casos, la secuencia correcta es: primero resolver la irregularidad, después vender. Y aunque esto implica esperar, el resultado económico es dramáticamente superior.</p>
+      <p>La diferencia entre vender con un 40% de descuento y vender a precio de mercado puede estar en el orden de las actuaciones. En muchos casos, la secuencia correcta es: primero <a href="/blog/legalizacion-obras-sin-licencia-manresa" class="text-[#D4A574] underline hover:text-[#F2D4B0] transition-colors">resolver la irregularidad urbanística</a>, después vender. Y aunque esto implica esperar, el resultado económico es dramáticamente superior.</p>
       <p>Pero hay casos en los que la legalización no es viable o el propietario no puede esperar. En estos escenarios, existen estrategias intermedias que permiten obtener un precio significativamente superior al precio de derribo, como la venta condicionada a la legalización en curso, o la transmisión con compromiso de regularización.</p>
       <p>La elección de la estrategia correcta depende de factores que solo un análisis profesional puede determinar: el tipo de irregularidad, su gravedad, la viabilidad de legalización, los plazos del proceso, la posición del ayuntamiento, y las circunstancias personales del vendedor.</p>
 
@@ -325,7 +325,7 @@ export const blogPosts: BlogPost[] = [
       <p>Este ciclo completo no está disponible en otro despacho del Bages, y es una ventaja competitiva que puede suponer la diferencia entre una venta a precio de derribo y una venta a precio de mercado.</p>
 
       <h2>¿Tiene una propiedad que no puede vender al precio que merece?</h2>
-      <p>Si está considerando vender una propiedad con irregularidades urbanísticas en Manresa o el Bages, no acepte el primer descuento que le ofrezcan. Una Consulta Exprés le permitirá conocer las opciones reales para maximizar el valor de su propiedad. En muchos casos, la solución está más cerca de lo que piensa — pero requiere la estrategia correcta y el asesoramiento adecuado.</p>
+      <p>Si está considerando vender una propiedad con irregularidades urbanísticas en <a href="/municipio/manresa" class="text-[#D4A574] underline hover:text-[#F2D4B0] transition-colors">Manresa</a> o el Bages, no acepte el primer descuento que le ofrezcan. Una Consulta Exprés le permitirá conocer las opciones reales para maximizar el valor de su propiedad. En muchos casos, la solución está más cerca de lo que piensa — pero requiere la estrategia correcta y el asesoramiento adecuado.</p>
     `
   },
   {
@@ -450,7 +450,7 @@ export const blogPosts: BlogPost[] = [
       <p>Es importante entender que el uso real de una edificación prevalece sobre el uso para el que fue concebida. Si una masía agrícola se utiliza como vivienda sin el correspondiente cambio de uso, la administración puede considerar que existe un uso ilegal, independientemente de que la construcción sea legal en origen.</p>
 
       <h2>¿Cuándo es viable un cambio de uso en suelo rústico?</h2>
-      <p>La viabilidad de un cambio de uso en suelo rústico depende de múltiples factores que varían según el municipio y el POUM vigente. En el Bages, las posibilidades son muy distintas según el municipio: lo que el POUM de Manresa permite puede estar expresamente prohibido en el de Rajadell o Calders. Y dentro de un mismo municipio, las condiciones pueden variar según la zona.</p>
+      <p>La viabilidad de un cambio de uso en suelo rústico depende de múltiples factores que varían según el municipio y el POUM vigente. En el Bages, las posibilidades son muy distintas según el municipio: lo que el POUM de Manresa permite puede estar expresamente prohibido en el de Rajadell o Calders. Conocer la <a href="/blog/suelo-urbanizable-rustico-diferencias-bages" class="text-[#D4A574] underline hover:text-[#F2D4B0] transition-colors">diferencia entre suelo urbanizable y rústico</a> es fundamental antes de iniciar cualquier gestión. Y dentro de un mismo municipio, las condiciones pueden variar según la zona.</p>
       <p>Los factores que determinan la viabilidad incluyen la calificación del suelo, las normas urbanísticas del POUM, las condiciones de accesibilidad, la disponibilidad de servicios, y la compatibilidad con el entorno. En suelo rústico, las restricciones son generalmente mayores, y los cambios de uso hacia usos más intensivos suelen ser los más difíciles de obtener.</p>
 
       <h2>Los riesgos de un cambio de uso no autorizado</h2>
@@ -481,7 +481,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "6 min",
     keywords: ["certificado energético", "obra ilegal", "venta inmueble", "Bages", "irregularidad urbanística", "certificación energética"],
     content: `
-      <p>Hay un problema que muchos propietarios del Bages descubren cuando ya es demasiado tarde: para vender un inmueble, la ley exige un certificado de eficiencia energética. Y para obtener ese certificado, la edificación debe ser legal. Si tiene construcciones irregulares, el certificado no se puede emitir, y sin certificado, la operación de compraventa es imposible. Es un círculo vicioso que deja al propietario bloqueado, sin poder vender y sin saber cómo salir de la situación.</p>
+      <p>Hay un problema que muchos propietarios del Bages descubren cuando ya es demasiado tarde: para vender un inmueble, la ley exige un certificado de eficiencia energética. Y para obtener ese certificado, la edificación debe ser legal. Si tiene <a href="/blog/comprar-masia-obras-ilegales-riesgos" class="text-[#D4A574] underline hover:text-[#F2D4B0] transition-colors">construcciones irregulares</a>, el certificado no se puede emitir, y sin certificado, la operación de compraventa es imposible. Es un círculo vicioso que deja al propietario bloqueado, sin poder vender y sin saber cómo salir de la situación.</p>
 
       <h2>¿Por qué el certificado energético bloquea la venta?</h2>
       <p>Desde 2013, todo inmueble que se venda o alquile en España debe disponer de un certificado de eficiencia energética. Este documento debe ser elaborado por un técnico competente y registrado ante el organismo correspondiente. El problema surge cuando el técnico inspecciona el inmueble y descubre construcciones que no figuran en la documentación registral o que carecen de licencia.</p>
@@ -611,7 +611,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "8 min",
     keywords: ["modificación POUM", "cambio planeamiento", "Bages", "revisión POUM", "alegaciones POUM", "calificación suelo"],
     content: `
-      <p>El POUM de su municipio no es un documento estático. Se modifica, se revisa, se actualiza. Y cada modificación puede tener un impacto directo sobre su propiedad: puede recalar su suelo de rústico a urbanizable — multiplicando su valor — o a la inversa — destruyendo sus expectativas de desarrollo. El problema es que la mayoría de los propietarios no se enteran de estas modificaciones hasta que ya son definitivas y ya no pueden hacer nada.</p>
+      <p>El POUM de su municipio no es un documento estático. Se modifica, se revisa, se actualiza. Y cada modificación puede tener un impacto directo sobre su propiedad: puede recalar su suelo de rústico a urbanizable — multiplicando su valor — o a la inversa — destruyendo sus expectativas de desarrollo. El problema es que la mayoría de los propietarios no se enteran de estas modificaciones hasta que ya son definitivas y ya no pueden hacer nada. Para entender cómo la <a href="/blog/suelo-urbanizable-rustico-diferencias-bages" class="text-[#D4A574] underline hover:text-[#F2D4B0] transition-colors">calificación del suelo</a> determina el valor de su propiedad, es fundamental estar atento a estos cambios.</p>
 
       <h2>Tipos de modificaciones del POUM</h2>
       <p>Los planes urbanísticos se pueden modificar de distintas formas, cada una con sus propias reglas y plazos:</p>
@@ -625,7 +625,7 @@ export const blogPosts: BlogPost[] = [
 
       <h2>El período de alegaciones: su ventana de oportunidad</h2>
       <p>Cuando se propone una modificación del POUM, se abre un período de información pública durante el cual cualquier persona puede presentar alegaciones. Este es el momento en que los propietarios pueden oponerse a un cambio que les perjudique o solicitar uno que les beneficie. Pero si no se enteran, no pueden actuar.</p>
-      <p>En el Bages, las modificaciones del POUM se publican en el boletín oficial de la provincia y en los tablones de anuncios de los ayuntamientos, pero pocos propietarios revisan estos medios de forma habitual. El resultado es que muchas modificaciones que afectan directamente a propiedades privadas se aprueban sin que los afectados lo sepan.</p>
+      <p>En el Bages, las modificaciones del POUM se publican en el boletín oficial de la provincia y en los tablones de anuncios de los ayuntamientos, pero pocos propietarios revisan estos medios de forma habitual. El resultado es que muchas modificaciones que afectan directamente a propiedades privadas se aprueban sin que los afectados lo sepan. Si necesita ayuda para <a href="/blog/por-que-necesita-perito-interpretar-poum" class="text-[#D4A574] underline hover:text-[#F2D4B0] transition-colors">interpretar el POUM de su municipio</a>, un perito puede orientarle sobre las implicaciones de estos cambios.</p>
 
       <h2>Cómo una modificación puede cambiar el valor de su propiedad</h2>
       <p>El impacto de una modificación del POUM sobre el valor de una propiedad puede ser dramático en ambos sentidos. Un suelo rústico que es recalificado como urbanizable puede multiplicar su valor por cinco o por diez. Pero un suelo urbanizable que revierte a rústico puede perder el 80% de su valor de un día para otro.</p>
@@ -634,6 +634,320 @@ export const blogPosts: BlogPost[] = [
       <h2>¿Puede influir en una modificación del POUM?</h2>
       <p>Sí, pero solo si actúa a tiempo. Las alegaciones presentadas durante el período de información pública son el mecanismo principal para influir en el contenido de las modificaciones. Y en algunos casos, los propios propietarios pueden promover modificaciones puntuales del POUM que beneficien a sus propiedades, aunque este es un proceso técnico y administrativo complejo que requiere asesoramiento profesional.</p>
       <p>Si tiene una propiedad en el Bages y quiere saber si hay modificaciones del POUM en trámite que le afecten, o si cree que su suelo debería tener una calificación distinta, una Consulta Exprés le dará la información que necesita para actuar antes de que las decisiones se tomen sin usted.</p>
+    `
+  },
+  {
+    slug: "cesion-credito-urbanistico-bages",
+    title: "Cesión de Crédito Urbanístico en el Bages: Cómo Transferir Derechos de Construcción",
+    description: "Los derechos de edificabilidad pueden transferirse entre fincas, pero el proceso es complejo y un error puede hacerle perder un activo worth miles de euros. Descubra cómo funciona.",
+    category: "Urbanismo",
+    categorySlug: "urbanismo",
+    date: "2026-04-01",
+    readTime: "8 min",
+    keywords: ["cesión crédito urbanístico", "transferencia edificabilidad", "Bages", "aprovechamiento urbanístico", "derechos construcción"],
+    content: `
+      <p>En el ámbito urbanístico existe una figura poco conocida pero de enorme trascendencia patrimonial: la cesión de crédito urbanístico. Este mecanismo permite transferir derechos de construcción de una parcela a otra, lo que en determinadas circunstancias puede suponer la diferencia entre una propiedad estancada y una operación rentable. Sin embargo, su complejidad técnica y los requisitos legales que lo rodean hacen que muchos propietarios del Bages desconozcan siquiera su existencia.</p>
+
+      <h2>¿Qué es exactamente un crédito urbanístico?</h2>
+      <p>El crédito urbanístico es el derecho a edificar que corresponde a un terreno según la normativa urbanística aplicable. Cuando el plan asigna a una parcela una edificabilidad determinada, está reconociendo un derecho patrimonial que, en determinadas condiciones, puede ser objeto de cesión a terceros. Esto significa que si su finca tiene un aprovechamiento urbanístico que no va a utilizar, puede transferirlo a otra parcela que sí lo necesita.</p>
+      <p>Suena simple, pero la realidad es considerablemente más compleja. No todos los aprovechamientos son cesibles, no todas las parcelas receptoras son elegibles, y los requisitos formales del proceso de cesión son estrictos. Un error en la interpretación de la normativa puede llevar a una cesión nula que, además de ineficaz, puede comprometer los derechos urbanísticos de ambas fincas involucradas.</p>
+
+      <h2>Casos en los que la cesión puede salvar su inversión</h2>
+      <p>Existen situaciones frecuentes en el Bages donde la cesión de crédito urbanístico es la única vía para rentabilizar una propiedad:</p>
+      <ul>
+        <li><strong>Fincas con edificabilidad no ejecutable</strong>: suelos que tienen derecho a construir pero que, por su morfología, accesos o infraestructuras, no pueden materializar ese derecho de forma directa.</li>
+        <li><strong>Propiedades con construcciones existentes</strong>: cuando la edificabilidad asignada ya está consumida por la construcción actual, pero existe un exceso de aprovechamiento transferible.</li>
+        <li><strong>Suelos con vocación de equipamiento</strong>: parcelas cuyo destino es dotacional y cuyo aprovechamiento puede cederse a otros terrenos del mismo ámbito.</li>
+        <li><strong>Proyectos de renovación urbana</strong>: cuando se reordena un ámbito y los derechos se redistribuyen entre las parcelas resultantes.</li>
+      </ul>
+      <p>Cada uno de estos escenarios tiene su propia casuística y requiere un análisis específico que determine la viabilidad de la cesión y su procedimiento concreto.</p>
+
+      <h2>Los requisitos que la administración exige</h2>
+      <p>La cesión de crédito urbanístico no es una operación privada entre particulares: requiere la intervención de la administración y el cumplimiento de un procedimiento regulado. Los requisitos varían según el municipio y el tipo de suelo, pero incluyen condiciones que, si no se cumplen exactamente, invalidan toda la operación.</p>
+      <p>En la comarca del Bages, cada POUM establece sus propias reglas sobre cesión de aprovechamientos, y las diferencias entre municipios son significativas. Lo que el POUM de Manresa permite en materia de cesiones puede estar expresamente prohibido en el de Artés o Navarcles. Conocer la normativa específica del municipio es, por tanto, el primer paso imprescindible.</p>
+
+      <h2>El valor económico de los derechos de construcción</h2>
+      <p>Los derechos de construcción tienen un valor económico real y cuantificable. En el mercado inmobiliario del Bages, un metro cuadrado de edificabilidad residencial puede tener un valor que varía enormemente según la zona, el municipio y las condiciones del plan. No utilizar esos derechos o, peor aún, desconocer su existencia, supone una pérdida patrimonial silenciosa que muchos propietarios arrastran sin saberlo.</p>
+      <p>La cesión de crédito urbanístico permite monetizar esos derechos, pero solo si se hace correctamente. Una cesión mal planteada puede fijar un precio inferior al valor real del derecho, o puede condicionar la operación a requisitos que la hacen inviable en la práctica.</p>
+
+      <h2>Los riesgos de gestionar la cesión sin asesoramiento</h2>
+      <p>Intentar una cesión de crédito urbanístico sin el asesoramiento adecuado es una decisión que puede tener consecuencias irreversibles. Además del riesgo de nulidad, existe el peligro de que la cesión se registre de forma incorrecta, de que los plazos administrativos no se cumplan, o de que la valoración del derecho no se ajuste a los criterios del mercado y la administración.</p>
+      <p>En el Bages, hemos visto casos donde propietarios renunciaron a derechos de edificabilidad valorables en decenas de miles de euros simplemente porque desconocían que podían cederlos. Y otros donde una cesión mal formalizada impidió operaciones posteriores sobre la finca durante años.</p>
+
+      <h2>¿Tiene una finca con edificabilidad no utilizada?</h2>
+      <p>Si posee una propiedad en el Bages con derechos de construcción que no va a ejercer, no renuncie a ellos sin conocer sus opciones. Una Consulta Exprés le permitirá determinar si su finca tiene aprovechamiento urbanístico cesible, cuál es su valor, y cuál es el procedimiento adecuado para materializar la cesión. No deje sobre la mesa un activo que legítimamente le corresponde.</p>
+    `
+  },
+  {
+    slug: "licencia-obra-mayor-menor-diferencias-manresa",
+    title: "Licencia de Obra Mayor vs Menor en Manresa: Por Qué este Error le Puede Costar Miles de Euros",
+    description: "Confundir una licencia de obra mayor con una de obra menor puede paralizar su obra, generar sanciones y multiplicar los costes. Descubra la diferencia antes de construir.",
+    category: "Legalización",
+    categorySlug: "legalizacion",
+    date: "2026-03-27",
+    readTime: "7 min",
+    keywords: ["licencia obra mayor", "licencia obra menor", "Manresa", "permiso obras", "diferencias licencias"],
+    content: `
+      <p>Uno de los errores más frecuentes y más caros que cometen los propietarios en Manresa es confundir el tipo de licencia que necesitan para su obra. Solicitar una licencia de obra menor cuando en realidad se requiere una de obra mayor no es un simple trámite equivocado: es una infracción urbanística que puede paralizar la obra, generar sanciones económicas considerables, y obligar a iniciar todo el proceso desde cero.</p>
+
+      <h2>¿Cuál es la diferencia real entre obra mayor y obra menor?</h2>
+      <p>La distinción entre obra mayor y obra menor no es una cuestión de tamaño o de presupuesto, como muchos creen. Es una clasificación legal que determina el procedimiento administrativo aplicable, los requisitos técnicos necesarios, los plazos de tramitación y, sobre todo, las consecuencias de no disponer de la licencia correcta. La normativa de cada municipio — en Manresa, el POUM y las ordenanzas municipales — establece los criterios de clasificación que, en muchos casos, no coinciden con la percepción intuitiva del propietario.</p>
+      <p>Una reforma que parece menor — como abrir un hueco en un muro de carga — puede requerir licencia de obra mayor si afecta a la estructura del edificio. Y a la inversa, una obra de cierto volumen puede tramitarse como obra menor si no altera los parámetros esenciales del edificio. La clave está en los criterios técnicos, no en la percepción del propietario.</p>
+
+      <h2>Las consecuencias de solicitar la licencia equivocada</h2>
+      <p>Las repercusiones de un error en la clasificación del tipo de licencia pueden ser graves y variadas:</p>
+      <ul>
+        <li><strong>Paralización de la obra</strong>: si la administración detecta que la obra en curso excede el ámbito de la licencia concedida, ordenará la suspensión inmediata.</li>
+        <li><strong>Expediente sancionador</strong>: la diferencia entre lo autorizado y lo ejecutado constituye una infracción urbanística sancionable.</li>
+        <li><strong>Costes duplicados</strong>: habrá que abonar las tasas de la nueva licencia además de las ya pagadas, sin posibilidad de reembolso.</li>
+        <li><strong>Retrasos de meses</strong>: la tramitación de una licencia de obra mayor puede tardar entre 2 y 6 meses más que una de obra menor.</li>
+        <li><strong>Obligación de reposición</strong>: en casos extremos, puede obligarse a devolver la zona modificada a su estado original.</li>
+      </ul>
+
+      <h2>Los criterios del Ayuntamiento de Manresa</h2>
+      <p>El Ayuntamiento de Manresa aplica criterios específicos para clasificar las obras que, como todos los municipios, derivan de su normativa local. Estos criterios incluyen aspectos como la afectación estructural, la modificación de la distribución interior, el cambio de uso, la intervención en fachadas o cubiertas, y la repercusión sobre elementos comunes en edificios de propietarios múltiples.</p>
+      <p>El problema es que la interpretación de estos criterios no siempre es evidente, y en ocasiones ni siquiera los técnicos municipales coinciden en la clasificación de una obra concreta. Un proyecto que un técnico considera obra menor puede ser calificado como obra mayor por otro, con las consecuencias que ello implica para el propietario.</p>
+
+      <h2>Casos que siempre generan confusión</h2>
+      <p>Existen tipos de obras que sistemáticamente generan dudas de clasificación en Manresa: las reformas integrales de viviendas que afectan a la distribución pero no a la estructura, las intervenciones en terrazas y balcones, la instalación de aire acondicionado con unidad exterior en fachada, las obras en locales comerciales que cambian la configuración del escaparate, o las reformas que implican modificaciones en las instalaciones comunes del edificio.</p>
+      <p>En todos estos casos, la diferencia entre una licencia de obra mayor y una de obra menor puede representar miles de euros en tasas, meses de retraso, y un riesgo sancionador que ningún propietario debería asumir.</p>
+
+      <h2>La prevención es la mejor estrategia</h2>
+      <p>Antes de solicitar cualquier licencia de obras en Manresa, lo más inteligente es verificar el tipo de licencia que realmente necesita su proyecto. Una Consulta Exprés puede ahorrarle sorpresas desagradables, costes innecesarios, y retrasos que pueden comprometer la viabilidad de su obra. No empiece a construir sin la seguridad de tener la licencia correcta: el ahorro aparente de tramitar una licencia de obra menor cuando se necesita una de obra mayor es, siempre, una falsa economía.</p>
+    `
+  },
+  {
+    slug: "procedimiento-abreviado-legalizacion-cataluna",
+    title: "Procedimiento Abreviado de Legalización en Cataluña: La Vía Rápida que Pocos Conocen",
+    description: "Existe un procedimiento abreviado para legalizar obras sin licencia en Cataluña que puede reducir plazos drásticamente. Pero no todas las obras cualifican. Descubra si la suya sí.",
+    category: "Legalización",
+    categorySlug: "legalizacion",
+    date: "2026-03-22",
+    readTime: "8 min",
+    keywords: ["procedimiento abreviado legalización", "legalización rápida", "Cataluña", "obra sin licencia", "artículo 210 TRLS"],
+    content: `
+      <p>La legalización de obras sin licencia es un procedimiento que, en su forma ordinaria, puede prolongarse durante meses e incluso años. Pero la normativa catalana contempla una vía que muchos propietarios desconocen: el procedimiento abreviado de legalización. Este mecanismo, regulado específicamente en la legislación urbanística de Cataluña, permite resolver la situación de determinadas construcciones irregulares en un plazo significativamente menor. El problema es que no todas las obras qualify para este procedimiento, y solicitarlo cuando no corresponde puede ser contraproducente.</p>
+
+      <h2>¿Qué es el procedimiento abreviado de legalización?</h2>
+      <p>El procedimiento abreviado es una vía legal prevista para aquellas obras que, habiendo sido ejecutadas sin licencia, cumplen con la normativa urbanística vigente en el momento de la solicitud. Es decir: la obra es legalizable porque se ajusta al plan, pero carece del permiso administrativo previo. En estos casos, la ley permite acortar sustancialmente los plazos del procedimiento ordinario y obtener la licencia de legalización con mayor celeridad.</p>
+      <p>Suena como la solución perfecta, y en muchos casos lo es. Pero la clave está en determinar con precisión si la obra cumple realmente con la normativa vigente. Y esta determinación no es tan sencilla como parece: requiere un análisis técnico completo que considere no solo las normas urbanísticas generales, sino también las ordenanzas municipales, la normativa sectorial aplicable, y los criterios interpretativos de la administración.</p>
+
+      <h2>Los requisitos que debe cumplir su obra</h2>
+      <p>Para que una obra pueda acogerse al procedimiento abreviado, debe cumplir una serie de requisitos estrictos que la legislación establece de forma taxativa:</p>
+      <ul>
+        <li><strong>Ajuste a la normativa vigente</strong>: la construcción debe cumplir todos los parámetros urbanísticos aplicables — edificabilidad, retranqueos, altura, uso, etc.</li>
+        <li><strong>Ajuste a la normativa en el momento de la ejecución</strong>: en determinados supuestos, la obra debe haber sido conforme tanto con la normativa actual como con la vigente cuando se construyó.</li>
+        <li><strong>No haber sido objeto de orden de demolición</strong>: si existe una resolución administrativa firme que ordena el derribo, el procedimiento abreviado no es viable.</li>
+        <li><strong>Cumplimiento de la normativa sectorial</strong>: la obra debe respetar la legislación sobre accesibilidad, seguridad, habitabilidad y otras normas sectoriales.</li>
+      </ul>
+      <p>El incumplimiento de cualquiera de estos requisitos cierra la vía abreviada y obliga a tramitar el procedimiento ordinario, con los plazos y costes que ello implica.</p>
+
+      <h2>La diferencia de plazos: meses vs años</h2>
+      <p>La diferencia temporal entre el procedimiento abreviado y el ordinario puede ser determinante para un propietario que necesita resolver la situación con urgencia — por ejemplo, porque quiere vender, o porque ha recibido una notificación de la administración. Mientras que el procedimiento ordinario puede extenderse durante un año o más, el abreviado se resuelve en un plazo notablemente inferior, siempre que la documentación sea completa y correcta desde el primer momento.</p>
+      <p>Pero esta rapidez tiene un precio: el procedimiento abreviado no admite subsanación de defectos con la misma amplitud que el ordinario. Un error en la documentación puede ser motivo de inadmisión, obligando al propietario a iniciar el procedimiento ordinario desde el principio.</p>
+
+      <h2>Cuándo NO debe usar el procedimiento abreviado</h2>
+      <p>Existen situaciones en las que solicitar el procedimiento abreviado es una decisión equivocada. Si la obra no cumple estrictamente la normativa vigente — aunque la discrepancia sea mínima — la solicitud será denegada. Y lo que muchos no consideran es que la denegación del procedimiento abreviado no es neutral: pone la irregularidad en conocimiento de la administración y puede activar un expediente sancionador.</p>
+      <p>En estos casos, la estrategia correcta puede pasar por el procedimiento ordinario, que permite más margen para la negociación con la administración y la presentación de documentación complementaria. Pero esta es una decisión estratégica que requiere análisis profesional, no intuición.</p>
+
+      <h2>La importancia del asesoramiento previo</h2>
+      <p>Antes de solicitar un procedimiento abreviado de legalización, es imprescindible un estudio de viabilidad que determine con certeza si la obra cumple los requisitos exigidos. Este estudio debe incluir la comparación entre la construcción ejecutada y los parámetros del plan, la verificación de la normativa sectorial, y una evaluación de la posición del ayuntamiento correspondiente. Sin este análisis, solicitar el procedimiento abreviado es una apuesta que puede salir muy cara.</p>
+
+      <h2>¿Tiene una obra sin licencia que podría ser legalizable?</h2>
+      <p>Si posee una construcción sin licencia en Cataluña que cree que podría ajustarse a la normativa vigente, una Consulta Exprés le permitirá determinar si el procedimiento abreviado es una opción realista para su caso. No asuma que su obra cualifica sin una verificación profesional: la diferencia entre acertar y equivocarse puede ser la diferencia entre resolver el problema en semanas o arrastrarlo durante años.</p>
+    `
+  },
+  {
+    slug: "servidumbre-paso-propiedad-rustica-bages",
+    title: "Servidumbre de Paso en Propiedades Rústicas del Bages: Cuando el Acceso es el Problema",
+    description: "Sin acceso legal a su finca rústica, su propiedad vale una fracción de lo que cree. Las servidumbres de paso son la solución, pero el proceso tiene trampas que debe conocer.",
+    category: "Urbanismo",
+    categorySlug: "urbanismo",
+    date: "2026-03-17",
+    readTime: "7 min",
+    keywords: ["servidumbre paso", "propiedad rústica", "Bages", "acceso finca", "camino servidumbre"],
+    content: `
+      <p>En la comarca del Bages, son muchas las fincas rústicas que carecen de un acceso legal y registralmente documentado. El propietario accede a su terreno por un camino que "siempre se ha usado", que pertenece al vecino, o que discurre por suelo público sin que exista una servidumbre formalmente constituida. Esta situación, que puede parecer irrelevante durante años, se convierte en un problema grave en el momento en que el propietario quiere vender, construir, o el vecino decide cerrar el paso.</p>
+
+      <h2>¿Por qué es tan peligroso no tener un acceso legalizado?</h2>
+      <p>Una finca sin acceso legal es, a efectos prácticos, una finca sin valor. Ningún banco financiará la compra de una propiedad a la que no se puede acceder por derecho propio. Ningún comprador racional aceptará depender de la buena voluntad de un vecino para llegar a su casa. Y ningún ayuntamiento concederá una licencia de obras para una construcción en una parcela sin acceso conforme a la normativa urbanística.</p>
+      <p>El problema se agrava cuando el propietario descubre la carencia precisamente en el momento de vender: la operación se paraliza, el comprador se retira, y la finca queda etiquetada en el mercado como "sin acceso", con el consiguiente descuento en el precio que puede alcanzar el 50% del valor real.</p>
+
+      <h2>Tipos de servidumbre de paso aplicables</h2>
+      <p>El ordenamiento jurídico contempla varios mecanismos para constituir un derecho de paso sobre finca ajena, cada uno con sus propios requisitos y consecuencias:</p>
+      <ul>
+        <li><strong>Servidumbre voluntaria</strong>: se constituye por acuerdo entre las partes mediante escritura pública. Es la opción más rápida y económica, pero depende de la voluntad del propietario del terreno sirviente.</li>
+        <li><strong>Servidumbre forzosa</strong>: cuando la finca está encerrada sin salida a vía pública, la ley permite exigir al vecino la constitución de una servidumbre de paso mediante procedimiento judicial, con la correspondiente indemnización.</li>
+        <li><strong>Servidumbre por destino del padre de familia</strong>: cuando el acceso se utilizaba de forma continua y aparente mientras las fincas pertenecían a un mismo propietario, puede constituirse una servidumbre implícita.</li>
+        <li><strong>Servidumbre por prescripción</strong>: cuando el uso del camino ha sido continuado, público y pacífico durante el plazo legal, puede adquirirse por usucapión.</li>
+      </ul>
+      <p>Cada tipo de servidumbre tiene un procedimiento de constitución distinto, unos plazos diferentes, y unas consecuencias económicas que deben evaluarse cuidadosamente antes de optar por una u otra vía.</p>
+
+      <h2>La realidad del Bages: caminos ancestrales sin regulación</h2>
+      <p>El Bages es un territorio donde los caminos rurales han existido durante siglos, pero muchos de ellos carecen de cualquier tipo de regulación formal. Los caminos que conectan masías y fincas rústicas atraviesan propiedades ajenas sin que exista servidumbre registrada, lo que genera una situación de inseguridad jurídica permanente. El propietario del camino puede, en cualquier momento, decidir cerrarlo, y el afectado se encuentra sin herramientas legales para defender un derecho que creía tener.</p>
+      <p>Esta situación es especialmente frecuente en municipios como Sallent, Artés, Calders y Navarcles, donde la estructura parcelaria histórica ha generado un entramado de caminos de servidumbre no formalizados que representan una bomba de relojería para los propietarios afectados.</p>
+
+      <h2>El coste de no resolver el acceso</h2>
+      <p>Mantener una situación de acceso irregular tiene un coste que se incrementa con el tiempo. La indemnización por la constitución de una servidumbre forzosa puede ser significativamente inferior si se negocia voluntariamente antes de que el conflicto estalle. Y el valor de una finca con acceso legalizado es incomparablemente superior al de una finca sin acceso documentado.</p>
+      <p>Además, los ayuntamientos del Bages son cada vez más estrictos en la exigencia de accesos conformes para conceder licencias de cualquier tipo. Una finca sin acceso legal es, en la práctica, una finca donde no se puede hacer nada.</p>
+
+      <h2>¿Tiene acceso a su finca debidamente legalizado?</h2>
+      <p>Si accede a su propiedad por un camino que no está registrado a su favor, o si depende de la tolerancia de un tercero para llegar a su finca, no espere a que el acceso se convierta en un conflicto. Una Consulta Exprés le permitirá conocer la situación jurídica de su acceso y las opciones disponibles para regularizarla. Resolver el problema antes de que estalle siempre es más económico que hacerlo después.</p>
+    `
+  },
+  {
+    slug: "valoracion-pericial-inmueble-irregular-procedimiento",
+    title: "Valoración Pericial de un Inmueble Irregular: Cómo se Determina el Precio Real",
+    description: "Una propiedad con irregularidades urbanísticas no vale lo que dice el mercado ni lo que dice el catastro. Descubra cómo un perito determina su valor real y por qué es clave para su caso.",
+    category: "Peritación",
+    categorySlug: "peritacion",
+    date: "2026-03-12",
+    readTime: "8 min",
+    keywords: ["valoración pericial", "inmueble irregular", "peritación valoración", "precio real propiedad", "descuento urbanístico"],
+    content: `
+      <p>Determinar el valor de un inmueble con irregularidades urbanísticas es uno de los ejercicios periciales más complejos y, al mismo tiempo, más determinantes para los intereses de las partes involucradas. No basta con aplicar un descuento genérico al valor de mercado: la valoración de un inmueble irregular requiere un análisis técnico específico que considere la naturaleza de la irregularidad, su gravedad, su impacto en la capacidad de uso y disfrute de la propiedad, y las opciones reales de regularización disponibles.</p>
+
+      <h2>¿Por qué no sirve un simple descuento porcentual?</h2>
+      <p>Existe la creencia extendida de que una propiedad con irregularidades urbanísticas vale simplemente un 30% o un 40% menos que una propiedad similar sin irregularidades. Esta aproximación es tan habitual como incorrecta. El impacto de una irregularidad en el valor de un inmueble depende de factores tan variados que un descuento fijo es, en la mayoría de los casos, una cifra arbitraria que no refleja la realidad patrimonial.</p>
+      <p>Una irregularidad legalizable tiene un impacto distinto que una que no lo es. Una infracción leve tiene un impacto distinto que una infracción muy grave. Y una irregularidad que el comprador puede resolver con un trámite administrativo tiene un impacto completamente distinto que una que requiere un procedimiento judicial. Cada situación requiere su propia valoración, y esa valoración debe ser realizada por un perito con experiencia en urbanismo.</p>
+
+      <h2>Los factores que determinan el valor real</h2>
+      <p>Un perito judicial urbanístico valora un inmueble irregular considerando múltiples factores interrelacionados:</p>
+      <ul>
+        <li><strong>Naturaleza de la irregularidad</strong>: no es lo mismo una ampliación sin licencia pero legalizable que una construcción en suelo no urbanizable sin posibilidad de legalización.</li>
+        <li><strong>Gravedad de la infracción</strong>: las infracciones leves, graves y muy graves tienen impactos muy distintos en el valor del inmueble.</li>
+        <li><strong>Viabilidad de legalización</strong>: si la irregularidad es legalizable, el coste de la legalización se descuenta del valor, pero el resultado es significativamente superior al de una propiedad con irregularidad permanente.</li>
+        <li><strong>Plazo de legalización</strong>: el tiempo necesario para resolver la irregularidad tiene un coste financiero que debe incorporarse a la valoración.</li>
+        <li><strong>Riesgo sancionador</strong>: la probabilidad de que la administración inicie un procedimiento sancionador y su potencial cuantía afectan al valor.</li>
+        <li><strong>Impacto registral</strong>: las irregularidades que impiden la inscripción registral tienen un impacto mayor que las que no la obstaculizan.</li>
+      </ul>
+
+      <h2>La metodología pericial aplicable</h2>
+      <p>La valoración de inmuebles irregulares se rige por metodologías específicas que difieren de las valoraciones estándar. El perito debe combinar el método de comparación — ajustado por las particularidades de la irregularidad — con el método residual, que permite descontar del valor potencial los costes de regularización y los riesgos asociados. Esta combinación metodológica requiere experiencia y criterio técnico, y su aplicación incorrecta puede generar valoraciones que no resisten la contradicción pericial en un procedimiento judicial.</p>
+      <p>En el Bages, las particularidades del mercado inmobiliario local — la predominancia de masías y fincas rústicas, la distancia a los centros urbanos, la estacionalidad de la demanda — hacen que las valoraciones estándar sean especialmente inadecuadas. Un perito que no conozca el territorio puede aplicar coeficientes de corrección que no se ajustan a la realidad local, generando valoraciones erróneas.</p>
+
+      <h2>El descuento urbanístico: cómo se calcula realmente</h2>
+      <p>El descuento urbanístico no es una cifra que se aplique de forma arbitraria. Es el resultado de un cálculo técnico que parte del valor que tendría la propiedad si fuera regular, y le resta los costes de regularización, los riesgos no cubiertos, y la pérdida de valor derivada de las limitaciones que la irregularidad impone. Este cálculo requiere información detallada sobre el coste de la legalización, los plazos previsibles, la probabilidad de éxito del procedimiento, y la posición de la administración local.</p>
+      <p>Sin esta información, cualquier cifra de descuento es una estimación sin fundamento que puede perjudicar gravemente al propietario, tanto si es excesiva — si vende por debajo del valor real — como si es insuficiente — si se expone a un recurso por valoración engañosa.</p>
+
+      <h2>¿Necesita saber cuánto vale realmente su propiedad?</h2>
+      <p>Si posee un inmueble con irregularidades urbanísticas en el Bages y necesita conocer su valor real — para una venta, una herencia, un procedimiento judicial, o simplemente para tomar decisiones informadas — una Consulta Exprés le permitirá obtener una orientación profesional sobre la valoración pericial de su propiedad. No se conforme con estimaciones genéricas: su patrimonio merece una valoración profesional.</p>
+    `
+  },
+  {
+    slug: "seguro-decenal-obras-ilegales-cobertura",
+    title: "Seguro Decenal y Obras Ilegales: ¿Tiene Cobertura si la Construcción Carece de Licencia?",
+    description: "El seguro decenal protege contra defectos constructivos, pero ¿qué pasa si la obra carece de licencia? La respuesta puede sorprenderle y tener consecuencias económicas devastadoras.",
+    category: "Disciplina",
+    categorySlug: "disciplina",
+    date: "2026-03-07",
+    readTime: "7 min",
+    keywords: ["seguro decenal", "obras ilegales", "cobertura seguro", "responsabilidad constructor", "licencia obra"],
+    content: `
+      <p>El seguro decenal de daños constructivos es una garantía que todo comprador de obra nueva espera tener cuando adquiere una vivienda. Cubre los daños materiales que afecten a la estructura del edificio durante los diez años siguientes a la recepción de la obra, y su existencia es un requisito legal para la transmisión de viviendas de nueva construcción. Pero ¿qué ocurre cuando la construcción para la que se contrató el seguro carece de licencia de obras? La respuesta a esta pregunta tiene consecuencias que pocos propietarios y constructores conocen, y que pueden ser económicamente devastadoras.</p>
+
+      <h2>¿Qué cubre realmente el seguro decenal?</h2>
+      <p>El seguro decenal cubre los daños materiales originados en el edificio que afecten a su cimentación, elementos estructurales, muros de carga y demás elementos definidos en la legislación aplicable. Es una cobertura amplia pero no ilimitada, y sus exclusiones son tan importantes como sus coberturas. El seguro se contrata en el momento de la construcción y debe estar vigente en el momento en que se manifiesta el daño, no necesariamente en el momento en que se produce.</p>
+      <p>La cuestión clave es si la ausencia de licencia de obras constituye una circunstancia que puede afectar a la validez o a la cobertura del seguro. Y la respuesta, como suele ocurrir en derecho, depende de múltiples factores que requieren un análisis casuístico.</p>
+
+      <h2>La relación entre licencia y cobertura aseguradora</h2>
+      <p>Las compañías aseguradoras incluyen en sus pólizas cláusulas que pueden condicionar la cobertura a la legalidad de la construcción. Estas cláusulas, cuya redacción varía entre aseguradoras, pueden establecer que la ausencia de licencia constituye un supuesto de exclusión de cobertura, o que la cobertura queda condicionada a la posterior obtención de la licencia. En otros casos, la póliza no contempla expresamente esta circunstancia, lo que genera un terreno litigioso donde la interpretación de los tribunales resulta determinante.</p>
+      <p>La práctica judicial en Cataluña muestra resultados dispares, lo que añade incertidumbre a una situación que ya de por sí es compleja. Algunas resoluciones mantienen la cobertura del seguro a pesar de la ausencia de licencia, argumentando que el riesgo asegurado es la solidez constructiva, no la legalidad urbanística. Otras, sin embargo, excluyen la cobertura al considerar que la construcción sin licencia es una situación de riesgo no declarada que invalida el contrato de seguro.</p>
+
+      <h2>Los riesgos para el propietario</h2>
+      <p>Para el propietario de una construcción sin licencia que ha pagado un seguro decenal, la posibilidad de que la aseguradora niegue la cobertura en caso de siniestro es un riesgo que debe evaluarse con seriedad:</p>
+      <ul>
+        <li><strong>Denegación de cobertura</strong>: la aseguradora puede rechazar el siniestro alegando que la construcción ilegal constituye una circunstancia excluida de la póliza.</li>
+        <li><strong>Pérdida de la prima</strong>: las primas del seguro decenal pagadas durante años pueden resultar totalmente inútiles si la cobertura es denegada.</li>
+        <li><strong>Sin recurso contra el constructor</strong>: si han pasado más de diez años desde la construcción, la responsabilidad del constructor puede haber prescrito, dejando al propietario sin cobertura y sin responsable.</li>
+        <li><strong>Gastos de reparación a su cargo</strong>: los daños estructurales en un edificio pueden requerir intervenciones de coste muy elevado que el propietario debe asumir íntegramente.</li>
+      </ul>
+
+      <h2>La posición de las aseguradoras en Cataluña</h2>
+      <p>Las compañías aseguradoras que operan en el mercado catalán han endurecido progresivamente sus condiciones en relación con construcciones irregulares. Algunas exigen ahora certificación urbanística antes de emitir la póliza, otras incluyen cláusulas de exclusión específicas para obras sin licencia, y un número creciente simplemente rechaza asegurar construcciones que no cuenten con la licencia correspondiente.</p>
+      <p>Esta tendencia complica significativamente la situación de los propietarios que construyeron sin licencia y que creían tener la protección del seguro decenal. En muchos casos, la póliza que contrataron puede no ofrecer la cobertura que esperaban cuando más la necesitan.</p>
+
+      <h2>¿Tiene un seguro decenal sobre una construcción sin licencia?</h2>
+      <p>Si es propietario de una construcción sin licencia y tiene un seguro decenal, no asuma que está cubierto. Una Consulta Exprés le permitirá evaluar la situación real de su cobertura y, si es necesario, tomar las medidas oportunas antes de que un siniestro ponga de manifiesto una exclusión que puede costarle decenas de miles de euros. La prevención, también en seguros, siempre es más económica que la curación.</p>
+    `
+  },
+  {
+    slug: "expropiacion-forzosa-suelo-bages-compensacion",
+    title: "Expropiación Forzosa de Suelo en el Bages: Cómo Asegurar una Compensación Justa",
+    description: "Cuando la administración expropia su suelo, el justiprecio que ofrece rara vez refleja el valor real. Descubra cómo defender sus derechos y obtener la compensación que le corresponde.",
+    category: "Compra-venta",
+    categorySlug: "compra-venta",
+    date: "2026-03-02",
+    readTime: "9 min",
+    keywords: ["expropiación forzosa", "compensación suelo", "Bages", "justiprecio", "suelo expropiable"],
+    content: `
+      <p>La expropiación forzosa es una de las situaciones más traumáticas que puede vivir un propietario: la administración le priva de su terreno por imperativo legal y le ofrece a cambio una compensación económica que, en la mayoría de los casos, está muy por debajo del valor real de lo que pierde. En el Bages, donde los procesos de expropiación se han multiplicado en los últimos años debido a las infraestructuras, las revisiones de los POUM y los proyectos de interés público, son muchos los propietarios que han visto cómo su patrimonio se reducía drásticamente sin la compensación adecuada.</p>
+
+      <h2>¿Qué es la expropiación forzosa y cuándo se aplica?</h2>
+      <p>La expropiación forzosa es el mecanismo legal mediante el cual la administración puede privar a un particular de su propiedad o de derechos reales sobre la misma, por razones de utilidad pública o interés social, y mediante el correspondiente justiprecio. No es una venta forzada: es una institución jurídica con su propio procedimiento, sus propios plazos, y sus propias reglas de valoración que el propietario debe conocer para defender sus intereses.</p>
+      <p>En el Bages, las expropiaciones más frecuentes se producen con motivo de la construcción de infraestructuras viarias, la ejecución de planes de ordenación urbanística, la creación de equipamientos públicos, y la declaración de suelo de protección. Cada tipo de expropiación tiene sus particularidades, pero todas comparten una característica: la administración ofrece un justiprecio que casi siempre es inferior al valor real del bien expropiado.</p>
+
+      <h2>El justiprecio: por qué casi nunca es justo</h2>
+      <p>El justiprecio es la compensación económica que la administración paga al propietario expropiado. Su cálculo se rige por una normativa específica que establece criterios de valoración que, en la práctica, tienden a producir resultados inferiores al valor de mercado. Los criterios legales de valoración incluyen el valor del suelo, el valor de las construcciones, y en algunos casos el valor de las instalaciones y plantaciones, pero excluyen sistemáticamente determinados componentes que incrementan el valor real de la propiedad.</p>
+      <p>El resultado es una cifra que no refleja lo que el propietario realmente pierde. Y lo que muchos no saben es que el justiprecio inicial no es definitivo: puede ser recurrido y reconsiderado si el propietario aporta una valoración pericial alternativa que demuestre que el valor real es superior al ofrecido por la administración.</p>
+
+      <h2>Los errores más frecuentes de los propietarios expropiados</h2>
+      <p>Ante una expropiación, los propietarios cometen errores que pueden costarles miles de euros:</p>
+      <ul>
+        <li><strong>Aceptar el justiprecio sin cuestionarlo</strong>: muchos propietarios asumen que la oferta de la administración es la única posible y renuncian a su derecho de recurrir.</li>
+        <li><strong>No presentar valoración pericial alternativa</strong>: sin un informe pericial que contradiga la valoración administrativa, el justiprecio se confirma automáticamente.</li>
+        <li><strong>Dejar pasar los plazos de recurso</strong>: los plazos para recurrir el justiprecio son breves e improrrogables. Un solo día de retraso cierra la vía definitivamente.</li>
+        <li><strong>No considerar la valoración de los derechos urbanísticos</strong>: el justiprecio debe incluir no solo el valor actual del suelo, sino también el valor de los derechos de construcción que la normativa asigna a la parcela.</li>
+        <li><strong>Desconocer la indemnización por lucro cesante</strong>: en determinados supuestos, el propietario tiene derecho a ser compensado por los ingresos que deja de percibir como consecuencia de la expropiación.</li>
+      </ul>
+
+      <h2>Cómo se determina el valor real de su suelo</h2>
+      <p>La valoración del suelo en un proceso de expropiación debe considerar múltiples factores que la administración suele pasar por alto o infravalorar. El valor urbanístico del terreno — es decir, el valor de los derechos de construcción que la normativa le asigna — es frecuentemente el elemento más importante y, paradójicamente, el más ignorado en las valoraciones administrativas. Un suelo con edificabilidad residencial tiene un valor radicalmente distinto que un suelo rústico sin posibilidad de construir, y esa diferencia debe reflejarse en el justiprecio.</p>
+      <p>Además, las circunstancias específicas de la parcela — su ubicación, sus accesos, la disponibilidad de infraestructuras, las posibilidades de desarrollo futuro — deben ser consideradas en la valoración. La administración tiende a aplicar criterios uniformes que no capturan la singularidad de cada parcela, lo que genera justiprecios que no se ajustan a la realidad.</p>
+
+      <h2>La hoja de aprecio: su herramienta de negociación</h2>
+      <p>La hoja de aprecio es el documento en el que el propietario expone su valoración del bien expropiado. Es la pieza clave del procedimiento, porque establece la cifra a partir de la cual se negociará la compensación. Una hoja de aprecio bien fundamentada, respaldada por un informe pericial sólido, puede suponer la diferencia entre un justiprecio que representa una pérdida patrimonial y uno que realmente compensa lo que el propietario cede.</p>
+      <p>Pero la hoja de aprecio no es un documento que se pueda redactar sin criterio técnico. Requiere una valoración profesional que considere todos los componentes del valor y que esté preparada para resistir la contradicción en un procedimiento jurisdiccional.</p>
+
+      <h2>¿Está afectado por un proceso de expropiación?</h2>
+      <p>Si ha sido notificado de un procedimiento de expropiación en el Bages, o si tiene indicios de que su propiedad puede verse afectada por un proyecto público, no espere a que la administración fije el justiprecio. Una Consulta Exprés le permitirá conocer sus derechos, evaluar el valor real de su propiedad, y preparar la estrategia de defensa más favorable a sus intereses. En expropiación, como en casi todo, el que actúa primero tiene ventaja.</p>
+    `
+  },
+  {
+    slug: "rehabilitacion-vs-legalizacion-diferencias-cataluna",
+    title: "Rehabilitación vs Legalización en Cataluña: No es lo Mismo y las Consecuencias de Confundirlos",
+    description: "Muchos propietarios creen que rehabilitar una construcción irregular equivale a legalizarla. Es un error que puede costarles la propiedad. Descubra la diferencia crítica.",
+    category: "Legalización",
+    categorySlug: "legalizacion",
+    date: "2026-02-25",
+    readTime: "7 min",
+    keywords: ["rehabilitación legalización", "diferencias", "Cataluña", "reforma vivienda", "legalización obra"],
+    content: `
+      <p>Uno de los equívocos más extendidos entre los propietarios de construcciones irregulares en Cataluña es la creencia de que rehabilitar una edificación equivale a legalizarla. Nada más lejos de la realidad. La rehabilitación y la legalización son dos procedimientos conceptualmente distintos, con requisitos diferentes, procedimientos distintos, y consecuencias jurídicas radicalmente dispares. Confundirlos no es un simple error terminológico: puede suponer la diferencia entre resolver su problema urbanístico y agravarlo de forma irreversible.</p>
+
+      <h2>¿Qué es la rehabilitación y qué es la legalización?</h2>
+      <p>La rehabilitación es un proceso técnico orientado a recuperar o mejorar las condiciones de un edificio existente — su habitabilidad, su seguridad, su eficiencia energética, su accesibilidad. Es una actuación sobre el estado físico del inmueble que, en la mayoría de los casos, requiere una licencia de obras. La legalización, en cambio, es un procedimiento administrativo orientado a obtener la licencia que una construcción debió tener antes de ejecutarse. Es decir, la legalización no modifica la construcción: le da el marco legal que nunca tuvo.</p>
+      <p>La confusión surge porque, en muchos casos, la legalización requiere obras de adaptación para que la construcción cumpla la normativa vigente. Pero estas obras de adaptación no son una rehabilitación: son un requisito de la legalización. Y realizarlas sin el correspondiente procedimiento de legalización no convierte la construcción en regular: simplemente, la modifica sin resolver la situación de ilegalidad.</p>
+
+      <h2>El error más caro: rehabilitar sin legalizar</h2>
+      <p>El escenario más peligroso es el del propietario que, consciente de que su construcción es irregular, decide invertir en rehabilitarla creyendo que con ello la está legalizando. El resultado es una construcción reformada que sigue siendo ilegal. Y lo que es peor: la inversión en rehabilitación no se recupera, porque la propiedad sigue sin poder venderse, hipotecarse o transmitirse con normalidad.</p>
+      <p>En el Bages, hemos conocido casos de propietarios que han invertido decenas de miles de euros en reformar construcciones irregulares — mejorando instalaciones, reparando cubiertas, actualizando la distribución — sin haber iniciado el procedimiento de legalización. Cuando intentan vender, descubren que toda esa inversión no ha servido para resolver el problema urbanístico, y que el comprador exige el mismo descuento que si la construcción no hubiera sido rehabilitada.</p>
+
+      <h2>Cómo deben combinarse ambos procedimientos</h2>
+      <p>La secuencia correcta en la mayoría de los casos es: primero legalizar, después rehabilitar. O, en casos más complejos, legalizar y rehabilitar de forma coordinada, asegurando que las obras de rehabilitación se incluyen en el proyecto de legalización. Esta secuencia garantiza que la inversión en rehabilitación no se pierde y que el resultado final es una construcción regular y en buen estado.</p>
+      <ul>
+        <li><strong>Legalización previa</strong>: se obtiene la licencia de legalización que reconoce la conformidad de la construcción con la normativa urbanística.</li>
+        <li><strong>Rehabilitación posterior</strong>: una vez legalizada, se solicita la licencia de obras para las actuaciones de mejora y adaptación que la construcción necesite.</li>
+        <li><strong>Coordinación simultánea</strong>: cuando la legalización requiere obras de adaptación, estas pueden integrarse en el proyecto de legalización, unificando ambos procedimientos.</li>
+      </ul>
+      <p>La elección de la secuencia adecuada depende de las circunstancias de cada caso y requiere un análisis profesional que evalúe las condiciones de la construcción, la normativa aplicable, y los objetivos del propietario.</p>
+
+      <h2>Las ayudas a la rehabilitación y la trampa de la legalización</h2>
+      <p>Cataluña ofrece diversos programas de ayudas a la rehabilitación de viviendas que pueden ser muy atractivos para los propietarios con construcciones irregulares. Sin embargo, la mayoría de estos programas exigen que la vivienda esté legalmente construida y cuente con las licencias pertinentes. Solicitar una ayuda a la rehabilitación para una construcción sin licencia no solo es ineficaz — la ayuda será denegada — sino que puede alertar a la administración sobre la existencia de la irregularidad.</p>
+      <p>Existen, no obstante, vías específicas para la rehabilitación de edificios irregulares que un profesional con experiencia puede identificar y que permiten acceder a determinadas ayudas sin comprometer la posición del propietario. Pero estas vías requieren un conocimiento especializado que no está al alcance del propietario no asesorado.</p>
+
+      <h2>¿Tiene una construcción irregular que quiere reformar?</h2>
+      <p>Si está pensando en rehabilitar una construcción que carece de licencia en Cataluña, no invierta un solo euro sin antes verificar si necesita legalizar. Una Consulta Exprés le permitirá conocer la situación urbanística de su propiedad y la secuencia correcta de actuaciones. No convierta una inversión en reforma en un dinero tirado: la legalización previa es la base sobre la que debe construirse cualquier intervención en su propiedad.</p>
     `
   }
 ];
@@ -662,7 +976,21 @@ export function getLatestPosts(count: number = 3): BlogPost[] {
 export function getRelatedPosts(currentSlug: string, count: number = 3): BlogPost[] {
   const current = getBlogPost(currentSlug);
   if (!current) return [];
-  return blogPosts
-    .filter(p => p.slug !== currentSlug && p.categorySlug === current.categorySlug)
-    .slice(0, count);
+
+  // First, get posts from the same category (excluding current)
+  const sameCategory = blogPosts.filter(
+    p => p.slug !== currentSlug && p.categorySlug === current.categorySlug
+  );
+
+  // If we have enough, return them
+  if (sameCategory.length >= count) {
+    return sameCategory.slice(0, count);
+  }
+
+  // Otherwise, fill with posts from other categories
+  const otherCategory = blogPosts.filter(
+    p => p.slug !== currentSlug && p.categorySlug !== current.categorySlug
+  );
+
+  return [...sameCategory, ...otherCategory].slice(0, count);
 }
