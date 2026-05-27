@@ -55,11 +55,6 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "https://consultorio-urbanistico.vercel.app/",
-    languages: {
-      "es": "https://consultorio-urbanistico.vercel.app/",
-      "ca": "https://consultorio-urbanistico.vercel.app/?lang=ca",
-      "x-default": "https://consultorio-urbanistico.vercel.app/",
-    },
   },
   openGraph: {
     type: "website",
