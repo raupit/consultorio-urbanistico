@@ -96,6 +96,9 @@ export default function RootLayout({
   return (
     <html lang="es" suppressHydrationWarning>
       <head>
+        <link rel="alternate" hrefLang="es" href="https://consultorio-urbanistico.vercel.app/" />
+        <link rel="alternate" hrefLang="ca" href="https://consultorio-urbanistico.vercel.app/?lang=ca" />
+        <link rel="alternate" hrefLang="x-default" href="https://consultorio-urbanistico.vercel.app/" />
         <SchemaMarkup />
       </head>
       <body
