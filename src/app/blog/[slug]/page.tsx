@@ -148,7 +148,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               <p className="text-sm text-slate-400">Masías, urbanizaciones y propiedades de alto valor en el Bages y Cataluña.</p>
             </div>
             <a
-              href="https://www.anaepitieinmobiliaria.es"
+              href="https://ana-epitie-inmobiliaria-z.vercel.app"
               target="_blank"
               rel="noopener noreferrer"
               className="flex-shrink-0 inline-flex items-center gap-2 bg-gradient-to-r from-[#D4A574] to-[#C9956B] text-[#030305] font-semibold text-xs px-6 py-3 rounded-full hover:scale-105 transition-transform"
@@ -186,7 +186,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           </div>
           <div className="flex items-center gap-5 text-xs text-slate-500">
             <a href="tel:+34632831009" className="hover:text-white transition-colors">+34 632 831 009</a>
-            <a href="https://www.anaepitieinmobiliaria.es" target="_blank" className="hover:text-[#D4A574] transition-colors">Inmobiliaria</a>
+            <a href="https://ana-epitie-inmobiliaria-z.vercel.app" target="_blank" className="hover:text-[#D4A574] transition-colors">Inmobiliaria</a>
           </div>
         </div>
       </footer>

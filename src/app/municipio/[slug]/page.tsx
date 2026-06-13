@@ -632,7 +632,7 @@ export default async function MunicipalityPage({ params }: MunicipalityPageProps
           </div>
           <div className="flex items-center gap-5 text-xs text-slate-500">
             <a href="tel:+34632831009" className="hover:text-white transition-colors">+34 632 831 009</a>
-            <a href="https://www.anaepitieinmobiliaria.es" target="_blank" className="hover:text-[#D4A574] transition-colors">Inmobiliaria</a>
+            <a href="https://ana-epitie-inmobiliaria-z.vercel.app" target="_blank" className="hover:text-[#D4A574] transition-colors">Inmobiliaria</a>
           </div>
         </div>
       </footer>

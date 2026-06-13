@@ -54,7 +54,7 @@ const NAV_LINKS = [
   { label: "Blog", href: "#blog" },
   {
     label: "Inmobiliaria",
-    href: "https://www.anaepitieinmobiliaria.es",
+    href: "https://ana-epitie-inmobiliaria-z.vercel.app",
     external: true,
   },
 ];
@@ -137,7 +137,7 @@ const STEPS = [
     desc: "Con la situación urbanística aclarada y documentada, defiendes el precio con criterio técnico. Si quieres, mi agencia inmobiliaria gestiona la venta.",
     link: {
       text: "Ana Epitie Inmobiliaria",
-      href: "https://www.anaepitieinmobiliaria.es",
+      href: "https://ana-epitie-inmobiliaria-z.vercel.app",
     },
   },
 ];
@@ -1212,7 +1212,7 @@ export default function ConsultorioHome() {
                   asChild
                   className="bg-[#B8860B] hover:bg-[#9a7209] text-white font-bold rounded-full px-8 h-12"
                 >
-                  <a href="https://www.anaepitieinmobiliaria.es" target="_blank" rel="noopener noreferrer">
+                  <a href="https://ana-epitie-inmobiliaria-z.vercel.app" target="_blank" rel="noopener noreferrer">
                     Ir a Ana Epitie Inmobiliaria
                     <ExternalLink className="w-4 h-4 ml-2" />
                   </a>
@@ -1261,7 +1261,7 @@ export default function ConsultorioHome() {
                 <li><a href="#cobertura" className="hover:text-[#D4AF37] transition-colors">Cobertura</a></li>
                 <li><a href="#testimonios" className="hover:text-[#D4AF37] transition-colors">Casos de éxito</a></li>
                 <li><a href="#blog" className="hover:text-[#D4AF37] transition-colors">Blog</a></li>
-                <li><a href="https://www.anaepitieinmobiliaria.es" target="_blank" rel="noopener noreferrer" className="hover:text-[#D4AF37] transition-colors inline-flex items-center gap-1">Inmobiliaria <ExternalLink className="w-3 h-3" /></a></li>
+                <li><a href="https://ana-epitie-inmobiliaria-z.vercel.app" target="_blank" rel="noopener noreferrer" className="hover:text-[#D4AF37] transition-colors inline-flex items-center gap-1">Inmobiliaria <ExternalLink className="w-3 h-3" /></a></li>
               </ul>
             </div>
 

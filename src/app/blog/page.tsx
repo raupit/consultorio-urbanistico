@@ -25,7 +25,7 @@ export default function BlogPage() {
           <div className="hidden md:flex items-center gap-6">
             <Link href="/#servicios" className="text-sm text-slate-400 hover:text-white transition-colors">Servicios</Link>
             <Link href="/blog" className="text-sm text-white font-medium">Blog</Link>
-            <Link href="https://www.anaepitieinmobiliaria.es" target="_blank" className="text-sm text-[#D4A574] hover:text-[#F2D4B0] transition-colors">Inmobiliaria</Link>
+            <Link href="https://ana-epitie-inmobiliaria-z.vercel.app" target="_blank" className="text-sm text-[#D4A574] hover:text-[#F2D4B0] transition-colors">Inmobiliaria</Link>
             <a href="tel:+34632831009" className="text-sm text-slate-400 hover:text-white transition-colors">+34 632 831 009</a>
             <a href="/#contacto" className="bg-gradient-to-r from-[#D4A574] to-[#C9956B] text-[#030305] text-xs font-semibold px-5 py-2.5 rounded-full hover:scale-105 transition-transform">Consulta Exprés</a>
           </div>
@@ -121,7 +121,7 @@ export default function BlogPage() {
           </div>
           <div className="flex items-center gap-5 text-xs text-slate-500">
             <a href="tel:+34632831009" className="hover:text-white transition-colors">+34 632 831 009</a>
-            <a href="https://www.anaepitieinmobiliaria.es" target="_blank" className="hover:text-[#D4A574] transition-colors">Inmobiliaria</a>
+            <a href="https://ana-epitie-inmobiliaria-z.vercel.app" target="_blank" className="hover:text-[#D4A574] transition-colors">Inmobiliaria</a>
             <a href="https://www.smartvalora.com" target="_blank" className="hover:text-[#D4A574] transition-colors">SmartValora</a>
           </div>
         </div>
