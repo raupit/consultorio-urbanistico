@@ -47,14 +47,14 @@ import Image from "next/image";
 const NAV_LINKS = [
   { label: "Servicios", href: "#servicios" },
   { label: "Cómo funciona", href: "#como-funciona" },
-  { label: "Casos de éxito", href: "#testimonios" },
+  { label: "Situaciones habituales", href: "#testimonios" },
   { label: "Tarifas", href: "#tarifas" },
   { label: "Cobertura", href: "#cobertura" },
-  { label: "Consultorio IA", href: "#ia" },
+  { label: "Preguntas", href: "#faq" },
   { label: "Blog", href: "#blog" },
   {
     label: "Inmobiliaria",
-    href: "https://ana-epitie-inmobiliaria-z.vercel.app",
+    href: "https://www.anaepitieinmobiliaria.es",
     external: true,
   },
 ];
@@ -64,15 +64,15 @@ const PROBLEMS = [
     icon: AlertTriangle,
     title: "Obras ilegales",
     desc: "Ampliaciones sin licencia, naves ilegales, masías con construcciones fuera de ordenación. Tu propiedad vale un 30-40% menos de lo que podría.",
-    stat: "-40%",
-    statLabel: "pérdida de valor",
+    stat: "Alto",
+    statLabel: "riesgo de rebaja en la venta",
   },
   {
     icon: Users,
     title: "Herencias bloqueadas",
-    desc: "4 hermanos, 2 quieren vender, 2 no. Obras sin legalizar que nadie quiere asumir. La propiedad se estanca años y pierde valor.",
-    stat: "73%",
-    statLabel: "de herencias con conflicto",
+    desc: "Varios herederos, unos quieren vender y otros no. Obras sin legalizar que nadie quiere asumir. La propiedad se estanca y pierde valor con los años.",
+    stat: "Años",
+    statLabel: "de bloqueo si no se actúa",
   },
   {
     icon: TreePine,
@@ -84,18 +84,18 @@ const PROBLEMS = [
   {
     icon: Building2,
     title: "Vender con descuento",
-    desc: "Si pones tu propiedad ilegal en Idealista, los compradores te piden un 40% de descuento. O la legalizas o pierdes dinero.",
-    stat: "-40%",
-    statLabel: "descuento medio exigido",
+    desc: "Una propiedad con dudas urbanísticas publicada en portales atrae ofertas a la baja. O aclaras su situación o negocias en inferioridad.",
+    stat: "Fuerte",
+    statLabel: "descuento exigido por compradores",
   },
 ];
 
 const SERVICES = [
   {
     icon: Home,
-    title: "Legalización de Obras",
-    desc: "Estudiamos si tu obra sin licencia se puede legalizar. Si es viable, tramitamos todo el proceso. Si no lo es, buscamos la vía para que puedas conservar tu propiedad. Cada caso requiere estudio individualizado.",
-    features: ["Estudio previo", "Tramitación completa", "Gestión ante el ayuntamiento", "Alternativas si no procede"],
+    title: "Estudio de Legalización de Obras",
+    desc: "Estudio si tu obra sin licencia es legalizable según el planeamiento vigente. Si es viable, coordino la tramitación con los técnicos colegiados que redactan y firman el proyecto. Si no lo es, analizo las vías para que conserves tu edificación. Cada caso requiere estudio individualizado.",
+    features: ["Estudio de viabilidad previo", "Análisis del planeamiento (POUM)", "Coordinación con técnicos colegiados", "Alternativas si no procede"],
   },
   {
     icon: Scale,
@@ -105,9 +105,9 @@ const SERVICES = [
   },
   {
     icon: Stamp,
-    title: "Disciplina Urbanística y Sanciones",
-    desc: "Cuando la legalización no es posible, tramitamos los procedimientos necesarios para que puedas conservar tu edificación. También analizamos la viabilidad urbanística del terreno y coordinamos con técnicos colegiados.",
-    features: ["Conservación de la propiedad", "Trámites municipales", "Análisis de viabilidad", "Coordinación con técnicos colegiados"],
+    title: "Asesoramiento en Disciplina Urbanística",
+    desc: "Análisis técnico-urbanístico de expedientes de disciplina y situaciones de fuera de ordenación. Estudio la viabilidad urbanística del inmueble o terreno y coordino con técnicos colegiados y, cuando procede, con tu abogado.",
+    features: ["Análisis de expedientes", "Situaciones de fuera de ordenación", "Viabilidad urbanística", "Coordinación con técnicos y abogados"],
   },
 ];
 
@@ -116,7 +116,7 @@ const STEPS = [
     num: "01",
     icon: MessageSquare,
     title: "Consulta tu caso",
-    desc: "Chatea con nuestra IA (2 consultas gratis) o llámanos. Te damos una primera orientación sin compromiso.",
+    desc: "Envíame tu caso por el formulario o por WhatsApp. Primera orientación sobre si puedo ayudarte, sin compromiso.",
   },
   {
     num: "02",
@@ -128,66 +128,66 @@ const STEPS = [
     num: "03",
     icon: Shield,
     title: "Resolvemos el problema",
-    desc: "Si es legalizable, tramitamos la legalización. Si no, gestionamos los trámites necesarios para conservar tu propiedad o generamos el informe que da seguridad jurídica al comprador.",
+    desc: "Si es legalizable, coordino la tramitación con técnicos colegiados. Si no, estudio las vías para conservar tu edificación o elaboro el informe que da seguridad al comprador.",
   },
   {
     num: "04",
     icon: CheckCircle2,
     title: "Vendes al precio real",
-    desc: "Con el problema resuelto, tu propiedad recupera el 30-40% de valor perdido. A través de nuestra inmobiliaria asociada, vendemos sin ruido al precio real de mercado.",
+    desc: "Con la situación urbanística aclarada y documentada, defiendes el precio con criterio técnico. Si quieres, mi agencia inmobiliaria gestiona la venta.",
     link: {
       text: "Ana Epitie Inmobiliaria",
-      href: "https://ana-epitie-inmobiliaria-z.vercel.app",
+      href: "https://www.anaepitieinmobiliaria.es",
     },
   },
 ];
 
 const STATS = [
-  { value: "200+", label: "Informes periciales", icon: FileText },
-  { value: "30-40%", label: "Valor recuperado", icon: TrendingDown },
-  { value: "6 meses", label: "Plazo medio", icon: Clock },
-  { value: "0€", label: "CPL inicial", icon: Euro },
+  { value: "N.º 02659", label: "Perito ASPEJURE", icon: FileText },
+  { value: "API", label: "Agente de la Propiedad Inmobiliaria", icon: TrendingDown },
+  { value: "24h", label: "Respuesta en días laborables", icon: Clock },
+  { value: "50€", label: "Consulta deducible del servicio", icon: Euro },
 ];
 
 const CASES = [
   {
-    title: "Masia Can Calderó",
-    location: "Manresa",
-    desc: "Masía del siglo XVIII con ampliaciones sin licencia. Tras el estudio pericial, se obtuvo la declaración que permitió conservar la edificación.",
+    title: "Masía con ampliaciones sin licencia",
+    location: "Situación frecuente en el Bages",
+    desc: "Masías con anexos, garajes o ampliaciones construidos hace décadas sin permiso. Estudio si son legalizables o si procede la situación de fuera de ordenación, antes de poner la propiedad en el mercado.",
     stats: [
-      { value: "+35%", label: "Valor recuperado" },
-      { value: "5 meses", label: "Plazo" },
-      { value: "100%", label: "Conservada" },
+      { value: "POUM", label: "Planeamiento" },
+      { value: "Licencias", label: "Antecedentes" },
+      { value: "Catastro", label: "Concordancia" },
     ],
   },
   {
-    title: "Finca La Culla",
-    location: "Sant Fruitós de Bages",
-    desc: "Finca rústica con nave ilegal. Se tramitó la asimilación a fuera de ordenación y se recuperó el valor total de la propiedad.",
+    title: "Herencia con discrepancias registrales",
+    location: "Situación frecuente en el Bages",
+    desc: "Inmuebles heredados donde el Registro, el Catastro y la realidad física no coinciden: excesos de cabida, construcciones no declaradas, datos desactualizados que bloquean la venta en notaría.",
     stats: [
-      { value: "+40%", label: "Valor recuperado" },
-      { value: "4 meses", label: "Plazo" },
-      { value: "100%", label: "Conservada" },
+      { value: "Registro", label: "Verificación" },
+      { value: "Cabida", label: "Excesos" },
+      { value: "Fiscal", label: "Actualización" },
     ],
   },
   {
-    title: "Terreno Salient Nord",
-    location: "Sallent",
-    desc: "Suelo rústico recalificado sin salida. Se obtuvo la licencia de parcelación y el propietario pudo vender las parcelas al precio de mercado.",
+    title: "Suelo rústico sin aprovechamiento claro",
+    location: "Situación frecuente en el Bages",
+    desc: "Terrenos cuyo propietario desconoce qué permite el planeamiento: usos admitidos, posibilidad de edificar o rehabilitar, segregaciones. El estudio de viabilidad define qué se puede hacer y qué no.",
     stats: [
-      { value: "+55%", label: "Valor recuperado" },
-      { value: "8 meses", label: "Plazo" },
-      { value: "3 parcelas", label: "Vendidas" },
+      { value: "Usos", label: "Permitidos" },
+      { value: "Viabilidad", label: "Urbanística" },
+      { value: "Valor", label: "Potencial" },
     ],
   },
   {
-    title: "Nave Industrial Cal Pau",
-    location: "Navarcles",
-    desc: "Nave industrial construida sin licencia en suelo urbanizable. Se tramitó la legalización y la propiedad pasó a valer su precio real.",
+    title: "Venta bloqueada por dudas urbanísticas",
+    location: "Situación frecuente en el Bages",
+    desc: "Operaciones que se caen o se negocian muy a la baja porque el comprador detecta irregularidades. El informe técnico previo permite anticiparse y defender el precio con documentación.",
     stats: [
-      { value: "+30%", label: "Valor recuperado" },
-      { value: "6 meses", label: "Plazo" },
-      { value: "Legalizada", label: "Situación" },
+      { value: "Informe", label: "Técnico previo" },
+      { value: "Defensa", label: "Del precio" },
+      { value: "Seguridad", label: "Para el comprador" },
     ],
   },
 ];
@@ -213,7 +213,7 @@ const BLOG_POSTS = [
   {
     slug: "herencia-con-conflicto-urbanistico-bages",
     title: "Cómo conservar tu propiedad cuando la herencia no es clara",
-    excerpt: "El 73% de las herencias con inmuebles en el Bages presentan conflictos urbanísticos. Soluciones prácticas para desbloquear tu herencia.",
+    excerpt: "Muchas herencias con inmuebles en el Bages presentan conflictos urbanísticos. Soluciones prácticas para desbloquear tu herencia.",
     category: "Herencias",
     date: "10 May 2026",
   },
@@ -264,7 +264,7 @@ const PRICING = [
   {
     title: "Estudio de Viabilidad",
     price: "200-500€",
-    desc: "Análisis detallado de la situación urbanística de tu propiedad",
+    desc: "Análisis detallado según superficie, municipio y complejidad del caso",
     features: [
       "Estudio completo del planeamiento",
       "Análisis de viabilidad de legalización",
@@ -277,13 +277,13 @@ const PRICING = [
   {
     title: "Informe Pericial Judicial",
     price: "500-2.000€",
-    desc: "Dictamen pericial judicial de valoración con validez ante juzgados",
+    desc: "Dictamen pericial de valoración. Precio según superficie, municipio y complejidad",
     features: [
       "Dictamen pericial completo",
       "Válido en procedimientos judiciales",
       "Valoración de la propiedad",
       "Deslinde de cuotas",
-      "Asistencia a juicio si necesario",
+      "Ratificación ante el juzgado si es necesaria",
     ],
     highlighted: false,
   },
@@ -311,17 +311,28 @@ export default function ConsultorioHome() {
   const [formData, setFormData] = useState({ nombre: "", telefono: "", email: "", mensaje: "" });
   const [rgpdChecked, setRgpdChecked] = useState(false);
   const [formSubmitted, setFormSubmitted] = useState(false);
+  const [formSending, setFormSending] = useState(false);
+  const [formError, setFormError] = useState(false);
   const contactRef = useRef<HTMLDivElement>(null);
 
   const scrollToContact = () => {
     contactRef.current?.scrollIntoView({ behavior: "smooth", block: "center" });
   };
 
-  const handleFormSubmit = (e: React.FormEvent) => {
+  const handleFormSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!formData.nombre || !formData.telefono || !rgpdChecked) return;
-    setFormSubmitted(true);
-    setTimeout(() => setFormSubmitted(false), 4000);
+    setFormSending(true);
+    setFormError(false);
+    try {
+      const res = await fetch("https://formspree.io/f/mojbnkdb", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({ ...formData, origen: "consultorio-urbanistico", fecha: new Date().toLocaleString("es-ES", { timeZone: "Europe/Madrid" }) }),
+      });
+      if (res.ok) { setFormSubmitted(true); setFormData({ nombre: "", telefono: "", email: "", mensaje: "" }); setRgpdChecked(false); }
+      else setFormError(true);
+    } catch { setFormError(true); } finally { setFormSending(false); }
   };
 
   return (
@@ -451,17 +462,18 @@ export default function ConsultorioHome() {
                 variants={fadeUp}
                 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.1] text-[#F5F2E8]"
               >
-                Proteja su patrimonio
+                El comprador revisará tu finca
                 <br />
-                <span className="font-serif italic text-[#D4AF37]">en el Bages</span>
+                <span className="font-serif italic text-[#D4AF37]">para pagarte menos.</span>
               </motion.h1>
 
               <motion.p variants={fadeUp} className="mt-6 text-base md:text-lg text-[#c5c0b4] max-w-xl leading-relaxed">
-                Ana Epitie, Perito Judicial Urbanística (ASPEJURE N.º 02659).
-                Propiedades con problemas urbanísticos valen un{" "}
-                <span className="text-[#F5F2E8] font-semibold">30-40% menos</span>. Con el informe
-                pericial adecuado, recuperas ese valor. Te ayudo a estudiar tu caso, regularizar la
-                situación si es posible y vender sin perder dinero.
+                Yo la reviso antes, para que no pueda. Soy Ana Epitie, Perito Judicial
+                Urbanística (ASPEJURE N.º 02659) y Agente de la Propiedad Inmobiliaria en el
+                Bages. Una propiedad con dudas urbanísticas{" "}
+                <span className="text-[#F5F2E8] font-semibold">se negocia a la baja, siempre</span>.
+                Una propiedad estudiada y documentada se defiende con criterio técnico. Esa es la
+                diferencia entre aceptar la rebaja y marcar el precio.
               </motion.p>
 
               <motion.div variants={fadeUp} className="flex flex-col sm:flex-row gap-4 mt-8">
@@ -470,22 +482,24 @@ export default function ConsultorioHome() {
                   className="bg-[#B8860B] hover:bg-[#9a7209] text-white font-bold text-base h-14 px-8 rounded-full shadow-lg shadow-[#B8860B]/25"
                 >
                   <Phone className="w-4 h-4 mr-2" />
-                  Consulta Exprés (50€ Deducibles)
+                  Envíame tu caso — Respuesta en 24h
                 </Button>
                 <Button
                   variant="outline"
-                  onClick={scrollToContact}
+                  asChild
                   className="border-[#F5F2E8]/30 text-[#F5F2E8] hover:bg-[#F5F2E8]/10 font-semibold text-base h-14 px-8 rounded-full"
                 >
-                  <MessageSquare className="w-4 h-4 mr-2" />
-                  Pregunta a la IA
+                  <a href="https://wa.me/34632831009?text=Hola%20Ana%2C%20quiero%20consultarte%20una%20propiedad%20con%20dudas%20urban%C3%ADsticas." target="_blank" rel="noopener noreferrer">
+                    <MessageSquare className="w-4 h-4 mr-2" />
+                    WhatsApp directo
+                  </a>
                 </Button>
               </motion.div>
 
               {/* Stats */}
               <motion.div variants={fadeUp} className="mt-10 grid grid-cols-3 gap-6 max-w-md">
                 {[
-                  { value: "+200", label: "Informes periciales" },
+                  { value: "ASPEJURE", label: "Perito N.º 02659" },
                   { value: "Judicial", label: "Dictamen pericial" },
                   { value: "Bages", label: "Especialista urbanismo" },
                 ].map((stat) => (
@@ -553,9 +567,9 @@ export default function ConsultorioHome() {
               </span>
             </motion.div>
             <motion.h2 variants={fadeUp} className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1a1a1a]">
-              Tu propiedad tiene un problema urbanístico.
+              Cada mes sin resolverlo, el problema se hace más caro.
               <br />
-              <span className="font-serif italic text-[#3A4D39]">Nosotros tenemos la solución.</span>
+              <span className="font-serif italic text-[#3A4D39]">Y el comprador lo sabe.</span>
             </motion.h2>
           </motion.div>
 
@@ -604,13 +618,13 @@ export default function ConsultorioHome() {
               </span>
             </motion.div>
             <motion.h2 variants={fadeUp} className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1a1a1a]">
-              Eliminamos el problema legal.
+              Encauzo el problema urbanístico.
               <br />
-              <span className="font-serif italic text-[#3A4D39]">Tú vendes al precio real.</span>
+              <span className="font-serif italic text-[#3A4D39]">Tú defiendes el precio real.</span>
             </motion.h2>
             <motion.p variants={fadeUp} className="mt-4 text-[#666] max-w-xl mx-auto">
-              Resolvemos los problemas urbanísticos de tu propiedad para que puedas vender al precio
-              real de mercado. Conocemos la normativa de cada municipio de la comarca del Bages.
+              Estudio la situación urbanística de tu propiedad y, cuando el trámite lo requiere, trabajo
+              con técnicos colegiados. Conozco la normativa de los municipios de la comarca del Bages.
             </motion.p>
           </motion.div>
 
@@ -676,7 +690,7 @@ export default function ConsultorioHome() {
               </span>
             </motion.div>
             <motion.h2 variants={fadeUp} className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#F5F2E8]">
-              De problema legal a venta segura
+              De la duda al precio defendido
               <br />
               <span className="font-serif italic text-[#D4AF37]">en 4 pasos</span>
             </motion.h2>
@@ -735,7 +749,7 @@ export default function ConsultorioHome() {
               <div className="text-center mb-6">
                 <h3 className="text-xl font-bold text-[#F5F2E8]">Consulta Exprés</h3>
                 <p className="text-sm text-[#c5c0b4] mt-1">
-                  Te llamamos en menos de 2 horas laborables
+                  Te contacto en menos de 24 horas laborables
                 </p>
               </div>
 
@@ -744,7 +758,7 @@ export default function ConsultorioHome() {
                   <CheckCircle2 className="w-12 h-12 text-[#D4AF37] mx-auto mb-4" />
                   <h4 className="text-lg font-bold text-[#F5F2E8]">¡Solicitud recibida!</h4>
                   <p className="text-sm text-[#c5c0b4] mt-2">
-                    Te llamaremos en menos de 2 horas laborables.
+                    Te contactaré en menos de 24 horas laborables.
                   </p>
                 </div>
               ) : (
@@ -791,7 +805,7 @@ export default function ConsultorioHome() {
                     className="w-full bg-[#B8860B] hover:bg-[#9a7209] text-white font-bold text-base h-12 rounded-full shadow-lg shadow-[#B8860B]/20 disabled:opacity-40 disabled:cursor-not-allowed"
                   >
                     <Phone className="w-4 h-4 mr-2" />
-                    Consulta Exprés — Te llamamos en 2h
+                    Consulta Exprés — Respuesta en 24h
                   </Button>
                   <p className="text-xs text-center text-[#9a978a]">
                     50€ · Deducibles del servicio completo
@@ -837,13 +851,13 @@ export default function ConsultorioHome() {
             <motion.div variants={fadeUp}>
               <span className="inline-flex items-center gap-1.5 rounded-full border border-[#3A4D39]/20 bg-[#3A4D39]/5 px-3 py-1 text-xs font-medium text-[#3A4D39] mb-4">
                 <Star className="w-3.5 h-3.5" />
-                Casos de éxito
+                Situaciones habituales
               </span>
             </motion.div>
             <motion.h2 variants={fadeUp} className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1a1a1a]">
-              Ellos recuperaron el valor.
+              Situaciones que estudio
               <br />
-              <span className="font-serif italic text-[#3A4D39]">Tú también puedes.</span>
+              <span className="font-serif italic text-[#3A4D39]">cada semana en el Bages.</span>
             </motion.h2>
           </motion.div>
 
@@ -945,78 +959,6 @@ export default function ConsultorioHome() {
                   </button>{" "}
                   — También atendemos comarcas limítrofes.
                 </p>
-              </div>
-            </div>
-          </motion.div>
-        </div>
-      </section>
-
-      {/* ═══════════════ IA ═══════════════ */}
-      <section id="ia" className="py-20 md:py-28 bg-[#F5F2E8]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, margin: "-100px" }}
-            variants={stagger}
-            className="text-center max-w-3xl mx-auto mb-14"
-          >
-            <motion.div variants={fadeUp}>
-              <span className="inline-flex items-center gap-1.5 rounded-full border border-[#3A4D39]/20 bg-[#3A4D39]/5 px-3 py-1 text-xs font-medium text-[#3A4D39] mb-4">
-                <Bot className="w-3.5 h-3.5" />
-                Inteligencia Artificial
-              </span>
-            </motion.div>
-            <motion.h2 variants={fadeUp} className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1a1a1a]">
-              2 consultas gratis con la{" "}
-              <span className="font-serif italic text-[#3A4D39]">IA experta en urbanismo del Bages</span>
-            </motion.h2>
-          </motion.div>
-
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            variants={fadeUp}
-            className="max-w-2xl mx-auto"
-          >
-            <div className="rounded-2xl border border-[#3A4D39]/15 bg-white p-8">
-              {/* Chat simulation */}
-              <div className="space-y-4 mb-6">
-                <div className="flex items-start gap-3">
-                  <div className="w-8 h-8 rounded-full bg-[#3A4D39] flex items-center justify-center flex-shrink-0">
-                    <Bot className="w-4 h-4 text-[#F5F2E8]" />
-                  </div>
-                  <div className="bg-[#F5F2E8] rounded-2xl rounded-tl-sm p-4 max-w-xs">
-                    <p className="text-sm text-[#1a1a1a]">Hola, soy la IA del Consultorio Urbanístico. ¿En qué puedo ayudarte con tu propiedad en el Bages?</p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3 justify-end">
-                  <div className="bg-[#3A4D39] rounded-2xl rounded-tr-sm p-4 max-w-xs">
-                    <p className="text-sm text-[#F5F2E8]">Tengo una masía con una ampliación sin licencia, ¿se puede legalizar?</p>
-                  </div>
-                  <div className="w-8 h-8 rounded-full bg-[#B8860B] flex items-center justify-center flex-shrink-0">
-                    <Send className="w-4 h-4 text-white" />
-                  </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <div className="w-8 h-8 rounded-full bg-[#3A4D39] flex items-center justify-center flex-shrink-0">
-                    <Bot className="w-4 h-4 text-[#F5F2E8]" />
-                  </div>
-                  <div className="bg-[#F5F2E8] rounded-2xl rounded-tl-sm p-4 max-w-xs">
-                    <p className="text-sm text-[#1a1a1a]">Depende del tipo de obra y del planeamiento del municipio. Te recomiendo una consulta exprés para estudiar tu caso concreto. Las 2 primeras consultas conmigo son gratuitas.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="text-center">
-                <Button
-                  onClick={scrollToContact}
-                  className="bg-[#3A4D39] hover:bg-[#2d3d2c] text-[#F5F2E8] font-bold rounded-full px-8 h-12"
-                >
-                  <MessageSquare className="w-4 h-4 mr-2" />
-                  Pregunta a la IA — 2 consultas gratis
-                </Button>
               </div>
             </div>
           </motion.div>
@@ -1172,8 +1114,9 @@ export default function ConsultorioHome() {
             className="text-center max-w-3xl mx-auto mb-14"
           >
             <motion.h2 variants={fadeUp} className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#F5F2E8]">
-              Tu propiedad vale más{" "}
-              <span className="font-serif italic text-[#D4AF37]">de lo que crees.</span>
+              El comprador ya tiene su estrategia.
+              <br />
+              <span className="font-serif italic text-[#D4AF37]">¿Cuál es la tuya?</span>
             </motion.h2>
           </motion.div>
 
@@ -1270,7 +1213,7 @@ export default function ConsultorioHome() {
                   asChild
                   className="bg-[#B8860B] hover:bg-[#9a7209] text-white font-bold rounded-full px-8 h-12"
                 >
-                  <a href="https://ana-epitie-inmobiliaria-z.vercel.app" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.anaepitieinmobiliaria.es" target="_blank" rel="noopener noreferrer">
                     Ir a Ana Epitie Inmobiliaria
                     <ExternalLink className="w-4 h-4 ml-2" />
                   </a>
@@ -1297,7 +1240,7 @@ export default function ConsultorioHome() {
                 </div>
               </div>
               <p className="text-sm text-[#9a978a] leading-relaxed">
-                Consultorio Urbanístico Bages - Ana Epitie. Especialista en legalización de obras, informes periciales y disciplina urbanística.
+                Consultorio Urbanístico Bages - Ana Epitie. Estudios de legalización, informes periciales judiciales y asesoramiento urbanístico en Manresa y el Bages.
               </p>
             </div>
 
@@ -1319,7 +1262,7 @@ export default function ConsultorioHome() {
                 <li><a href="#cobertura" className="hover:text-[#D4AF37] transition-colors">Cobertura</a></li>
                 <li><a href="#testimonios" className="hover:text-[#D4AF37] transition-colors">Casos de éxito</a></li>
                 <li><a href="#blog" className="hover:text-[#D4AF37] transition-colors">Blog</a></li>
-                <li><a href="https://ana-epitie-inmobiliaria-z.vercel.app" target="_blank" rel="noopener noreferrer" className="hover:text-[#D4AF37] transition-colors inline-flex items-center gap-1">Inmobiliaria <ExternalLink className="w-3 h-3" /></a></li>
+                <li><a href="https://www.anaepitieinmobiliaria.es" target="_blank" rel="noopener noreferrer" className="hover:text-[#D4AF37] transition-colors inline-flex items-center gap-1">Inmobiliaria <ExternalLink className="w-3 h-3" /></a></li>
               </ul>
             </div>
 
@@ -1333,7 +1276,7 @@ export default function ConsultorioHome() {
                 </li>
                 <li className="flex items-center gap-2">
                   <Mail className="w-4 h-4 text-[#D4AF37]" />
-                  <a href="mailto:info@peritourbanistic.cat" className="hover:text-[#D4AF37] transition-colors">info@peritourbanistic.cat</a>
+                  <a href="mailto:anaepitieinmobiliaria@gmail.com" className="hover:text-[#D4AF37] transition-colors">anaepitieinmobiliaria@gmail.com</a>
                 </li>
                 <li className="flex items-center gap-2">
                   <MapPin className="w-4 h-4 text-[#D4AF37]" />
@@ -1356,8 +1299,8 @@ export default function ConsultorioHome() {
               © {new Date().getFullYear()} Consultorio Urbanístico - Ana Epitie. Todos los derechos reservados.
             </p>
             <div className="flex items-center gap-4 text-xs text-[#9a978a]">
-              <a href="#" className="hover:text-[#D4AF37] transition-colors">Política de Privacidad</a>
-              <a href="#" className="hover:text-[#D4AF37] transition-colors">Aviso Legal</a>
+              <a href="/privacidad" className="hover:text-[#D4AF37] transition-colors">Política de Privacidad</a>
+              <a href="/aviso-legal" className="hover:text-[#D4AF37] transition-colors">Aviso Legal</a>
             </div>
           </div>
         </div>

@@ -12,7 +12,7 @@ export default function SchemaMarkup() {
       description: "Perito Judicial Urbanístico especializada en legalización de obras, asimilación a fuera de ordenación, informes periciales y estudio de viabilidad urbanística en la comarca del Bages, Cataluña.",
       url: baseUrl,
       telephone: "+34632831009",
-      email: "info@peritourbanistic.cat",
+      email: "anaepitieinmobiliaria@gmail.com",
       image: `${baseUrl}/logo.svg`,
       logo: `${baseUrl}/logo.svg`,
       priceRange: "50€ - 2000€",
@@ -81,13 +81,6 @@ export default function SchemaMarkup() {
         opens: "09:00",
         closes: "19:00"
       },
-      aggregateRating: {
-        "@type": "AggregateRating",
-        ratingValue: "5",
-        bestRating: "5",
-        worstRating: "1",
-        ratingCount: "47"
-      },
       sameAs: [
         "https://www.linkedin.com/in/ana-epitie",
         "https://www.instagram.com/anaepitie_perito"
@@ -101,7 +94,7 @@ export default function SchemaMarkup() {
       description: "Servicios de peritación judicial urbanística en Manresa y la comarca del Bages.",
       url: baseUrl,
       telephone: "+34632831009",
-      email: "info@peritourbanistic.cat",
+      email: "anaepitieinmobiliaria@gmail.com",
       address: {
         "@type": "PostalAddress",
         addressLocality: "Manresa",
@@ -119,7 +112,7 @@ export default function SchemaMarkup() {
       url: baseUrl,
       image: `${baseUrl}/foto-ana-epitie.png`,
       telephone: "+34632831009",
-      email: "info@peritourbanistic.cat",
+      email: "anaepitieinmobiliaria@gmail.com",
       hasCredential: [
         {
           "@type": "EducationalOccupationalCredential",

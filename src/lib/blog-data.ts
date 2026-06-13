@@ -94,7 +94,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "herencia-con-conflicto-urbanistico-bages",
     title: "Herencias con Conflicto Urbanístico en el Bages: Cuando el Patrimonio se Convierte en Problema",
-    description: "El 73% de las herencias con inmuebles en el Bages presentan conflictos urbanísticos. Descubra cómo desbloquear su herencia antes de que sea demasiado tarde.",
+    description: "Muchas herencias con inmuebles en el Bages presentan conflictos urbanísticos. Descubra cómo desbloquear su herencia antes de que sea demasiado tarde.",
     category: "Herencias",
     categorySlug: "herencias",
     date: "2026-05-10",
