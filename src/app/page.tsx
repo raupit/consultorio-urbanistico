@@ -523,7 +523,7 @@ export default function ConsultorioHome() {
                 <div className="absolute -top-4 -left-4 w-full h-full border-2 border-[#D4AF37]/30 rounded-2xl" />
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-black/30">
                   <Image
-                    src="/ana-epitie.jpg"
+                    src="/ana-epitie-masia.jpg"
                     alt="Ana Epitie - Perito Judicial Urbanístico"
                     width={500}
                     height={650}
