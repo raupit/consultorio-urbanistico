@@ -205,44 +205,44 @@ const MUNICIPALITIES = [
 const BLOG_POSTS = [
   {
     slug: "legalizacion-obras-sin-licencia-manresa",
-    title: "Cómo legalizar una masía en Cataluña",
-    excerpt: "Guía completa sobre el proceso de legalización de obras sin licencia en masías catalanas. Requisitos, plazos y pasos a seguir.",
+    title: "Cómo legalizar una obra sin licencia en Manresa",
+    excerpt: "Guía sobre el proceso de legalización de obras sin licencia. Requisitos, plazos y pasos a seguir en el Bages.",
     category: "Legalización",
     date: "20 May 2026",
   },
   {
     slug: "herencia-con-conflicto-urbanistico-bages",
-    title: "Cómo conservar tu propiedad cuando la herencia no es clara",
-    excerpt: "Muchas herencias con inmuebles en el Bages presentan conflictos urbanísticos. Soluciones prácticas para desbloquear tu herencia.",
+    title: "Herencias con conflicto urbanístico en el Bages",
+    excerpt: "Cuando el patrimonio heredado se convierte en problema. Soluciones prácticas para desbloquear tu herencia.",
     category: "Herencias",
     date: "10 May 2026",
   },
   {
     slug: "asimilacion-fuera-de-ordenacion-bages",
-    title: "He heredado una propiedad con problemas urbanísticos: ¿qué hago?",
-    excerpt: "Pasos a seguir cuando heredas una propiedad con irregularidades urbanísticas. Cómo proteger tu patrimonio heredado.",
-    category: "Herencias",
+    title: "Asimilación a fuera de ordenación en el Bages",
+    excerpt: "La última opción para conservar tu propiedad cuando la legalización no es posible. Cómo funciona.",
+    category: "Legalización",
     date: "15 May 2026",
   },
   {
-    slug: "certificado-habitabilidad-bages",
-    title: "Certificado de habitabilidad: por qué lo necesitas",
-    excerpt: "Todo lo que debes saber sobre el certificado de habitabilidad en el Bages. Cuándo es obligatorio y cómo obtenerlo.",
-    category: "Trámites",
+    slug: "comprar-masia-obras-ilegales-riesgos",
+    title: "Comprar una masía con obras ilegales: los riesgos",
+    excerpt: "Lo que conviene revisar antes de comprar una masía en Cataluña. Riesgos urbanísticos y cómo anticiparse.",
+    category: "Compra-venta",
     date: "5 May 2026",
   },
   {
-    slug: "casa-prefabricada-terreno-rustico",
-    title: "¿Se puede poner una casa prefabricada en un terreno rústico?",
-    excerpt: "Análisis de la normativa urbanística sobre viviendas prefabricadas en suelo rústico. Lo que dice la ley y lo que puedes hacer.",
-    category: "Legalización",
+    slug: "suelo-urbanizable-rustico-diferencias-bages",
+    title: "Suelo urbanizable vs suelo rústico en el Bages",
+    excerpt: "Por qué esta diferencia es clave para tu propiedad. Lo que permite y prohíbe cada tipo de suelo.",
+    category: "Urbanismo",
     date: "1 May 2026",
   },
   {
-    slug: "suelo-rustico-bages-reforma",
-    title: "Suelo rústico en el Bages: cuándo se puede reformar",
-    excerpt: "Condiciones y requisitos para reformar construcciones en suelo rústico del Bages. Qué permite y qué prohíbe el planeamiento.",
-    category: "Legalización",
+    slug: "vender-propiedad-irregularidades-urbanisticas",
+    title: "Vender una propiedad con irregularidades urbanísticas",
+    excerpt: "Cómo defender el valor real de tu propiedad cuando tiene irregularidades. Tus opciones, explicadas.",
+    category: "Compra-venta",
     date: "25 Apr 2026",
   },
 ];
@@ -462,18 +462,17 @@ export default function ConsultorioHome() {
                 variants={fadeUp}
                 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.1] text-[#F5F2E8]"
               >
-                El comprador revisará tu finca
+                Tu finca, bien documentada,
                 <br />
-                <span className="font-serif italic text-[#D4AF37]">para pagarte menos.</span>
+                <span className="font-serif italic text-[#D4AF37]">vale más.</span>
               </motion.h1>
 
               <motion.p variants={fadeUp} className="mt-6 text-base md:text-lg text-[#c5c0b4] max-w-xl leading-relaxed">
-                Yo la reviso antes, para que no pueda. Soy Ana Epitie, Perito Judicial
-                Urbanística (ASPEJURE N.º 02659) y Agente de la Propiedad Inmobiliaria en el
-                Bages. Una propiedad con dudas urbanísticas{" "}
-                <span className="text-[#F5F2E8] font-semibold">se negocia a la baja, siempre</span>.
-                Una propiedad estudiada y documentada se defiende con criterio técnico. Esa es la
-                diferencia entre aceptar la rebaja y marcar el precio.
+                Una propiedad con su situación urbanística clara y demostrable{" "}
+                <span className="text-[#F5F2E8] font-semibold">se vende mejor, más rápido y con menos sorpresas</span>.
+                Soy Ana Epitie, Perito Judicial Urbanística (ASPEJURE N.º 02659) y Agente de la
+                Propiedad Inmobiliaria en el Bages. Estudio tu caso, resuelvo las dudas legales y
+                te acompaño en toda la venta.
               </motion.p>
 
               <motion.div variants={fadeUp} className="flex flex-col sm:flex-row gap-4 mt-8">
