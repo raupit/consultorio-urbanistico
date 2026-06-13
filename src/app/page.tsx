@@ -99,9 +99,9 @@ const SERVICES = [
   },
   {
     icon: Scale,
-    title: "Informe Pericial Judicial",
-    desc: "Dictamen pericial judicial de valoración para procedimientos judiciales: herencias, división de cosa común, ejecuciones hipotecarias. Válido ante juzgados.",
-    features: ["Dictamen pericial de valoración", "Válido judicialmente", "Deslinde de cuotas", "Peritaje herencias"],
+    title: "Informe Pericial Judicial Urbanístico",
+    desc: "Dictamen pericial para procedimientos judiciales y administrativos en materia urbanística: infracciones y expedientes de disciplina, situaciones de fuera de ordenación, interpretación del planeamiento y discrepancias sobre la legalidad de las construcciones. Con ratificación ante el juzgado cuando es necesaria.",
+    features: ["Dictamen pericial urbanístico", "Disciplina e infracciones urbanísticas", "Interpretación del planeamiento (POUM)", "Ratificación ante el juzgado"],
   },
   {
     icon: Stamp,
@@ -122,7 +122,7 @@ const STEPS = [
     num: "02",
     icon: FileText,
     title: "Estudio pericial",
-    desc: "Realizamos el informe completo: estado legal, viabilidad de legalización (si aplica) y valoración.",
+    desc: "Elaboro el informe urbanístico completo: estado legal, viabilidad de legalización y situación respecto al planeamiento.",
   },
   {
     num: "03",
@@ -275,14 +275,14 @@ const PRICING = [
     highlighted: true,
   },
   {
-    title: "Informe Pericial Judicial",
+    title: "Informe Pericial Judicial Urbanístico",
     price: "500-2.000€",
-    desc: "Dictamen pericial de valoración. Precio según superficie, municipio y complejidad",
+    desc: "Dictamen pericial urbanístico. Precio según complejidad del caso y municipio",
     features: [
-      "Dictamen pericial completo",
-      "Válido en procedimientos judiciales",
-      "Valoración de la propiedad",
-      "Deslinde de cuotas",
+      "Dictamen pericial urbanístico completo",
+      "Válido en procedimientos judiciales y administrativos",
+      "Disciplina, infracciones y fuera de ordenación",
+      "Interpretación del planeamiento",
       "Ratificación ante el juzgado si es necesaria",
     ],
     highlighted: false,
@@ -1248,7 +1248,7 @@ export default function ConsultorioHome() {
               <h4 className="font-bold text-[#F5F2E8] mb-4">Servicios</h4>
               <ul className="space-y-2 text-sm">
                 <li><a href="#servicios" className="hover:text-[#D4AF37] transition-colors">Legalización de Obras</a></li>
-                <li><a href="#servicios" className="hover:text-[#D4AF37] transition-colors">Informe Pericial Judicial</a></li>
+                <li><a href="#servicios" className="hover:text-[#D4AF37] transition-colors">Informe Pericial Urbanístico</a></li>
                 <li><a href="#servicios" className="hover:text-[#D4AF37] transition-colors">Disciplina Urbanística</a></li>
                 <li><a href="#tarifas" className="hover:text-[#D4AF37] transition-colors">Tarifas</a></li>
               </ul>

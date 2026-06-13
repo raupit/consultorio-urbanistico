@@ -795,45 +795,7 @@ export const blogPosts: BlogPost[] = [
       <p>Si accede a su propiedad por un camino que no está registrado a su favor, o si depende de la tolerancia de un tercero para llegar a su finca, no espere a que el acceso se convierta en un conflicto. Una Consulta Exprés le permitirá conocer la situación jurídica de su acceso y las opciones disponibles para regularizarla. Resolver el problema antes de que estalle siempre es más económico que hacerlo después.</p>
     `
   },
-  {
-    slug: "valoracion-pericial-inmueble-irregular-procedimiento",
-    title: "Valoración Pericial de un Inmueble Irregular: Cómo se Determina el Precio Real",
-    description: "Una propiedad con irregularidades urbanísticas no vale lo que dice el mercado ni lo que dice el catastro. Descubra cómo un perito determina su valor real y por qué es clave para su caso.",
-    category: "Peritación",
-    categorySlug: "peritacion",
-    date: "2026-03-12",
-    readTime: "8 min",
-    keywords: ["valoración pericial", "inmueble irregular", "peritación valoración", "precio real propiedad", "descuento urbanístico"],
-    content: `
-      <p>Determinar el valor de un inmueble con irregularidades urbanísticas es uno de los ejercicios periciales más complejos y, al mismo tiempo, más determinantes para los intereses de las partes involucradas. No basta con aplicar un descuento genérico al valor de mercado: la valoración de un inmueble irregular requiere un análisis técnico específico que considere la naturaleza de la irregularidad, su gravedad, su impacto en la capacidad de uso y disfrute de la propiedad, y las opciones reales de regularización disponibles.</p>
-
-      <h2>¿Por qué no sirve un simple descuento porcentual?</h2>
-      <p>Existe la creencia extendida de que una propiedad con irregularidades urbanísticas vale simplemente un 30% o un 40% menos que una propiedad similar sin irregularidades. Esta aproximación es tan habitual como incorrecta. El impacto de una irregularidad en el valor de un inmueble depende de factores tan variados que un descuento fijo es, en la mayoría de los casos, una cifra arbitraria que no refleja la realidad patrimonial.</p>
-      <p>Una irregularidad legalizable tiene un impacto distinto que una que no lo es. Una infracción leve tiene un impacto distinto que una infracción muy grave. Y una irregularidad que el comprador puede resolver con un trámite administrativo tiene un impacto completamente distinto que una que requiere un procedimiento judicial. Cada situación requiere su propia valoración, y esa valoración debe ser realizada por un perito con experiencia en urbanismo.</p>
-
-      <h2>Los factores que determinan el valor real</h2>
-      <p>Un perito judicial urbanístico valora un inmueble irregular considerando múltiples factores interrelacionados:</p>
-      <ul>
-        <li><strong>Naturaleza de la irregularidad</strong>: no es lo mismo una ampliación sin licencia pero legalizable que una construcción en suelo no urbanizable sin posibilidad de legalización.</li>
-        <li><strong>Gravedad de la infracción</strong>: las infracciones leves, graves y muy graves tienen impactos muy distintos en el valor del inmueble.</li>
-        <li><strong>Viabilidad de legalización</strong>: si la irregularidad es legalizable, el coste de la legalización se descuenta del valor, pero el resultado es significativamente superior al de una propiedad con irregularidad permanente.</li>
-        <li><strong>Plazo de legalización</strong>: el tiempo necesario para resolver la irregularidad tiene un coste financiero que debe incorporarse a la valoración.</li>
-        <li><strong>Riesgo sancionador</strong>: la probabilidad de que la administración inicie un procedimiento sancionador y su potencial cuantía afectan al valor.</li>
-        <li><strong>Impacto registral</strong>: las irregularidades que impiden la inscripción registral tienen un impacto mayor que las que no la obstaculizan.</li>
-      </ul>
-
-      <h2>La metodología pericial aplicable</h2>
-      <p>La valoración de inmuebles irregulares se rige por metodologías específicas que difieren de las valoraciones estándar. El perito debe combinar el método de comparación — ajustado por las particularidades de la irregularidad — con el método residual, que permite descontar del valor potencial los costes de regularización y los riesgos asociados. Esta combinación metodológica requiere experiencia y criterio técnico, y su aplicación incorrecta puede generar valoraciones que no resisten la contradicción pericial en un procedimiento judicial.</p>
-      <p>En el Bages, las particularidades del mercado inmobiliario local — la predominancia de masías y fincas rústicas, la distancia a los centros urbanos, la estacionalidad de la demanda — hacen que las valoraciones estándar sean especialmente inadecuadas. Un perito que no conozca el territorio puede aplicar coeficientes de corrección que no se ajustan a la realidad local, generando valoraciones erróneas.</p>
-
-      <h2>El descuento urbanístico: cómo se calcula realmente</h2>
-      <p>El descuento urbanístico no es una cifra que se aplique de forma arbitraria. Es el resultado de un cálculo técnico que parte del valor que tendría la propiedad si fuera regular, y le resta los costes de regularización, los riesgos no cubiertos, y la pérdida de valor derivada de las limitaciones que la irregularidad impone. Este cálculo requiere información detallada sobre el coste de la legalización, los plazos previsibles, la probabilidad de éxito del procedimiento, y la posición de la administración local.</p>
-      <p>Sin esta información, cualquier cifra de descuento es una estimación sin fundamento que puede perjudicar gravemente al propietario, tanto si es excesiva — si vende por debajo del valor real — como si es insuficiente — si se expone a un recurso por valoración engañosa.</p>
-
-      <h2>¿Necesita saber cuánto vale realmente su propiedad?</h2>
-      <p>Si posee un inmueble con irregularidades urbanísticas en el Bages y necesita conocer su valor real — para una venta, una herencia, un procedimiento judicial, o simplemente para tomar decisiones informadas — una Consulta Exprés le permitirá obtener una orientación profesional sobre la valoración pericial de su propiedad. No se conforme con estimaciones genéricas: su patrimonio merece una valoración profesional.</p>
-    `
-  },
+  
   {
     slug: "seguro-decenal-obras-ilegales-cobertura",
     title: "Seguro Decenal y Obras Ilegales: ¿Tiene Cobertura si la Construcción Carece de Licencia?",
@@ -958,7 +920,7 @@ export const blogCategories = [
   { name: "Herencias", slug: "herencias" },
   { name: "Compra-venta", slug: "compra-venta" },
   { name: "Urbanismo", slug: "urbanismo" },
-  { name: "Disciplina", slug: "disciplina" },
+  { name: "Disciplina", slug: "disciplina" }
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {

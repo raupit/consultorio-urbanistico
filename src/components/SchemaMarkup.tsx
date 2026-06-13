@@ -62,7 +62,7 @@ export default function SchemaMarkup() {
             itemOffered: {
               "@type": "Service",
               name: "Informe Pericial Judicial",
-              description: "Dictamen pericial judicial de valoración para procedimientos judiciales."
+              description: "Dictamen pericial urbanístico para procedimientos judiciales y administrativos."
             }
           },
           {
@@ -302,7 +302,7 @@ export default function SchemaMarkup() {
           "@type": "HowToStep",
           position: 2,
           name: "Estudio pericial",
-          text: "Se realiza un informe completo del estado legal de la propiedad, la viabilidad de legalización y la valoración urbanística."
+          text: "Se realiza un informe completo del estado legal de la propiedad, la viabilidad de legalización y su situación respecto al planeamiento."
         },
         {
           "@type": "HowToStep",
