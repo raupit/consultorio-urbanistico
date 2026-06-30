@@ -40,10 +40,6 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { Label } from "@/components/ui/label";
 import Image from "next/image";
 
-/* ────────────────────────────────────────
-   DATA
-   ──────────────────────────────────────── */
-
 const NAV_LINKS = [
   { label: "Servicios", href: "#servicios" },
   { label: "Cómo funciona", href: "#como-funciona" },
@@ -290,10 +286,6 @@ const PRICING = [
   },
 ];
 
-/* ────────────────────────────────────────
-   ANIMATIONS
-   ──────────────────────────────────────── */
-
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
@@ -302,10 +294,6 @@ const fadeUp = {
 const stagger = {
   visible: { transition: { staggerChildren: 0.1 } },
 };
-
-/* ────────────────────────────────────────
-   MAIN PAGE
-   ──────────────────────────────────────── */
 
 export default function ConsultorioHome() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -338,11 +326,9 @@ export default function ConsultorioHome() {
 
   return (
     <div className="min-h-screen bg-[#F5F2E8] text-[#1a1a1a] font-sans">
-      {/* ═══════════════ NAVIGATION ═══════════════ */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-[#F5F2E8]/95 backdrop-blur-xl border-b border-[#3A4D39]/15">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-18">
-            {/* Logo */}
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-lg bg-[#3A4D39] flex items-center justify-center">
                 <Gavel className="w-5 h-5 text-[#F5F2E8]" />
@@ -353,7 +339,6 @@ export default function ConsultorioHome() {
               </div>
             </div>
 
-            {/* Desktop Links */}
             <div className="hidden lg:flex items-center gap-5">
               {NAV_LINKS.map((link) =>
                 link.external ? (
@@ -379,7 +364,6 @@ export default function ConsultorioHome() {
               )}
             </div>
 
-            {/* Phone + CTA */}
             <div className="flex items-center gap-3">
               <a
                 href="tel:+34632831009"
@@ -406,7 +390,6 @@ export default function ConsultorioHome() {
           </div>
         </div>
 
-        {/* Mobile Menu */}
         <AnimatePresence>
           {mobileMenuOpen && (
             <motion.div
@@ -441,11 +424,9 @@ export default function ConsultorioHome() {
         </AnimatePresence>
       </nav>
 
-      {/* ═══════════════ HERO ═══════════════ */}
       <section className="relative pt-20 md:pt-24 bg-[#3A4D39] overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-8 items-center min-h-[70vh]">
-            {/* Left - Text */}
             <motion.div
               initial="hidden"
               animate="visible"
@@ -496,7 +477,6 @@ export default function ConsultorioHome() {
                 </Button>
               </motion.div>
 
-              {/* Stats */}
               <motion.div variants={fadeUp} className="mt-10 grid grid-cols-3 gap-6 max-w-md">
                 {[
                   { value: "ASPEJURE", label: "Perito N.º 02659" },
@@ -512,7 +492,6 @@ export default function ConsultorioHome() {
               </motion.div>
             </motion.div>
 
-            {/* Right - Photo */}
             <motion.div
               initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: 1, x: 0 }}
@@ -520,7 +499,6 @@ export default function ConsultorioHome() {
               className="relative flex justify-center md:justify-end"
             >
               <div className="relative w-full max-w-md">
-                {/* Decorative frame */}
                 <div className="absolute -top-4 -left-4 w-full h-full border-2 border-[#D4AF37]/30 rounded-2xl" />
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-black/30">
                   <Image
@@ -531,7 +509,6 @@ export default function ConsultorioHome() {
                     className="w-full h-auto object-cover"
                     priority
                   />
-                  {/* Overlay badge */}
                   <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#3A4D39] to-transparent p-6">
                     <div className="flex items-center gap-3">
                       <div className="w-10 h-10 rounded-full bg-[#B8860B] flex items-center justify-center">
@@ -550,7 +527,7 @@ export default function ConsultorioHome() {
         </div>
       </section>
 
-      {/* ═══════════════ CALCULADORA BANNER ═══════════════ */}
+      {/* CALCULADORA BANNER */}
       <section className="py-10 bg-[#F5F2E8] border-y border-[#3A4D39]/10">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-2xl md:text-3xl font-bold text-[#3A4D39] mb-3">
@@ -568,7 +545,6 @@ export default function ConsultorioHome() {
         </div>
       </section>
 
-      {/* ═══════════════ PROBLEMAS ═══════════════ */}
       <section id="servicios" className="py-20 md:py-28 bg-[#F5F2E8]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -619,7 +595,6 @@ export default function ConsultorioHome() {
         </div>
       </section>
 
-      {/* ═══════════════ SERVICIOS ═══════════════ */}
       <section className="py-20 md:py-28 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -691,7 +666,6 @@ export default function ConsultorioHome() {
         </div>
       </section>
 
-      {/* ═══════════════ CÓMO FUNCIONA ═══════════════ */}
       <section id="como-funciona" className="py-20 md:py-28 bg-[#3A4D39]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -723,7 +697,6 @@ export default function ConsultorioHome() {
           >
             {STEPS.map((step) => (
               <motion.div key={step.num} variants={fadeUp} className="relative space-y-4">
-                {/* Connector line */}
                 {step.num !== "04" && (
                   <div className="hidden lg:block absolute top-7 left-[calc(50%+2rem)] w-[calc(100%-4rem)] h-px bg-gradient-to-r from-[#D4AF37]/30 to-transparent" />
                 )}
@@ -754,7 +727,6 @@ export default function ConsultorioHome() {
             ))}
           </motion.div>
 
-          {/* Contact Form */}
           <motion.div
             initial="hidden"
             whileInView="visible"
@@ -835,7 +807,6 @@ export default function ConsultorioHome() {
         </div>
       </section>
 
-      {/* ═══════════════ ESTADÍSTICAS ═══════════════ */}
       <section className="py-16 bg-[#F5F2E8]">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -856,7 +827,6 @@ export default function ConsultorioHome() {
         </div>
       </section>
 
-      {/* ═══════════════ CASOS DE ÉXITO ═══════════════ */}
       <section id="testimonios" className="py-20 md:py-28 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -916,7 +886,6 @@ export default function ConsultorioHome() {
         </div>
       </section>
 
-      {/* ═══════════════ COBERTURA ═══════════════ */}
       <section id="cobertura" className="py-20 md:py-28 bg-[#3A4D39]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -983,7 +952,6 @@ export default function ConsultorioHome() {
         </div>
       </section>
 
-      {/* ═══════════════ BLOG ═══════════════ */}
       <section id="blog" className="py-20 md:py-28 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -1041,7 +1009,6 @@ export default function ConsultorioHome() {
         </div>
       </section>
 
-      {/* ═══════════════ TARIFAS ═══════════════ */}
       <section id="tarifas" className="py-20 md:py-28 bg-[#F5F2E8]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -1121,7 +1088,6 @@ export default function ConsultorioHome() {
         </div>
       </section>
 
-      {/* ═══════════════ CONTACT CTA ═══════════════ */}
       <section className="py-20 md:py-28 bg-[#3A4D39]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
@@ -1160,7 +1126,6 @@ export default function ConsultorioHome() {
         </div>
       </section>
 
-      {/* Footer */}
       <footer className="bg-[#2d3d2c] text-[#F5F2E8] py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="flex items-center justify-center gap-3 mb-4">
@@ -1170,20 +1135,13 @@ export default function ConsultorioHome() {
             <div className="text-left leading-tight">
               <span className="font-bold text-[#F5F2E8] text-sm block">ANA EPITIE</span>
               <span className="text-[10px] text-[#D4AF37] font-medium leading-none">Perito Judicial Urbanístico</span>
-                          <div className="text-left leading-tight">
-              <span className="font-bold text-[#F5F2E8] text-sm block">ANA EPITIE</span>
-              <span className="text-[10px] text-[#D4AF37] font-medium leading-none">Perito Judicial Urbanístico</span>
             </div>
           </div>
           
-          {/* AÑADE ESTA LÍNEA PARA QUE SALGA EL CORREO */}
           <a href="mailto:ana@consultoriourbanistico.com" className="text-sm text-[#c5c0b4] hover:text-[#D4AF37] transition-colors mb-4 inline-block">
             ✉️ ana@consultoriourbanistico.com
           </a>
 
-          <p className="text-xs text-[#9a978a] mb-4">
-            </div>
-          </div>
           <p className="text-xs text-[#9a978a] mb-4">
             © {new Date().getFullYear()} Consultorio Urbanístico. Todos los derechos reservados.
           </p>
