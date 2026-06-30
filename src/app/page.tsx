@@ -1170,6 +1170,18 @@ export default function ConsultorioHome() {
             <div className="text-left leading-tight">
               <span className="font-bold text-[#F5F2E8] text-sm block">ANA EPITIE</span>
               <span className="text-[10px] text-[#D4AF37] font-medium leading-none">Perito Judicial Urbanístico</span>
+                          <div className="text-left leading-tight">
+              <span className="font-bold text-[#F5F2E8] text-sm block">ANA EPITIE</span>
+              <span className="text-[10px] text-[#D4AF37] font-medium leading-none">Perito Judicial Urbanístico</span>
+            </div>
+          </div>
+          
+          {/* AÑADE ESTA LÍNEA PARA QUE SALGA EL CORREO */}
+          <a href="mailto:ana@consultoriourbanistico.com" className="text-sm text-[#c5c0b4] hover:text-[#D4AF37] transition-colors mb-4 inline-block">
+            ✉️ ana@consultoriourbanistico.com
+          </a>
+
+          <p className="text-xs text-[#9a978a] mb-4">
             </div>
           </div>
           <p className="text-xs text-[#9a978a] mb-4">
