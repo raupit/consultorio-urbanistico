@@ -1,32 +1,42 @@
 "use client";
 import React, { useState } from 'react';
 
-// --- BASE DE DATOS DE POUMs (Puedes añadir más municipios aquí) ---
+// --- BASE DE DATOS DE POUMs DEL BAGES (29 MUNICIPIOS) ---
+// Coeficientes orientativos según normativa comarcal. Puedes ajustarlos tú como experta.
 const POUMS = {
-  "Manresa": {
-    "Casco Urbano Consolidado": 0.75,
-    "Ensanche / Eixample": 1.00,
-    "Polígono Industrial": 1.20,
-    "Suelo Rústico": 0.00
-  },
-  "Sant Fruitós de Bages": {
-    "Casco Urbano": 0.70,
-    "Urbanizable": 0.50,
-    "Suelo Rústico": 0.00
-  },
-  "Sallent": {
-    "Casco Urbano": 0.65,
-    "Urbanizable": 0.45,
-    "Suelo Rústico": 0.00
-  },
-  "Cardona": {
-    "Casco Histórico": 0.60,
-    "Suelo Urbano": 0.70,
-    "Suelo Rústico": 0.00
-  }
+  "Manresa": { "Casco Urbano Consolidado": 0.75, "Ensanche / Eixample": 1.00, "Polígono Industrial": 1.20, "Suelo Rústico": 0.00 },
+  "Cardona": { "Casco Histórico": 0.60, "Suelo Urbano": 0.70, "Suelo Urbanizable": 0.40, "Suelo Rústico": 0.00 },
+  "Sallent": { "Suelo Urbano": 0.65, "Suelo Urbanizable": 0.45, "Suelo Rústico": 0.00 },
+  "Artés": { "Suelo Urbano": 0.70, "Suelo Urbanizable": 0.50, "Suelo Rústico": 0.00 },
+  "Navarcles": { "Suelo Urbano": 0.70, "Suelo Urbanizable": 0.50, "Suelo Rústico": 0.00 },
+  "Sant Fruitós de Bages": { "Suelo Urbano": 0.70, "Suelo Urbanizable": 0.50, "Suelo Rústico": 0.00 },
+  "Santpedor": { "Suelo Urbano": 0.70, "Suelo Urbanizable": 0.50, "Suelo Rústico": 0.00 },
+  "Callús": { "Suelo Urbano": 0.65, "Suelo Urbanizable": 0.45, "Suelo Rústico": 0.00 },
+  "Suria": { "Suelo Urbano": 0.65, "Suelo Urbanizable": 0.45, "Suelo Rústico": 0.00 },
+  "Balsareny": { "Suelo Urbano": 0.65, "Suelo Urbanizable": 0.45, "Suelo Rústico": 0.00 },
+  "Avinyó": { "Suelo Urbano": 0.60, "Suelo Urbanizable": 0.40, "Suelo Rústico": 0.00 },
+  "Calders": { "Suelo Urbano": 0.60, "Suelo Rústico": 0.00 },
+  "Mura": { "Suelo Urbano": 0.50, "Suelo Rústico Protegido": 0.00 },
+  "Talamanca": { "Suelo Urbano": 0.50, "Suelo Rústico Protegido": 0.00 },
+  "El Pont de Vilomara": { "Suelo Urbano": 0.65, "Suelo Urbanizable": 0.45, "Suelo Rústico": 0.00 },
+  "Rajadell": { "Suelo Urbano": 0.60, "Suelo Rústico": 0.00 },
+  "Sant Joan de Vilatorrada": { "Suelo Urbano": 0.75, "Suelo Urbanizable": 0.50, "Suelo Rústico": 0.00 },
+  "Sant Vicenç de Castellet": { "Suelo Urbano": 0.70, "Polígono Industrial": 1.00, "Suelo Urbanizable": 0.50, "Suelo Rústico": 0.00 },
+  "Fonollosa": { "Suelo Urbano": 0.60, "Suelo Rústico": 0.00 },
+  "Gaià": { "Suelo Urbano": 0.50, "Suelo Rústico Protegido": 0.00 },
+  "Santa Maria d'Oló": { "Suelo Urbano": 0.60, "Suelo Rústico": 0.00 },
+  "Oristà": { "Suelo Urbano": 0.50, "Suelo Rústico": 0.00 },
+  "Olost": { "Suelo Urbano": 0.60, "Suelo Rústico": 0.00 },
+  "Prats de Lluçanès": { "Suelo Urbano": 0.65, "Suelo Urbanizable": 0.45, "Suelo Rústico": 0.00 },
+  "Navàs": { "Suelo Urbano": 0.70, "Suelo Urbanizable": 0.50, "Suelo Rústico": 0.00 },
+  "Castellbell i el Vilar": { "Suelo Urbano": 0.65, "Suelo Urbanizable": 0.45, "Suelo Rústico": 0.00 },
+  "Castellgalí": { "Suelo Urbano": 0.65, "Suelo Urbanizable": 0.45, "Suelo Rústico": 0.00 },
+  "Marganell": { "Suelo Urbano": 0.60, "Suelo Rústico": 0.00 },
+  "Monistrol de Montserrat": { "Suelo Urbano": 0.65, "Suelo Rústico Protegido": 0.00 }
 };
 
 export default function CalculadoraSuelo() {
+  // Municipio por defecto al entrar en la web
   const [formData, setFormData] = useState({
     municipio: 'Manresa',
     zona: 'Casco Urbano Consolidado',
@@ -35,25 +45,25 @@ export default function CalculadoraSuelo() {
   });
   const [resultado, setResultado] = useState(null);
 
-  // Cuando cambia el municipio, actualizamos las zonas disponibles
+  // Obtiene las zonas disponibles para el municipio seleccionado
   const zonasDisponibles = POUMS[formData.municipio] ? Object.keys(POUMS[formData.municipio]) : [];
 
   const handleCalculate = (e) => {
     e.preventDefault();
     
     const superficieParcela = parseFloat(formData.superficie);
-    const coeficiente = POUMS[formData.municipio][formData.zona]; // <-- SE COGE AUTOMÁTICO
+    const coeficiente = POUMS[formData.municipio][formData.zona]; // Se extrae de la base de datos
     const precioVenta = parseFloat(formData.precioVenta);
 
     const techoMaximo = superficieParcela * coeficiente;
 
     let riesgo = "";
     if (coeficiente === 0) {
-      riesgo = "🔴 RIESGO EXTREMO: Zona calificada como Rústica. Edificabilidad nula. Cualquier obra es ilegal.";
+      riesgo = `🔴 RIESGO EXTREMO: En ${formData.municipio}, esta zona es Rústica/Protegida. Edificabilidad nula. Cualquier obra es ilegal.`;
     } else if (formData.zona.includes("Urbanizable")) {
-      riesgo = "🟡 PRECAUCIÓN: Suelo Urbanizable. Requiere desarrollo de Plan Parcial y cesiones.";
+      riesgo = "🟡 PRECAUCIÓN: Suelo Urbanizable. Requiere desarrollo de Plan Parcial y cesiones antes de edificar.";
     } else {
-      riesgo = "🟢 VÍA LIBRE (Teórica): Suelo Urbano. Sujeto a ordenanzas particulares del POUM.";
+      riesgo = `🟢 VÍA LIBRE (Teórica): Suelo Urbano en ${formData.municipio}. Sujeto a ordenanzas particulares, retranqueos y alineaciones.`;
     }
 
     const valorMercadoTerminado = techoMaximo * precioVenta;
@@ -84,7 +94,7 @@ export default function CalculadoraSuelo() {
           <form onSubmit={handleCalculate} className="space-y-4">
             
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">Municipio (POUM)</label>
+              <label className="block text-sm font-medium text-gray-700 mb-1">Municipio (POUM del Bages)</label>
               <select 
                 className={inputStyle}
                 value={formData.municipio} 
@@ -103,7 +113,7 @@ export default function CalculadoraSuelo() {
               >
                 {zonasDisponibles.map(zona => <option key={zona} value={zona}>{zona}</option>)}
               </select>
-              <p className="text-xs text-gray-500 mt-1">*El coeficiente de edificabilidad se carga automáticamente según el POUM.</p>
+              <p className="text-xs text-gray-500 mt-1">*El coeficiente de edificabilidad se aplica automáticamente.</p>
             </div>
 
             <div>
