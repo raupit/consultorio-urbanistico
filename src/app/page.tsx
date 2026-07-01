@@ -59,11 +59,11 @@ export default function CalculadoraSuelo() {
 
     let riesgo = "";
     if (coeficiente === 0) {
-      riesgo = `🔴 RIESGO EXTREMO: En ${formData.municipio}, esta zona es Rústica/Protegida. Edificabilidad nula. Cualquier obra es ilegal.`;
+      riesgo = `🔴 RIESGO EXTREMO: Has seleccionado la calificación 'Suelo Rústico' en ${formData.municipio}. En esta zona la edificabilidad es nula y cualquier nueva obra es ilegal.`;
     } else if (formData.zona.includes("Urbanizable")) {
-      riesgo = "🟡 PRECAUCIÓN: Suelo Urbanizable. Requiere desarrollo de Plan Parcial y cesiones antes de edificar.";
+      riesgo = `🟡 PRECAUCIÓN: Has seleccionado 'Suelo Urbanizable' en ${formData.municipio}. Requiere desarrollo de Plan Parcial y cesiones antes de edificar.`;
     } else {
-      riesgo = `🟢 VÍA LIBRE (Teórica): Suelo Urbano en ${formData.municipio}. Sujeto a ordenanzas particulares, retranqueos y alineaciones.`;
+      riesgo = `🟢 VÍA LIBRE (Teórica): Has seleccionado 'Suelo Urbano' en ${formData.municipio}. Sujeto a ordenanzas particulares, retranqueos y alineaciones.`;
     }
 
     const valorMercadoTerminado = techoMaximo * precioVenta;
