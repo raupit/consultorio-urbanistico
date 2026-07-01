@@ -17,7 +17,7 @@ const instrumentSerif = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://consultorio-urbanistico.vercel.app"),
+  metadataBase: new URL("https://www.consultoriourbanistico.com"),
   title: "Perito Judicial Urbanístico · Ana Epitie · Manresa · Bages",
   description:
     "Perito Judicial Urbanístico Ana Epitie (Diploma Numerario N.º 02659). Especializada en legalización de obras, asimilación a fuera de ordenación, informes periciales y estudio de viabilidad urbanística en la comarca del Bages, Cataluña.",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   authors: [
     {
       name: "Ana Epitie",
-      url: "https://consultorio-urbanistico.vercel.app",
+      url: "https://www.consultoriourbanistico.com",
     },
   ],
   creator: "Ana Epitie",
@@ -54,20 +54,20 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://consultorio-urbanistico.vercel.app/",
+    canonical: "https://www.consultoriourbanistico.com/",
   },
   openGraph: {
     type: "website",
     locale: "es_ES",
     alternateLocale: ["ca_ES"],
-    url: "https://consultorio-urbanistico.vercel.app",
+    url: "https://www.consultoriourbanistico.com",
     siteName: "Consultorio Urbanístico - Ana Epitie",
     title: "Perito Judicial Urbanístico · Ana Epitie · Manresa · Bages",
     description:
       "Legalización de obras, informes periciales judiciales y disciplina urbanística en Manresa y el Bages.",
     images: [
       {
-        url: "https://consultorio-urbanistico.vercel.app/logo.svg",
+        url: "https://www.consultoriourbanistico.com/logo.svg",
         width: 1200,
         height: 630,
         alt: "Consultorio Urbanístico - Ana Epitie - Perito Judicial Urbanístico",
@@ -91,9 +91,9 @@ export default function RootLayout({
   return (
     <html lang="es" suppressHydrationWarning>
       <head>
-        <link rel="alternate" hrefLang="es" href="https://consultorio-urbanistico.vercel.app/" />
-        <link rel="alternate" hrefLang="ca" href="https://consultorio-urbanistico.vercel.app/?lang=ca" />
-        <link rel="alternate" hrefLang="x-default" href="https://consultorio-urbanistico.vercel.app/" />
+        <link rel="alternate" hrefLang="es" href="https://www.consultoriourbanistico.com/" />
+        <link rel="alternate" hrefLang="ca" href="https://www.consultoriourbanistico.com/?lang=ca" />
+        <link rel="alternate" hrefLang="x-default" href="https://www.consultoriourbanistico.com/" />
         <SchemaMarkup />
       </head>
       <body
