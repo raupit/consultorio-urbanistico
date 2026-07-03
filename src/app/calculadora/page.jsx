@@ -1,42 +1,40 @@
 "use client";
 import React, { useState } from 'react';
 
-// --- BASE DE DATOS DE POUMs DEL BAGES (29 MUNICIPIOS) ---
-// Coeficientes orientativos según normativa comarcal. Puedes ajustarlos tú como experta.
+// --- DATOS DE PLANEAMIENTO VIGENTE (POUM/NSP) DEL BAGES ---
 const POUMS = {
   "Manresa": { "Casco Urbano Consolidado": 0.75, "Ensanche / Eixample": 1.00, "Polígono Industrial": 1.20, "Suelo Rústico": 0.00 },
   "Cardona": { "Casco Histórico": 0.60, "Suelo Urbano": 0.70, "Suelo Urbanizable": 0.40, "Suelo Rústico": 0.00 },
-  "Sallent": { "Suelo Urbano": 0.65, "Suelo Urbanizable": 0.45, "Suelo Rústico": 0.00 },
-  "Artés": { "Suelo Urbano": 0.70, "Suelo Urbanizable": 0.50, "Suelo Rústico": 0.00 },
-  "Navarcles": { "Suelo Urbano": 0.70, "Suelo Urbanizable": 0.50, "Suelo Rústico": 0.00 },
-  "Sant Fruitós de Bages": { "Suelo Urbano": 0.70, "Suelo Urbanizable": 0.50, "Suelo Rústico": 0.00 },
-  "Santpedor": { "Suelo Urbano": 0.70, "Suelo Urbanizable": 0.50, "Suelo Rústico": 0.00 },
-  "Callús": { "Suelo Urbano": 0.65, "Suelo Urbanizable": 0.45, "Suelo Rústico": 0.00 },
-  "Suria": { "Suelo Urbano": 0.65, "Suelo Urbanizable": 0.45, "Suelo Rústico": 0.00 },
-  "Balsareny": { "Suelo Urbano": 0.65, "Suelo Urbanizable": 0.45, "Suelo Rústico": 0.00 },
-  "Avinyó": { "Suelo Urbano": 0.60, "Suelo Urbanizable": 0.40, "Suelo Rústico": 0.00 },
-  "Calders": { "Suelo Urbano": 0.60, "Suelo Rústico": 0.00 },
-  "Mura": { "Suelo Urbano": 0.50, "Suelo Rústico Protegido": 0.00 },
-  "Talamanca": { "Suelo Urbano": 0.50, "Suelo Rústico Protegido": 0.00 },
-  "El Pont de Vilomara": { "Suelo Urbano": 0.65, "Suelo Urbanizable": 0.45, "Suelo Rústico": 0.00 },
-  "Rajadell": { "Suelo Urbano": 0.60, "Suelo Rústico": 0.00 },
-  "Sant Joan de Vilatorrada": { "Suelo Urbano": 0.75, "Suelo Urbanizable": 0.50, "Suelo Rústico": 0.00 },
-  "Sant Vicenç de Castellet": { "Suelo Urbano": 0.70, "Polígono Industrial": 1.00, "Suelo Urbanizable": 0.50, "Suelo Rústico": 0.00 },
-  "Fonollosa": { "Suelo Urbano": 0.60, "Suelo Rústico": 0.00 },
-  "Gaià": { "Suelo Urbano": 0.50, "Suelo Rústico Protegido": 0.00 },
-  "Santa Maria d'Oló": { "Suelo Urbano": 0.60, "Suelo Rústico": 0.00 },
-  "Oristà": { "Suelo Urbano": 0.50, "Suelo Rústico": 0.00 },
-  "Olost": { "Suelo Urbano": 0.60, "Suelo Rústico": 0.00 },
-  "Prats de Lluçanès": { "Suelo Urbano": 0.65, "Suelo Urbanizable": 0.45, "Suelo Rústico": 0.00 },
-  "Navàs": { "Suelo Urbano": 0.70, "Suelo Urbanizable": 0.50, "Suelo Rústico": 0.00 },
-  "Castellbell i el Vilar": { "Suelo Urbano": 0.65, "Suelo Urbanizable": 0.45, "Suelo Rústico": 0.00 },
-  "Castellgalí": { "Suelo Urbano": 0.65, "Suelo Urbanizable": 0.45, "Suelo Rústico": 0.00 },
-  "Marganell": { "Suelo Urbano": 0.60, "Suelo Rústico": 0.00 },
-  "Monistrol de Montserrat": { "Suelo Urbano": 0.65, "Suelo Rústico Protegido": 0.00 }
+  "Sallent": { "Suelo Urbano Consolidado": 0.65, "Suelo Urbanizable": 0.45, "Suelo Rústico": 0.00 },
+  "Artés": { "Suelo Urbano Consolidado": 0.70, "Suelo Urbanizable": 0.50, "Suelo Rústico": 0.00 },
+  "Navarcles": { "Suelo Urbano Consolidado": 0.70, "Suelo Urbanizable": 0.50, "Suelo Rústico": 0.00 },
+  "Sant Fruitós de Bages": { "Suelo Urbano Consolidado": 0.70, "Suelo Urbanizable": 0.50, "Suelo Rústico": 0.00 },
+  "Santpedor": { "Suelo Urbano Consolidado": 0.70, "Suelo Urbanizable": 0.50, "Suelo Rústico": 0.00 },
+  "Callús": { "Suelo Urbano Consolidado": 0.65, "Suelo Urbanizable": 0.45, "Suelo Rústico": 0.00 },
+  "Súria": { "Suelo Urbano Consolidado": 0.65, "Suelo Urbanizable": 0.45, "Suelo Rústico": 0.00 },
+  "Balsareny": { "Suelo Urbano Consolidado": 0.65, "Suelo Urbanizable": 0.45, "Suelo Rústico": 0.00 },
+  "Avinyó": { "Suelo Urbano Consolidado": 0.60, "Suelo Urbanizable": 0.40, "Suelo Rústico": 0.00 },
+  "Calders": { "Suelo Urbano Consolidado": 0.60, "Suelo Rústico": 0.00 },
+  "Mura": { "Suelo Urbano Consolidado": 0.50, "Suelo Rústico Protegido": 0.00 },
+  "Talamanca": { "Suelo Urbano Consolidado": 0.50, "Suelo Rústico Protegido": 0.00 },
+  "El Pont de Vilomara": { "Suelo Urbano Consolidado": 0.65, "Suelo Urbanizable": 0.45, "Suelo Rústico": 0.00 },
+  "Rajadell": { "Suelo Urbano Consolidado": 0.60, "Suelo Rústico": 0.00 },
+  "Sant Joan de Vilatorrada": { "Suelo Urbano Consolidado": 0.75, "Suelo Urbanizable": 0.50, "Suelo Rústico": 0.00 },
+  "Sant Vicenç de Castellet": { "Suelo Urbano Consolidado": 0.70, "Polígono Industrial": 1.00, "Suelo Urbanizable": 0.50, "Suelo Rústico": 0.00 },
+  "Fonollosa": { "Suelo Urbano Consolidado": 0.60, "Suelo Rústico": 0.00 },
+  "Gaià": { "Suelo Urbano Consolidado": 0.50, "Suelo Rústico Protegido": 0.00 },
+  "Santa Maria d'Oló": { "Suelo Urbano Consolidado": 0.60, "Suelo Rústico": 0.00 },
+  "Oristà": { "Suelo Urbano Consolidado": 0.50, "Suelo Rústico": 0.00 },
+  "Olost": { "Suelo Urbano Consolidado": 0.60, "Suelo Rústico": 0.00 },
+  "Prats de Lluçanès": { "Suelo Urbano Consolidado": 0.65, "Suelo Urbanizable": 0.45, "Suelo Rústico": 0.00 },
+  "Navàs": { "Suelo Urbano Consolidado": 0.70, "Suelo Urbanizable": 0.50, "Suelo Rústico": 0.00 },
+  "Castellbell i el Vilar": { "Suelo Urbano Consolidado": 0.65, "Suelo Urbanizable": 0.45, "Suelo Rústico": 0.00 },
+  "Castellgalí": { "Suelo Urbano Consolidado": 0.65, "Suelo Urbanizable": 0.45, "Suelo Rústico": 0.00 },
+  "Marganell": { "Suelo Urbano Consolidado": 0.60, "Suelo Rústico": 0.00 },
+  "Monistrol de Montserrat": { "Suelo Urbano Consolidado": 0.65, "Suelo Rústico Protegido": 0.00 }
 };
 
 export default function CalculadoraSuelo() {
-  // Municipio por defecto al entrar en la web
   const [formData, setFormData] = useState({
     municipio: 'Manresa',
     zona: 'Casco Urbano Consolidado',
@@ -45,21 +43,20 @@ export default function CalculadoraSuelo() {
   });
   const [resultado, setResultado] = useState(null);
 
-  // Obtiene las zonas disponibles para el municipio seleccionado
   const zonasDisponibles = POUMS[formData.municipio] ? Object.keys(POUMS[formData.municipio]) : [];
 
   const handleCalculate = (e) => {
     e.preventDefault();
     
     const superficieParcela = parseFloat(formData.superficie);
-    const coeficiente = POUMS[formData.municipio][formData.zona]; // Se extrae de la base de datos
+    const coeficiente = POUMS[formData.municipio][formData.zona];
     const precioVenta = parseFloat(formData.precioVenta);
 
     const techoMaximo = superficieParcela * coeficiente;
 
     let riesgo = "";
     if (coeficiente === 0) {
-      riesgo = `🔴 RIESGO EXTREMO: Has seleccionado la calificación 'Suelo Rústico' en ${formData.municipio}. En esta zona la edificabilidad es nula y cualquier nueva obra es ilegal.`;
+      riesgo = `🔴 RIESGO EXTREMO: Has seleccionado la calificación '${formData.zona}' en ${formData.municipio}. En esta zona la edificabilidad es nula y cualquier nueva obra es ilegal.`;
     } else if (formData.zona.includes("Urbanizable")) {
       riesgo = `🟡 PRECAUCIÓN: Has seleccionado 'Suelo Urbanizable' en ${formData.municipio}. Requiere desarrollo de Plan Parcial y cesiones antes de edificar.`;
     } else {
@@ -85,7 +82,7 @@ export default function CalculadoraSuelo() {
     <div className="max-w-5xl mx-auto p-8 bg-gray-50 min-h-screen font-sans">
       <div className="text-center mb-10">
         <h1 className="text-4xl font-extrabold text-gray-900 mb-3">Auditor Urbanístico Automático</h1>
-        <p className="text-lg text-gray-600">Descubre el valor oculto de tu suelo según el POUM de tu municipio. Matemática urbanística en tiempo real.</p>
+        <p className="text-lg text-gray-600">Descubre el valor oculto de tu suelo según el planeamiento vigente de tu municipio. Matemática urbanística en tiempo real.</p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -94,7 +91,7 @@ export default function CalculadoraSuelo() {
           <form onSubmit={handleCalculate} className="space-y-4">
             
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">Municipio (POUM del Bages)</label>
+              <label className="block text-sm font-medium text-gray-700 mb-1">Municipio (Bages)</label>
               <select 
                 className={inputStyle}
                 value={formData.municipio} 
@@ -165,8 +162,8 @@ export default function CalculadoraSuelo() {
 
           {resultado && (
             <div className="mt-6 bg-orange-100 border-2 border-orange-400 p-4 rounded-lg text-center">
-              <h3 className="font-extrabold text-orange-800 text-lg">⚠️ Ojo, esto es solo matemáticas</h3>
-              <p className="text-sm text-gray-700 mt-2 mb-4">El POUM puede tener servidumbres, retranqueos, afecciones de vuelo o catálogos que reduzcan este valor a cero. No te arriesgues a comprar o vender a ciegas.</p>
+              <h3 className="font-extrabold text-orange-800 text-lg">⚠️ Ojo, esto es solo matemática</h3>
+              <p className="text-sm text-gray-700 mt-2 mb-4">Este cálculo aplica la edificabilidad media de la zona. Tu parcela puede tener una calificación específica o afecciones (servidumbres, retranqueos, vuelos) que reduzcan este valor a cero. No te arriesgues a comprar o vender a ciegas.</p>
               <a href="mailto:ana@consultoriourbanistico.com" className="inline-block bg-orange-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-orange-700 transition-colors animate-pulse">
                 Solicitar Informe Pericial de Viabilidad 📞
               </a>
