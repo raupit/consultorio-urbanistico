@@ -1,7 +1,7 @@
 'use client'
 
 export default function SchemaMarkup() {
-  const baseUrl = "https://consultorio-urbanistico.vercel.app";
+  const baseUrl = "https://www.consultoriourbanistico.com";
 
   const schemaGraph = [
     {
