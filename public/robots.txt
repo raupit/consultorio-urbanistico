@@ -19,4 +19,4 @@ Allow: /
 Crawl-delay: 2
 Disallow: /api/
 
-Sitemap: https://consultorio-urbanistico.vercel.app/sitemap.xml
+Sitemap: https://www.consultoriourbanistico.com/sitemap.xml
