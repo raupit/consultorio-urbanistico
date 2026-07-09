@@ -48,6 +48,7 @@ const NAV_LINKS = [
   { label: "Cobertura", href: "#cobertura" },
   { label: "Preguntas", href: "#faq" },
   { label: "Blog", href: "#blog" },
+  { label: "Guía Pericial", href: "/informe-pericial-urbanistico-cataluna" },
   { label: "🧮 Simulador de Suelo", href: "/calculadora" },
   {
     label: "Inmobiliaria",
@@ -1146,8 +1147,8 @@ export default function ConsultorioHome() {
             © {new Date().getFullYear()} Consultorio Urbanístico. Todos los derechos reservados.
           </p>
           <div className="flex justify-center gap-4 text-xs text-[#c5c0b4]">
-            <a href="#" className="hover:text-[#D4AF37] transition-colors">Aviso Legal</a>
-            <a href="#" className="hover:text-[#D4AF37] transition-colors">Política de Privacidad</a>
+            <a href="/aviso-legal" className="hover:text-[#D4AF37] transition-colors">Aviso Legal</a>
+            <a href="/privacidad" className="hover:text-[#D4AF37] transition-colors">Política de Privacidad</a>
           </div>
         </div>
       </footer>

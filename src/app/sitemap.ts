@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { blogPosts } from "@/lib/blog-data";
 import { blogCategories } from "@/lib/blog-data";
 
-const BASE_URL = "https://consultorio-urbanistico.vercel.app";
+const BASE_URL = "https://www.consultoriourbanistico.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // Static pages
@@ -12,6 +12,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date("2026-05-25"),
       changeFrequency: "weekly",
       priority: 1.0,
+    },
+    {
+      url: `${BASE_URL}/informe-pericial-urbanistico-cataluna`,
+      lastModified: new Date("2026-07-15"),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${BASE_URL}/ca/informe-pericial-urbanistic-catalunya`,
+      lastModified: new Date("2026-07-15"),
+      changeFrequency: "monthly",
+      priority: 0.8,
     },
     {
       url: `${BASE_URL}/blog`,
