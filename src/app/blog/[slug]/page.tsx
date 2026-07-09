@@ -20,11 +20,11 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
     title: `${post.title} | Consultorio Urbanístico`,
     description: post.description,
     keywords: post.keywords,
-    alternates: { canonical: `https://consultorio-urbanistico.vercel.app/blog/${post.slug}` },
+    alternates: { canonical: `https://www.consultoriourbanistico.com/blog/${post.slug}` },
     openGraph: {
       title: post.title,
       description: post.description,
-      url: `https://consultorio-urbanistico.vercel.app/blog/${post.slug}`,
+      url: `https://www.consultoriourbanistico.com/blog/${post.slug}`,
       type: "article",
       publishedTime: post.date,
       authors: ["Ana Epitie"],
@@ -56,16 +56,16 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       "@type": "Person",
       "name": "Ana Epitie",
       "jobTitle": "Perito Judicial Urbanístico",
-      "url": "https://consultorio-urbanistico.vercel.app"
+      "url": "https://www.consultoriourbanistico.com"
     },
     "publisher": {
       "@type": "ProfessionalService",
       "name": "Consultorio Urbanístico - Ana Epitie",
-      "url": "https://consultorio-urbanistico.vercel.app"
+      "url": "https://www.consultoriourbanistico.com"
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://consultorio-urbanistico.vercel.app/blog/${post.slug}`
+      "@id": `https://www.consultoriourbanistico.com/blog/${post.slug}`
     },
     "keywords": post.keywords.join(", "),
     "articleSection": post.category,
