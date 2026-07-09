@@ -421,12 +421,12 @@ export async function generateMetadata({ params }: MunicipalityPageProps): Promi
     description: muni.description,
     keywords: muni.relatedKeywords,
     alternates: {
-      canonical: `https://consultorio-urbanistico.vercel.app/municipio/${muni.slug}`,
+      canonical: `https://www.consultoriourbanistico.com/municipio/${muni.slug}`,
     },
     openGraph: {
       title: `Perito Judicial Urbanístico en ${muni.name} · Bages`,
       description: muni.description,
-      url: `https://consultorio-urbanistico.vercel.app/municipio/${muni.slug}`,
+      url: `https://www.consultoriourbanistico.com/municipio/${muni.slug}`,
       type: "website",
       locale: "es_ES",
     },
@@ -452,7 +452,7 @@ export default async function MunicipalityPage({ params }: MunicipalityPageProps
     "@type": "ProfessionalService",
     name: `Consultorio Urbanístico - Ana Epitie · ${muni.name}`,
     description: muni.description,
-    url: `https://consultorio-urbanistico.vercel.app/municipio/${muni.slug}`,
+    url: `https://www.consultoriourbanistico.com/municipio/${muni.slug}`,
     telephone: "+34632831009",
     email: "anaepitieinmobiliaria@gmail.com",
     areaServed: {
