@@ -38,7 +38,6 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Label } from "@/components/ui/label";
-import Image from "next/image";
 
 const NAV_LINKS = [
   { label: "Servicios", href: "#servicios" },
@@ -327,20 +326,20 @@ export default function ConsultorioHome() {
 
   return (
     <div className="min-h-screen bg-[#F5F2E8] text-[#1a1a1a] font-sans">
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-[#F5F2E8]/95 backdrop-blur-xl border-b border-[#3A4D39]/15">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-[#F8FAF7]/95 backdrop-blur-xl border-b border-[#2F4D5A]/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-18">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-lg bg-[#3A4D39] flex items-center justify-center">
-                <Gavel className="w-5 h-5 text-[#F5F2E8]" />
+              <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[#2F4D5A] to-[#6F8A7A] flex items-center justify-center text-white font-black">
+                A
               </div>
               <div className="leading-tight">
-                <span className="font-bold text-[#1a1a1a] text-sm tracking-tight block">ANA EPITIE</span>
-                <span className="text-[10px] text-[#3A4D39] font-medium leading-none">Perito Judicial Urbanístico</span>
+                <span className="font-black text-[#24323A] text-sm tracking-tight block">Consultorio Urbanístico</span>
+                <span className="text-[10px] text-[#65727A] font-medium leading-none">Ana Epitie · ASPEJURE 02659</span>
               </div>
             </div>
 
-            <div className="hidden lg:flex items-center gap-5">
+            <div className="hidden xl:flex items-center gap-4">
               {NAV_LINKS.map((link) =>
                 link.external ? (
                   <a
@@ -348,7 +347,7 @@ export default function ConsultorioHome() {
                     href={link.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-sm font-medium text-[#3A4D39] hover:text-[#5A7D59] transition-colors inline-flex items-center gap-1"
+                    className="text-xs font-semibold text-[#65727A] hover:text-[#24323A] transition-colors inline-flex items-center gap-1"
                   >
                     {link.label}
                     <ExternalLink className="w-3 h-3" />
@@ -357,7 +356,7 @@ export default function ConsultorioHome() {
                   <a
                     key={link.label}
                     href={link.href}
-                    className="text-sm font-medium text-[#555] hover:text-[#3A4D39] transition-colors"
+                    className="text-xs font-semibold text-[#65727A] hover:text-[#24323A] transition-colors"
                   >
                     {link.label}
                   </a>
@@ -365,23 +364,24 @@ export default function ConsultorioHome() {
               )}
             </div>
 
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-2">
               <a
-                href="tel:+34632831009"
-                className="hidden md:flex items-center gap-1.5 text-[#3A4D39] font-bold text-sm hover:text-[#5A7D59] transition-colors"
+                href="https://wa.me/34632831009?text=Hola%20Ana%2C%20quiero%20consultarte%20un%20caso%20urban%C3%ADstico."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hidden sm:inline-flex items-center gap-2 rounded-full bg-[#25D366] text-white px-4 py-2.5 font-bold text-sm"
               >
-                <Phone className="w-4 h-4" />
-                632 831 009
+                <MessageSquare className="w-4 h-4" />
+                WhatsApp
               </a>
               <Button
                 onClick={scrollToContact}
-                className="bg-[#3A4D39] hover:bg-[#2d3d2c] text-[#F5F2E8] text-xs font-semibold rounded-full px-4 h-8 shadow-lg shadow-[#3A4D39]/20"
+                className="bg-[#2F4D5A] hover:bg-[#24323A] text-white text-sm font-bold rounded-full px-5 h-10"
               >
-                <Phone className="w-3 h-3 mr-1" />
-                Consulta Exprés
+                Enviar mi caso
               </Button>
               <button
-                className="lg:hidden p-2 text-[#3A4D39]"
+                className="xl:hidden p-2 text-[#2F4D5A]"
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                 aria-label="Menú"
               >
@@ -397,130 +397,116 @@ export default function ConsultorioHome() {
               initial={{ opacity: 0, height: 0 }}
               animate={{ opacity: 1, height: "auto" }}
               exit={{ opacity: 0, height: 0 }}
-              className="lg:hidden bg-[#F5F2E8]/95 backdrop-blur-xl border-b border-[#3A4D39]/15"
+              className="xl:hidden bg-[#F8FAF7]/98 backdrop-blur-xl border-b border-[#2F4D5A]/10"
             >
-              <div className="px-4 py-4 space-y-3">
+              <div className="px-4 py-4 space-y-2">
                 {NAV_LINKS.map((link) => (
                   <a
                     key={link.label}
                     href={link.href}
                     target={link.external ? "_blank" : undefined}
                     rel={link.external ? "noopener noreferrer" : undefined}
-                    className="block text-sm font-medium text-[#555] hover:text-[#3A4D39] transition-colors py-2"
+                    className="block text-sm font-medium text-[#555] hover:text-[#2F4D5A] transition-colors py-2"
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     {link.label} {link.external && <ExternalLink className="w-3 h-3 inline" />}
                   </a>
                 ))}
-                <a
-                  href="tel:+34632831009"
-                  className="block text-sm font-bold text-[#3A4D39] py-2"
-                >
-                  <Phone className="w-4 h-4 inline mr-1" />
-                  +34 632 831 009
-                </a>
               </div>
             </motion.div>
           )}
         </AnimatePresence>
       </nav>
 
-      <section className="relative pt-20 md:pt-24 bg-[#3A4D39] overflow-hidden">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 gap-8 items-center min-h-[70vh]">
+      <section className="relative pt-20 bg-gradient-to-br from-[#2F4D5A] via-[#526D68] to-[#6F8A7A] overflow-hidden">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(127,174,155,.30),transparent_34%)] pointer-events-none" />
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+          <div className="grid lg:grid-cols-2 gap-10 items-center min-h-[calc(100vh-5rem)]">
             <motion.div
               initial="hidden"
               animate="visible"
               variants={stagger}
-              className="py-12 md:py-16"
+              className="py-7 md:py-9 lg:py-10"
             >
-              <motion.div variants={fadeUp} className="mb-4">
-                <span className="inline-flex items-center gap-2 rounded-full border border-[#B8860B]/30 bg-[#B8860B]/10 px-4 py-1.5 text-xs font-medium text-[#D4AF37]">
-                  <Shield className="w-3.5 h-3.5" />
-                  Perito Judicial Urbanístico · ASPEJURE N.º 02659
+              <motion.div variants={fadeUp} className="mb-3">
+                <span className="text-[11px] sm:text-xs font-black uppercase tracking-[0.14em] text-white/80">
+                  Ana Epitie · Perito judicial urbanístico ASPEJURE 02659
                 </span>
               </motion.div>
 
               <motion.h1
                 variants={fadeUp}
-                className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.1] text-[#F5F2E8]"
+                className="text-3xl sm:text-4xl lg:text-[2.9rem] xl:text-[3.15rem] font-black tracking-tight leading-[1.02] text-white"
               >
-                Tu finca, bien documentada,
-                <br />
-                <span className="font-serif italic text-[#D4AF37]">vale más.</span>
+                Diagnóstico &amp; Consultorio Urbanístico
               </motion.h1>
 
-              <motion.p variants={fadeUp} className="mt-6 text-base md:text-lg text-[#c5c0b4] max-w-xl leading-relaxed">
-                Una propiedad con su situación urbanística clara y demostrable{" "}
-                <span className="text-[#F5F2E8] font-semibold">se vende mejor, más rápido y con menos sorpresas</span>.
-                Soy Ana Epitie, Perito Judicial Urbanística (ASPEJURE N.º 02659) y Agente de la
-                Propiedad Inmobiliaria en el Bages. Estudio tu caso, resuelvo las dudas legales y
-                te acompaño en toda la venta.
+              <motion.p
+                variants={fadeUp}
+                className="mt-3 text-xl sm:text-2xl lg:text-[1.65rem] font-bold leading-tight text-white/90 max-w-2xl"
+              >
+                Examina la situación urbanística, legal y física de tu inmueble.
               </motion.p>
 
-              <motion.div variants={fadeUp} className="flex flex-col sm:flex-row gap-4 mt-8">
+              <motion.p
+                variants={fadeUp}
+                className="mt-4 text-sm sm:text-base text-white/78 max-w-2xl leading-6 sm:leading-7"
+              >
+                Especialistas en Peritajes Urbanísticos: expedientes y trámites urbanísticos con la Administración,
+                requerimientos municipales, cambios de uso, discrepancias Catastro–Registro, incendios, clasificación,
+                uso y aprovechamiento de terrenos, terrenos complejos, herencias con discrepancias registrales y
+                superficies o cabidas en discordancia con los registros, entre otros. Localizamos errores ocultos y
+                blindamos el valor real de tu patrimonio.
+              </motion.p>
+
+              <motion.div variants={fadeUp} className="flex flex-col sm:flex-row gap-3 mt-5">
+                <a
+                  href="https://wa.me/34632831009?text=Hola%20Ana%2C%20quiero%20consultarte%20un%20caso%20urban%C3%ADstico."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-2 rounded-full bg-[#25D366] px-6 py-3.5 text-white font-black text-base shadow-lg shadow-[#25D366]/25"
+                >
+                  <MessageSquare className="w-5 h-5" />
+                  Escríbeme ahora — es gratis
+                </a>
                 <Button
                   onClick={scrollToContact}
-                  className="bg-[#B8860B] hover:bg-[#9a7209] text-white font-bold text-base h-14 px-8 rounded-full shadow-lg shadow-[#B8860B]/25"
-                >
-                  <Phone className="w-4 h-4 mr-2" />
-                  Envíame tu caso — Respuesta en 24h
-                </Button>
-                <Button
                   variant="outline"
-                  asChild
-                  className="border-[#F5F2E8]/30 text-[#F5F2E8] hover:bg-[#F5F2E8]/10 font-semibold text-base h-14 px-8 rounded-full"
+                  className="border-white/25 bg-white/10 hover:bg-white/15 text-white font-black text-base h-auto px-6 py-3.5 rounded-full"
                 >
-                  <a href="https://wa.me/34632831009?text=Hola%20Ana%2C%20quiero%20consultarte%20una%20propiedad%20con%20dudas%20urban%C3%ADsticas." target="_blank" rel="noopener noreferrer">
-                    <MessageSquare className="w-4 h-4 mr-2" />
-                    WhatsApp directo
-                  </a>
+                  Enviar caso por escrito
                 </Button>
               </motion.div>
 
-              <motion.div variants={fadeUp} className="mt-10 grid grid-cols-3 gap-6 max-w-md">
-                {[
-                  { value: "ASPEJURE", label: "Perito N.º 02659" },
-                  { value: "Judicial", label: "Dictamen pericial" },
-                  { value: "Bages", label: "Especialista urbanismo" },
-                ].map((stat) => (
-                  <div key={stat.label}>
-                    <CheckCircle2 className="w-4 h-4 text-[#D4AF37] mb-1" />
-                    <p className="text-sm font-bold text-[#F5F2E8]">{stat.value}</p>
-                    <p className="text-xs text-[#9a978a]">{stat.label}</p>
-                  </div>
-                ))}
+              <motion.div variants={fadeUp} className="mt-5 grid grid-cols-3 gap-2 max-w-2xl">
+                <div className="rounded-2xl bg-white/10 border border-white/15 px-3 py-3">
+                  <p className="text-sm font-black text-white">Filtro Pericial</p>
+                  <p className="text-xs text-white/65 mt-0.5">Gratis</p>
+                </div>
+                <div className="rounded-2xl bg-white/10 border border-white/15 px-3 py-3">
+                  <p className="text-sm font-black text-white">Estudio Inicial</p>
+                  <p className="text-xs text-white/65 mt-0.5">50 €</p>
+                </div>
+                <div className="rounded-2xl bg-white/10 border border-white/15 px-3 py-3">
+                  <p className="text-sm font-black text-white">Criterio Técnico</p>
+                  <p className="text-xs text-white/65 mt-0.5">ASPEJURE 02659</p>
+                </div>
               </motion.div>
             </motion.div>
 
             <motion.div
-              initial={{ opacity: 0, x: 50 }}
+              initial={{ opacity: 0, x: 40 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, ease: "easeOut" }}
-              className="relative flex justify-center md:justify-end"
+              className="relative flex justify-center lg:justify-end pb-8 lg:pb-0"
             >
-              <div className="relative w-full max-w-md">
-                <div className="absolute -top-4 -left-4 w-full h-full border-2 border-[#D4AF37]/30 rounded-2xl" />
-                <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-black/30">
-                  <Image
-                    src="/ana-epitie-masia.jpg"
-                    alt="Ana Epitie - Perito Judicial Urbanístico"
-                    width={500}
-                    height={650}
-                    className="w-full h-auto object-cover"
-                    priority
+              <div className="rounded-[2rem] bg-white p-4 shadow-2xl max-w-md w-full">
+                <div className="rounded-[1.5rem] bg-[#F5F1E8] overflow-hidden flex items-center justify-center">
+                  <img
+                    src="https://raw.githubusercontent.com/raupit/revisa-tu-finca/main/pexels-tima-miroshnichenko-6614757.webp"
+                    alt="Planos de arquitectura pericial"
+                    className="w-full h-auto object-contain"
                   />
-                  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#3A4D39] to-transparent p-6">
-                    <div className="flex items-center gap-3">
-                      <div className="w-10 h-10 rounded-full bg-[#B8860B] flex items-center justify-center">
-                        <Shield className="w-5 h-5 text-white" />
-                      </div>
-                      <div>
-                        <p className="text-[#F5F2E8] font-bold text-sm">Ana Epitie</p>
-                        <p className="text-[#D4AF37] text-xs">ASPEJURE N.º 02659</p>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </motion.div>
