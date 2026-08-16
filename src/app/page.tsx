@@ -45,7 +45,6 @@ const NAV_LINKS = [
   { label: "Situaciones habituales", href: "#testimonios" },
   { label: "Tarifas", href: "#tarifas" },
   { label: "Cobertura", href: "#cobertura" },
-  { label: "Preguntas", href: "#faq" },
   { label: "Blog", href: "#blog" },
   { label: "Guía Pericial", href: "/informe-pericial-urbanistico-cataluna" },
   { label: "🧮 Simulador de Suelo", href: "/calculadora" },
