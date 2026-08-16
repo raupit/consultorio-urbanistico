@@ -49,6 +49,7 @@ const NAV_LINKS = [
   { label: "Blog", href: "#blog" },
   { label: "Guía Pericial", href: "/informe-pericial-urbanistico-cataluna" },
   { label: "🧮 Simulador de Suelo", href: "/calculadora" },
+  { label: "Revisa Tu Finca", href: "/revisa-tu-finca" },
   {
     label: "Inmobiliaria",
     href: "https://ana-epitie-inmobiliaria-z.vercel.app",
@@ -329,13 +330,9 @@ export default function ConsultorioHome() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-[#F8FAF7]/95 backdrop-blur-xl border-b border-[#2F4D5A]/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-18">
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[#2F4D5A] to-[#6F8A7A] flex items-center justify-center text-white font-black">
+            <div className="flex items-center">
+              <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[#2F4D5A] to-[#6F8A7A] flex items-center justify-center text-white font-black" aria-label="Ana Epitie">
                 A
-              </div>
-              <div className="leading-tight">
-                <span className="font-black text-[#24323A] text-sm tracking-tight block">Consultorio Urbanístico</span>
-                <span className="text-[10px] text-[#65727A] font-medium leading-none">Ana Epitie · ASPEJURE 02659</span>
               </div>
             </div>
 
