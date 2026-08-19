@@ -98,7 +98,7 @@ export default function RootLayout({
       </head>
       <body
         className={`${inter.variable} ${instrumentSerif.variable} antialiased`}
-      >
+      ><GlobalHomeButton />
         {children}
       </body>
     </html>
