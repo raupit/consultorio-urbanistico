@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Instrument_Serif } from "next/font/google";
 import "./globals.css";
 import SchemaMarkup from "@/components/SchemaMarkup";
-
+import GlobalHomeButton from "@/components/GlobalHomeButton";
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
