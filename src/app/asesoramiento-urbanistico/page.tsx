@@ -11,10 +11,33 @@ export default function AsesoramientoUrbanisticoPage() {
   const [mensaje, setMensaje] = useState("");
   const [privacidad, setPrivacidad] = useState(false);
 
-  const enviarWhatsApp = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
+const enviarWhatsApp = async (e: React.FormEvent<HTMLFormElement>) => {
+  e.preventDefault();
 
-    if (!privacidad) return;
+  if (!privacidad) return;
+
+  const datos = {
+    nombre,
+    telefono,
+    municipio,
+    problema,
+    mensaje,
+    origen: "Landing asesoramiento urbanístico",
+  };
+
+  try {
+    const res = await fetch("https://formspree.io/f/mojbnkdb", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: JSON.stringify(datos),
+    });
+
+    if (!res.ok) {
+      throw new Error("No se pudo enviar el formulario");
+    }
 
     const texto = `Hola Ana, solicito asesoramiento urbanístico.
 
@@ -26,11 +49,15 @@ Consulta: ${problema}
 Mi caso:
 ${mensaje}`;
 
-    window.open(
-      `https://wa.me/34632831009?text=${encodeURIComponent(texto)}`,
-      "_blank"
+    window.location.href = `https://wa.me/34632831009?text=${encodeURIComponent(
+      texto
+    )}`;
+  } catch (error) {
+    alert(
+      "No hemos podido enviar tu consulta. Puedes contactar directamente por WhatsApp o llamar al 632 831 009."
     );
-  };
+  }
+};
 
   return (
     <main
