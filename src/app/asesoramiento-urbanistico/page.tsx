@@ -49,9 +49,11 @@ Consulta: ${problema}
 Mi caso:
 ${mensaje}`;
 
-    window.location.href = `https://wa.me/34632831009?text=${encodeURIComponent(
-      texto
-    )}`;
+ const whatsappUrl = `https://api.whatsapp.com/send?phone=34632831009&text=${encodeURIComponent(
+  texto
+)}`;
+
+window.open(whatsappUrl, "_blank");
   } catch (error) {
     alert(
       "No hemos podido enviar tu consulta. Puedes contactar directamente por WhatsApp o llamar al 632 831 009."
